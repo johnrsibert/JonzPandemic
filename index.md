@@ -1,5 +1,7 @@
 # John's Pandemic Amusements 
 #### Or how I occupied my days of social isolation
+The first Covid-19 case in the United States appeared in Snohomish County, Washington on January 21. 2020. Three days later,
+a case was reported in Cook Co. Illinois, perhaps in Chicago. People started dying on January 39, first in King Co. WA.
 On March 19,2020,
 California Department of Public Health ordered "all individuals living in the State of
 California to stay home or at their place of residence except as needed to
@@ -7,15 +9,29 @@ maintain continuity of operations of the federal critical infrastructure sectors
 [pdf](https://www.gov.ca.gov/wp-content/uploads/2020/03/3.19.20-attested-EO-N-33-20-COVID-19-HEALTH-ORDER.pdf).
 Around the same time, I discovered that the New York Times had developed several data bases documenting the
 course of the Covid-19 pandemic in the United States. The NYT updates these data continuously and make them
-freely available ![online](https://github.com/nytimes/covid-19-data).
-I offer thanks and praise to the New York Times and the folks who maintain ![github](https://github.com/) for 
+freely available [online](https://github.com/nytimes/covid-19-data).
+I offer thanks and kudos to the New York Times and the folks who maintain [GitHub](https://github.com/) for 
 these vital public services.
 
 So what else could I do? I started to apply my fish population modeling experience to modeling the spread of Covid-19.
 I also wanted to improve my ![python](https://www.python.org/) programming chops.
 
-### Prevalence plots
+### Prevalence
+The number of cases and the number of deaths are two common measures of the extent or prevalence of an epidemic.
+The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore the prevalence.
+The following two plots are examples of different rates of spread of Covid-19 in the two most populous counties in the
+United states. The upper panel of each plot show the number of new cases reported each day as vertical blue lines. 
+The apparently [jagged trends](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend)
+simplied by the vertical bars is smoothed by with an 11 day moving average shown as the solid blue line.
+The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
+
+#### New York City
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
+The lower panel of the New York City plot illustrates an important problem with the available data. The sharp junps and the end
+June and at the beginning of August reflect changes in data reporting practices in some of the five counties
+comprising New York City.
+
+#### Los Angeles County
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 ### Case Fatality Ratios
 Working on it
