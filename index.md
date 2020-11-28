@@ -1,3 +1,27 @@
+# John's Pandemic Amusements 
+#### Or how I occupied my days of social isolation
+On March 19,2020,
+California Department of Public Health ordered "all individuals living in the State of
+California to stay home or at their place of residence except as needed to
+maintain continuity of operations of the federal critical infrastructure sectors ...",
+[pdf](https://www.gov.ca.gov/wp-content/uploads/2020/03/3.19.20-attested-EO-N-33-20-COVID-19-HEALTH-ORDER.pdf).
+Around the same time, I discovered that the New York Times had developed several data bases documenting the
+course of the Covid-19 pandemic in the United States. The NYT updates these data continuously and make them
+freely available ![online](https://github.com/nytimes/covid-19-data).
+I offer thanks and praise to the New York Times and the folks who maintain ![github](https://github.com/) for 
+these vital public services.
+
+So what else could I do? I started to apply my fish population modeling experience to modeling the spread of Covid-19.
+I also wanted to improve my ![python](https://www.python.org/) programming chops.
+
+### Prevalence plots
+#### San Diego County
+![prevalence](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_DiegoCA_prevalence.png)
+### Case Fatality Ratios
+### Oddities - sawtooth trends
+### Model Results
+
+# GitHub default advisory:
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/johnrsibert/JonzPandemic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
