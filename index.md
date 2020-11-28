@@ -15,11 +15,14 @@ So what else could I do? I started to apply my fish population modeling experien
 I also wanted to improve my ![python](https://www.python.org/) programming chops.
 
 ### Prevalence plots
-#### San Diego County
-![prevalence](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_DiegoCA_prevalence.png)
+![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
+![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 ### Case Fatality Ratios
+Working on it
 ### Oddities - sawtooth trends
+Working on it
 ### Model Results
+Working on it
 
 # GitHub default advisory:
 ## Welcome to GitHub Pages
