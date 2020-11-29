@@ -10,25 +10,36 @@ maintain continuity of operations of the federal critical infrastructure sectors
 Around the same time, I discovered that the New York Times had developed several data bases documenting the
 course of the Covid-19 pandemic in the United States. The NYT updates these data continuously and make them
 freely available [online](https://github.com/nytimes/covid-19-data).
-I offer thanks and kudos to the New York Times and the folks who maintain [GitHub](https://github.com/) for 
+**Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for 
 these vital public services.
 
-So what else could I do? I started to apply my fish population modeling experience to modeling the spread of Covid-19.
-I also wanted to improve my ![python](https://www.python.org/) programming chops.
+The recent pandemic trends alarm me. Cases, and inevitably deaths, are increasing rapidly. 
+he situation will likely get worse as winter wares on. 
+My alarm is the motivation for this simple site. 
+I'm concerned for the welfare of family and friends and want to monitor the pandemic trends in places outside of my immediate view,
+So what is a data geek to do while sheltering in place? 
+I started to apply my fish population modeling experience to modeling the spread of Covid-19.
+I also wanted to improve my ![python](https://www.python.org/) programming chops. So I've been writing some statistical models of the Covid-19 pandemic in the United States and drawing lots of graphs. Many of the plots can be found on my [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
+**Have a look, download, share.**
 
 ### Prevalence
 The number of cases and the number of deaths are two common measures of the extent or prevalence of an epidemic.
 The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore the prevalence.
-The following two plots are examples of different rates of spread of Covid-19 in the two most populous counties in the
-United states. The upper panel of each plot show the number of new cases reported each day as vertical blue lines. 
-The apparently [jagged trends](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend)
-simplied by the vertical bars is smoothed by with an 11 day moving average shown as the solid blue line.
+The following two plots are examples of different trends in the spread of Covid-19 in the 
+two most populous counties in the United states. 
+The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
+The [sawtooth](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend) appearance
+of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line.
 The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
+
+
 
 #### New York City
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
-The lower panel of the New York City plot illustrates an important problem with the available data. The sharp junps and the end
-June and at the beginning of August reflect changes in data reporting practices in some of the five counties
+
+The lower panel of the New York City plot illustrates an important problem with the available data. 
+The sharp jumps at the end June and at the beginning of August 
+reflect changes in data reporting practices in some of the five counties
 comprising New York City.
 
 #### Los Angeles County
