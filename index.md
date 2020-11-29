@@ -12,7 +12,7 @@ So what is a data geek to do while sheltering in place?
 I started to apply my rusty fish population modeling experience to modeling the spread of Covid-19.
 I also wanted to improve my ![python](https://www.python.org/) programming chops. So I've been writing some statistical models of the Covid-19 pandemic in the United States and drawing lots of graphs. 
 
-I'v created numerous plots of the prevalence of the disease in parts of the country where 
+I've created numerous plots of the prevalence of the disease in parts of the country where 
 friends and family live, places where I can no longer travel.
 I'm working in ways to share these plots interactively, but haven't quite got it working. 
 Meanwhile, some of the plots can be found on my 
@@ -40,12 +40,43 @@ comprising New York City.
 ##### Los Angeles County
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 ### Case Fatality Ratios
-Working on it
+The number of reported deaths devided by the number of reported cases, or case-fatality ratio,
+is often considerd to be a neasure of the risk of dying from a pandemic 
+[CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
+The following plot is based on data from the 1000 most populous counties in the United States.
+##### Upper Panel
+The **top panel** in the plot includes **all** of the reported deaths and fatalities in the United States since
+January 21, 2020, the beginning of the pandemic. Dots if different colors trace the history of individual counties
+(1000 counties are included making it impossible to resolve the comple history of an individual county in the
+mess of colored dots.)
+There were very few deaths reported at the beginning, but as the number of reported cases began to increase
+so did the number of reported deaths.
+Horizontal lines of dots at 1, 2, 3, ..., 10 deaths are discernable at the lower left.
+The gray diagonal lines indicate mortality rates ranging from 0.5% to 8%.
+
+##### Middle Panel
+The **center panel** in the plot icludes only the most recent deaths and fatalities.
+Most of the dots accumulate beteen the 1% and 4% lines.
+
+##### Lower panel
+The bottom panel is the frequency distribution of the case-fatality ratio (deaths/cases).
+The blue bars indicate the number of ratios that fall into the slots defined along the horizontal
+axis. Most of the ratios are near 0.015 for a morality rate of 1.5%, but there are quite a few 
+large values up to 0.08.
+The mortality rate is clearly higher in some counties than in others.
+Johns Hopkins University pegs the case-fatality ratio in the United States to be about 
+[two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
+
+
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
 ### Oddities - sawtooth trends
 Working on it
 ### Model Results
 Working on it
-
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_4.png)
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
+# ------------------ Ignore ------------------
 # Introduction - First draft
 #### Or how I occupied my days of social isolation
 
