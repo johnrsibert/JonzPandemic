@@ -1,16 +1,21 @@
 # John's Pandemic Amusements 
 #### Or how I occupied my days of social isolation
 
-Around the Ides of March this year, we were all asked to stay at home.  
+Around the Ides of March this year, we were all asked to stay at home. 
 Also, the New York Times created public data bases documenting the
 course of the Covid-19 pandemic in the United States. 
 The NYT updates these data continuously and make them
 freely available [online](https://github.com/nytimes/covid-19-data).
+The Time recently has also created a 
+[Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
-So what is a data geek to do while sheltering in place? 
-I started to apply my rusty fish population modeling experience to modeling the spread of Covid-19.
-I also wanted to improve my ![python](https://www.python.org/) programming chops. So I've been writing some statistical models of the Covid-19 pandemic in the United States and drawing lots of graphs. 
+So what is a data geek to do while sheltering in place?
+I decided to improve my ![python](https://www.python.org/) programming chops,
+so drawing lots of graphs.
+I also wanted to apply my rusty fish population modeling experience to modeling the spread of
+Covid-19.
+So I've been writing some statistical models of the Covid-19 pandemic in the United States and  
 
 I've created numerous plots of the prevalence of the disease in parts of the country where 
 friends and family live, places where I can no longer travel.
@@ -19,40 +24,46 @@ Meanwhile, some of the plots can be found on my
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
 
-### Prevalence
+Why bother doing this? The data seem show that if you contact the Covid-19, you have about a 2% probability of dying within three weeks. There is a lot of uncertainty in mortality rate, 
+particulaly on the upper end. 
+The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. Finally, the data seem to show that front-line health workers have learned to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic. We can slow the spread of infection, we can survive the infection if we get prompt care, and, best of all, a vaccine is in sight. So please have a look at this stuff, stay safe, and I'll see you all in person when we emerge into the light at the end of this tunnel.  
+
+## Prevalence
 The number of cases and the number of deaths are two common measures of the extent or prevalence of an epidemic.
-The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore the prevalence.
+The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore prevalence.
 The following two plots are examples of different trends in the spread of Covid-19 in the 
 two most populous counties in the United states. 
 The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
-The [saw-tooth](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend) appearance
-of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line.
+The saw-tooth appearance of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line marked "11da.
 The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
 
-##### New York City
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
 
+The disease attacked New York City aggressively with unchecked  exponential growth for about two weeks in April and May. Quarantine-like measures "flattened the curve" and kept spread of infection to low levels. Numbers of new cases stayed relatively low and constant for about 6 months, but s began to increase in October and November.
+
+Numbers of daily deaths reflect the numbers of daily new cases, rising sharply in April and May and then falling to low levels in June. 
 The lower panel of the New York City plot illustrates an important problem with the available data. 
-The sharp jumps at the end June and at the beginning of August 
+The sharp jumps at the end June and at the beginning of August. 
 reflect changes in data reporting practices in some of the five counties
 comprising New York City.
 
-##### Los Angeles County
+
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
-### Case Fatality Ratios
+
+The trajectory of the disease in Los Angeles County is quite different from New York City. Los Angeles was able to avoid the initial exponential growth phase. Instead, the prevalence of the disease grew relatively slowly through the spring, but reached an alarming mid-summer peak. The disease was controlled for a second time, but a period of exponential growth appears to be started in November.
+ 
+## Risk of Death
 The number of reported deaths divided by the number of reported cases, or case-fatality ratio,
 is often considered to be a measure of the risk of dying from a pandemic 
 [CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
 The following plot is based on data from the 1000 most populous counties in the United States.
+
 ##### Upper Panel
-The **top panel** in the plot includes **all** of the reported deaths and fatalities in the United States since
-January 21, 2020, the beginning of the pandemic. Dots if different colors trace the history of individual counties
-(1000 counties are included making it impossible to resolve the comple history of an individual county in the
-mess of colored dots.)
-There were very few deaths reported at the beginning, but as the number of reported cases began to increase
-so did the number of reported deaths.
-Horizontal lines of dots at 1, 2, 3, ... deaths are discernible at the lower left.
-The gray diagonal lines indicate mortality rates ranging from 0.5% to 8%.
+The **top panel** in the plot includes **all** of the reported deaths and fatalities in the 1000 most populous counties in the United States since
+the beginning of the pandemic. Dots of different colors trace the history of individual counties.
+The large number counties makes it difficult to differentiate the complete history of a single county hidden in the mess of colored dots.
+There were very few deaths reported at the beginning as can be seen from horizontal lines of dots at 1, 2, 3, ... deaths at the lower left. As the number of reported cases began to increase,
+so did the number of reported deaths, and the general trend of the swarm of points is upward from left to right. The gray diagonal lines indicate mortality rates ranging from 0.5% to 8%.
 
 ##### Middle Panel
 The **center panel** in the plot includes only the most recent deaths and fatalities.
@@ -60,55 +71,47 @@ Most of the dots accumulate between the 1% and 4% lines.
 
 ##### Lower panel
 The bottom panel is the frequency distribution of the case-fatality ratio (deaths/cases).
-The blue bars indicate the number of ratios that fall into the slots defined along the horizontal
+The blue bars indicate the number of values of the ratio that fall into the slots defined along the horizontal
 axis. Most of the ratios are near 0.015 for a morality rate of 1.5%, but there are quite a few 
-large values up to 0.08.
+higher values up to a maximum 0.08.
 The mortality rate is clearly higher in some counties than in others.
-Johns Hopkins University pegs the case-fatality ratio in the United States to be about 
+The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality ratio in the United States to be about 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
-### Oddities - saw-tooth trends
-Working on it
-### Model Results
-Working on it
-##### Estimated Transmission Rates (30 counties)
+## Oddities - saw-tooth trends
+**working on it**
+
+## Model Results
+
+**Attention geek alert**
+
+Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. Usually these data are not collected with the aid of a well planned experimental design. The data often contain errors of many kinds, and the methods of collecting the data have probably changed over time and may be inconsistent across strata. It is not feasible to repeat the observations or to wait another year for more data to accumulate. Data analysts are faced with the twin quandaries selecting a model or context in which to analyze the data and attempting to determine whether the information in the data is sufficiently uncompromised by error to inform a statistical estimation process. So one of the questions posed in my modeling effort was to ask whether the data collected in an __ad hoc__ way in multiple jurisdictions then compiled and made public in near real time was could be useful in for statistical modeling.
+
+[SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several compartments, usually **S**usceptible, **I**nfected, and **R**ecovered. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (or perhaps oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. The rate constants of the coupled processes are considered to be random effects. Maximum likelihood is used for model estimation combining likelihoods computed for both cases and deaths. This framework enables simultaneous estimation of the time dependent series of both the reported cases and the reported deaths. 
+A more or less complete summary of the model and some preliminary results can be downloaded as a [pdf](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
+
+### Estimated instantaneous transmission Rates (31 counties)
+
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
+This figure shows the estimated transmission rates in the simplified SIR model. Transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decreased substantially through May. Transmission rates remained low for some counties, e.g. New York City (NYNY in the plot). Estimated transmission rates begin increase in October.
 
-##### Estimated Transmission Rates with "confidence" regions (4 Counties)
+### Estimated Transmission Rates with "confidence" regions (4 Counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_4.png)
+This figure shows the estimated transmission rate trajectories for 4 counties along with "confidence regions", plus or minus 2 standard deviations of the estimates. There is considerable overlap.
 
-##### Estimated mortality rates (30 counties)
+### Estimated instantaneous mortality rates (31 counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
+The mortality rate is proportion of infected person that die per unit of time. The mortality rate is highest in March and April and subsequently decreases monotonically until the end of the time series.
+I think these estimates are biased downward ad an artifact of the model simplification.
+
+### Model conclusions
+The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates are consistent with the observed prevalence trajectories.
+I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple process model, that is when I'm not drawing prevalence graphs.
 
 # ------------------ Ignore ------------------
-# Introduction - First draft
-#### Or how I occupied my days of social isolation
-
-The first Covid-19 case in the United States appeared in Snohomish County, Washington on January 21. 2020. Three days later,
-a case was reported in Cook Co. Illinois, perhaps in Chicago. People started dying on January 39, first in King Co. WA.
-On March 19,2020,
-California Department of Public Health ordered "all individuals living in the State of
-California to stay home or at their place of residence except as needed to
-maintain continuity of operations of the federal critical infrastructure sectors ...",
-[pdf](https://www.gov.ca.gov/wp-content/uploads/2020/03/3.19.20-attested-EO-N-33-20-COVID-19-HEALTH-ORDER.pdf).
-Around the same time, I discovered that the New York Times had developed several data bases documenting the
-course of the Covid-19 pandemic in the United States. The NYT updates these data continuously and make them
-freely available [online](https://github.com/nytimes/covid-19-data).
-**Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for 
-these vital public services.
-
-The recent pandemic trends alarm me. Cases, and inevitably deaths, are increasing rapidly. 
-he situation will likely get worse as winter wears on. 
-My alarm is the motivation for this simple site. 
-I'm concerned for the welfare of family and friends and want to monitor the pandemic trends in places outside of my immediate view,
-So what is a data geek to do while sheltering in place? 
-I started to apply my fish population modeling experience to modeling the spread of Covid-19.
-I also wanted to improve my ![python](https://www.python.org/) programming chops. So I've been writing some statistical models of the Covid-19 pandemic in the United States and drawing lots of graphs. Many of the plots can be found on my [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
-**Have a look, download, share.**
-
-# GitHub default advisory:
+# GitHub default markdown cheat sheet:
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/johnrsibert/JonzPandemic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
