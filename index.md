@@ -25,7 +25,7 @@ The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy
 The following two plots are examples of different trends in the spread of Covid-19 in the 
 two most populous counties in the United states. 
 The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
-The [sawtooth](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend) appearance
+The [saw-tooth](https://johnrsibert.github.io/JonzPandemic/#oddities---sawtooth-trend) appearance
 of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line.
 The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
 
@@ -40,8 +40,8 @@ comprising New York City.
 ##### Los Angeles County
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 ### Case Fatality Ratios
-The number of reported deaths devided by the number of reported cases, or case-fatality ratio,
-is often considerd to be a neasure of the risk of dying from a pandemic 
+The number of reported deaths divided by the number of reported cases, or case-fatality ratio,
+is often considered to be a measure of the risk of dying from a pandemic 
 [CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
 The following plot is based on data from the 1000 most populous counties in the United States.
 ##### Upper Panel
@@ -51,12 +51,12 @@ January 21, 2020, the beginning of the pandemic. Dots if different colors trace 
 mess of colored dots.)
 There were very few deaths reported at the beginning, but as the number of reported cases began to increase
 so did the number of reported deaths.
-Horizontal lines of dots at 1, 2, 3, ..., 10 deaths are discernable at the lower left.
+Horizontal lines of dots at 1, 2, 3, ... deaths are discernible at the lower left.
 The gray diagonal lines indicate mortality rates ranging from 0.5% to 8%.
 
 ##### Middle Panel
-The **center panel** in the plot icludes only the most recent deaths and fatalities.
-Most of the dots accumulate beteen the 1% and 4% lines.
+The **center panel** in the plot includes only the most recent deaths and fatalities.
+Most of the dots accumulate between the 1% and 4% lines.
 
 ##### Lower panel
 The bottom panel is the frequency distribution of the case-fatality ratio (deaths/cases).
@@ -69,13 +69,19 @@ Johns Hopkins University pegs the case-fatality ratio in the United States to be
 
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
-### Oddities - sawtooth trends
+### Oddities - saw-tooth trends
 Working on it
 ### Model Results
 Working on it
+##### Estimated Transmission Rates (30 counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
+
+##### Estimated Transmission Rates with "confidence" regions (4 Counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_4.png)
+
+##### Estimated mortality rates (30 counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
+
 # ------------------ Ignore ------------------
 # Introduction - First draft
 #### Or how I occupied my days of social isolation
