@@ -15,8 +15,7 @@ I decided to improve my [python](https://www.python.org/) programming chops,
 so I've been drawing lots of graphs.
 I also wanted to apply my rusty fish population modeling experience to modeling the spread of
 Covid-19.
-So I've also been writing some statistical models of the Covid-19 pandemic in the United States and  
-
+So I've also been writing some statistical models of the Covid-19 pandemic in the United States, and 
 I've created numerous plots of the prevalence of the disease in parts of the country where 
 friends and family live, places where I can no longer travel.
 I'm working in ways to share these plots interactively, but haven't quite got it working. 
