@@ -2,20 +2,20 @@
 #### Or how I occupied my days of social isolation
 
 Around the Ides of March this year, we were all asked to stay at home. 
-Also, the New York Times created public data bases documenting the
+Then, the New York Times created public data bases documenting the
 course of the Covid-19 pandemic in the United States. 
 The NYT updates these data continuously and make them
 freely available [online](https://github.com/nytimes/covid-19-data).
-The Time recently has also created a 
+Now, the Times has created a 
 [Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
 So what is a data geek to do while sheltering in place?
-I decided to improve my ![python](https://www.python.org/) programming chops,
-so drawing lots of graphs.
+I decided to improve my [python](https://www.python.org/) programming chops,
+so I've been drawing lots of graphs.
 I also wanted to apply my rusty fish population modeling experience to modeling the spread of
 Covid-19.
-So I've been writing some statistical models of the Covid-19 pandemic in the United States and  
+So I've also been writing some statistical models of the Covid-19 pandemic in the United States and  
 
 I've created numerous plots of the prevalence of the disease in parts of the country where 
 friends and family live, places where I can no longer travel.
@@ -23,15 +23,19 @@ I'm working in ways to share these plots interactively, but haven't quite got it
 Meanwhile, some of the plots can be found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
+I update most graphs frequently.
 
-Why bother doing this? The data seem show that if you contact the Covid-19, you have about a 2% probability of dying within three weeks. There is a lot of uncertainty in mortality rate, 
-particulaly on the upper end. 
-The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. Finally, the data seem to show that front-line health workers have learned to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic. We can slow the spread of infection, we can survive the infection if we get prompt care, and, best of all, a vaccine is in sight. So please have a look at this stuff, stay safe, and I'll see you all in person when we emerge into the light at the end of this tunnel.  
+Why bother doing this? I'm sure not trying to compete with the New York Times. 
+Rather I'm trying to satisfy ny curiosity, and I would like to share with others. 
+Most importantly, the data seem show that if you contact the Covid-19, you have about a 2% probability of dying within three weeks. 
+This the optimistic guess. 
+The distribution is skewed, and the the upper tail is pretty big [see below](https://johnrsibert.github.io/JonzPandemic/#risk-of-death).
+The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic. We can protect ourselves with masks, we can slow the spread of infection, we can survive the infection if we get prompt care, and, best of all, a vaccine is in sight. So please have a look at this stuff, stay safe, and I'll see you all in person when we emerge into the light at the end of this tunnel.  
 
 ## Prevalence
 The number of cases and the number of deaths are two common measures of the extent or prevalence of an epidemic.
 The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore prevalence.
-The following two plots are examples of different trends in the spread of Covid-19 in the 
+The following /plots are examples of different trends in the spread of Covid-19 in the 
 two most populous counties in the United states. 
 The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
 The saw-tooth appearance of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line marked "11da.
@@ -97,8 +101,8 @@ A more or less complete summary of the model and some preliminary results can be
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
 This figure shows the estimated transmission rates in the simplified SIR model. Transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decreased substantially through May. Transmission rates remained low for some counties, e.g. New York City (NYNY in the plot). Estimated transmission rates begin increase in October.
 
-### Estimated Transmission Rates with "confidence" regions (4 Counties)
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_4.png)
+### Estimated Transmission Rates with "confidence" regions (2 Counties)
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
 This figure shows the estimated transmission rate trajectories for 4 counties along with "confidence regions", plus or minus 2 standard deviations of the estimates. There is considerable overlap.
 
 ### Estimated instantaneous mortality rates (31 counties)
@@ -109,43 +113,3 @@ I think these estimates are biased downward ad an artifact of the model simplifi
 ### Model conclusions
 The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates are consistent with the observed prevalence trajectories.
 I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple process model, that is when I'm not drawing prevalence graphs.
-
-# ------------------ Ignore ------------------
-# GitHub default markdown cheat sheet:
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/johnrsibert/JonzPandemic/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnrsibert/JonzPandemic/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
