@@ -50,7 +50,6 @@ The lower panel of the New York City plot illustrates an important problem with 
 The sharp jumps at the end June and at the beginning of August. 
 reflect changes in data reporting practices in some of the five counties
 comprising New York City.
-<p> <br /> <p> <br /> <p> <br /> <p> <br />
 
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 
@@ -88,11 +87,10 @@ The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
-<p> <br /> <p> <br /> <p> <br /> <p> <br />
 
 ## Oddities - saw-tooth trends
 **working on it**
-<p> <br /> <p> <br /> <p> <br /> <p> <br />
+
 ## Model Results
 
 **Attention geek alert**
@@ -107,7 +105,7 @@ A summary of the model and some preliminary results is available for download as
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
 
 This figure shows transmission rates estimated by the simplified SIR model. Initial transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decrease substantially through May. Transmission rates remained low for some counties, e.g. New York City (NYNY in the plot). Estimated transmission rates increase for all counties in October.
-<p> <br />
+
 
 ### Estimated Transmission Rates with "confidence" regions (2 Counties)
 
@@ -115,7 +113,7 @@ This figure shows transmission rates estimated by the simplified SIR model. Init
 
 This figure shows the estimated transmission rate trajectories for New York City (NYNY) and 
 Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard deviations of the estimates). There is considerable overlap at the start and end of the time series, but the two trajecories are distinct during the summer.
-<p> <br />
+
 
 ### Estimated instantaneous mortality rates (31 counties)
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
@@ -124,7 +122,7 @@ The instantaneous mortality rate is the proportion of infected persons that die 
 The esitmated mortality rate is highest in March and April and subsequently decreases monotonically until the end of the time series.
 This downward trend my reflect improvement of medical care since the start of the pandemic.
 I think these estimates are biased downward ad an artifact omitting the **R**ecovered compartment from the SIR model.
-<p> <br />
+
 
 ### Model conclusions
 The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates are consistent with the observed prevalence trajectories.
