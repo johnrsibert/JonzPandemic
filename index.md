@@ -55,7 +55,6 @@ comprising New York City.
 
 The trajectory of the disease in Los Angeles County is quite different from New York City.
 Los Angeles was able to avoid the initial exponential growth phase. Instead, the prevalence of the disease grew relatively slowly through the spring, but reached an alarming mid-summer peak. The disease was controlled for a second time, but a period of exponential growth appears to be started in November.
-<p> <br /> <p> <br /> <p> <br /> <p> <br />
 
  
 ## Risk of Death
