@@ -7,7 +7,8 @@ course of the Covid-19 pandemic in the United States.
 The NYT updates these data continuously and make them
 freely available [online](https://github.com/nytimes/covid-19-data).
 More recently, the Times has created a 
-[Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
+[Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
+that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
 So what is a data geek to do while sheltering in place?
@@ -125,7 +126,7 @@ The instantaneous mortality rate is the proportion of infected persons that die 
 The esitmated mortality rates are highest in March and April and subsequently decrease monotonically
 to extremely low rates at the end of the time series.
 This downward trend my reflect improvement of medical care since the start of the pandemic.
-I think these estimates are biased downward ad an artifact omitting the **R**ecovered compartment from the SIR model.
+I think these estimates are biased downward as an artifact omitting the **R**ecovered compartment from the SIR model.
 
 
 ### Model conclusions
