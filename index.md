@@ -30,7 +30,7 @@ Most importantly, the data seem show that if you contact the Covid-19, you have 
 This the optimistic guess. 
 The distribution is skewed, and the the upper tail is pretty big [see below](https://johnrsibert.github.io/JonzPandemic/#risk-of-death).
 The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
-It's no rocket science. We have known how to prevent the spread of disease since the 10th century when the Persian polymath Ibn Sina recommended confining sick people for 40 days. It didn't get really technical until we began to understand the immune system in the 20th century. After that we got rid of smallpox. 
+It's not rocket science. We have known how to prevent the spread of disease since the 10th century when the Persian polymath Ibn Sina recommended confining sick people for 40 days. It didn't get really technical until we began to understand the immune system in the 20th century. After that we got rid of smallpox. 
 I'm old enough to remember the great fear of polio in the 1950s. I know people who where afflicted with polio. Vaccines enabled us to stomp out smallpox and polio.
 Measles is going fast.
 We know how to protect ourselves with masks, we can slow the spread of infection, we can survive the infection if we get prompt care, and, best of all, a vaccine is in sight. So please have a look at this stuff, stay safe, and I'll see you all in person when we emerge into the light at the end of this tunnel.  
@@ -122,7 +122,8 @@ Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
 
 The instantaneous mortality rate is the proportion of infected persons that die per unit of time. 
-The esitmated mortality rate is highest in March and April and subsequently decreases monotonically until the end of the time series.
+The esitmated mortality rates are highest in March and April and subsequently decrease monotonically
+to extremely low rates at the end of the time series.
 This downward trend my reflect improvement of medical care since the start of the pandemic.
 I think these estimates are biased downward ad an artifact omitting the **R**ecovered compartment from the SIR model.
 
