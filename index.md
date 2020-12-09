@@ -23,7 +23,7 @@ I update most graphs frequently. I'm working in ways to share the results intera
 
 I also wanted to apply my rusty fish population modeling experience to modeling the spread of Covid-19,
 and I've been writing some statistical models of the Covid-19 pandemic in the United States.
-[Model Results section](##model-results)
+[See Model Results section](##model-results)
 
 Why bother doing this? I'm sure not trying to compete with the New York Times. 
 Rather I'm trying to satisfy my curiosity, and I would like to share my
@@ -104,7 +104,7 @@ The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality 
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
 
-## Model Results
+##Model Results
 
 **Attention geek alert**
 
