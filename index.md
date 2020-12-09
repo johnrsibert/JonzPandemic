@@ -104,7 +104,7 @@ The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality 
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_1000.png)
 
-##Model Results
+## Model Results
 
 **Attention geek alert**
 
