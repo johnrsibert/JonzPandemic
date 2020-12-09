@@ -28,9 +28,10 @@ and I've been writing some statistical models of the Covid-19 pandemic in the Un
 Why bother doing this? I'm sure not trying to compete with the New York Times. 
 Rather I'm trying to satisfy my curiosity, and I would like to share my
 results with others. 
-Most importantly, the data seem show that if you contact the Covid-19, you have about a 2% probability of dying within three weeks. 
+Most importantly, the data seem show that 
+[if you contact the Covid-19, you have about a 2% probability of dying within three weeks.](#how-dangerous-is it?)
 This the optimistic guess. 
-The distribution is skewed, and the the upper tail is pretty big [see below](https://johnrsibert.github.io/JonzPandemic/#risk-of-death).
+The distribution is skewed, and the the upper tail is pretty big.
 The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
 
 It's not rocket science. We have known how to prevent the spread of disease since the 10th century when the Persian polymath Ibn Sina recommended confining sick people for 40 days. It didn't get really technical until we began to understand the immune system in the 20th century. 
@@ -122,7 +123,7 @@ The model has evolved slightly since August 2020.
 This figure shows transmission rates estimated by the simplified SIR model. Initial transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decrease substantially through May. Transmission rates remained low for some counties, e.g. New York City (NYNY in the plot). Estimated transmission rates increase for all counties in October.
 
 
-### Estimated Transmission Rates with "confidence" regions (2 Counties)
+**Estimated Transmission Rates with "confidence" regions (2 Counties)**
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
 
@@ -130,7 +131,7 @@ This figure shows the estimated transmission rate trajectories for New York City
 Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard deviations of the estimates). There is considerable overlap at the start and end of the time series, but the two trajecories are distinct during the summer.
 
 
-### Estimated instantaneous mortality rates (31 counties)
+**Estimated instantaneous mortality rates (31 counties)++
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
 
 The instantaneous mortality rate is the proportion of infected persons that die per unit of time. 
@@ -141,7 +142,7 @@ These mortality rate estimates seem very low and are probably biased downward by
 That said, I am fairly that the generally downward trend is credible.
 
 
-### Model conclusions
+**Model conclusions**
 The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates seem consistent with the observed prevalence
 trajectories.
 I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple model, 
