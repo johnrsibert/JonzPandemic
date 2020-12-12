@@ -85,7 +85,7 @@ the current Case Fatality ratio.
 The relationship between reported cases and reported deaths for the 5 largest counties in the United States (Los Angeles CA, New York City NY,
 Cook County IL, Maricopa County AZ, and Harris TX) since the beginning of the pandemic. 
 Each dot represents
-one record. The number if deaths is low when the number of cases is less than 100, but increases regularly in proportion to the number of cases
+one record. The number of deaths is low when the number of cases is less than 100, but increases regularly in proportion to the number of cases
 for all counties. 
 The gray diagonal lines indicate mortality rates ranging from 0.5% to 8% of reported cases.
 When the number of cases exceeds 1000 the dots begin to form lines tracing the history of each county. Even with this relative small number of counties, the trajectories seem to converge to mortality rates between 1% and 2%.
