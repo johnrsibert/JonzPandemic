@@ -14,7 +14,7 @@ So what is a data geek to do while sheltering in place?
 I decided to improve my [python](https://www.python.org/) 
 programming chops,
 so I've been drawing lots of
-graphyus tracking the prevalence of the disease in places where I can no longer
+graphys tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
 A few of these plots can be found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
@@ -23,11 +23,11 @@ I update most graphs frequently. I'm working in ways to share the results intera
 
 I also wanted to apply my rusty fish population modeling experience to modeling the spread of Covid-19
 and have been writing some statistical models of the Covid-19 pandemic in the United States.
-This is very much a work in progresss.
+This is very much a work in progress.
 
 Why bother doing this? I'm sure not trying to compete with the New York Times. 
 I'm mostly trying to satisfy my curiosity
-enjoy sharint sharing my results. 
+enjoy sharing sharing my results. 
 The data seem show that if you contact the Covid-19, you have about a
 **2% probability of dying within three weeks**. 
 This the optimistic guess. 
@@ -119,18 +119,24 @@ The mean (or arithmetic average) and the median (the point where is an equal pro
 of the ratio are both to the right of the mode (peak) of the distribution.
 A less misleading measure of the likelihood of death is to look a the percentiles of the distribution.
 The vertical line labeled "97.5%" indicates the value of the case fatality ratio that is greater than 
-97.5% of all of the point estimates. If the CFR distibution were symmetrical, this point would be something like
+97.5% of all of the point estimates. If the CFR distribution were symmetrical, this point would be something like
 the upper 95% "confidence" region of values indistinguishable from the mean value. In other words if you
 say that the probability of dying after one becomes infection is less than around 4%, you would be correct
 about 98% of the time.
 
-The are a couple of reasons why the distribution if skewed. Skewness is in part a simpe numerical artifact.
+The are a couple of reasons why the distribution if skewed. Skewness is partly a simple numerical artifact.
 The mean of ratio is low, but there can never be
 instances of the ratio of deaths to cases
 that are less than or equal to zero. So the left limb of the curve encloses fewer instances.
 There are also medical reasons for the skewness.
 The larger number of values to the right of the peak are possibly the people most vulnerable to the coronavirus
 (people older that 65 years or people with compromised immune systems).
+The dashed curve that outlines the histogram is the theoretical
+[log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
+frequency distribution corresponding to the observed case-fatality ratios.
+This distribution model is commonly used for describing skewed distributions. In my opinion, it doesn't represent these data very well.
+There are a small, but important, number of instances of CFR greater than 0.04 that are higher than predicted by the theoretical distribution, ie. (above the dashed line).
+These instances may be a reflection of the very most vulnerable sector of the population.
 
 ## Model Results (wonkish)
 Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are not collected with the aid of a well planned experimental design. The data often contain errors of many kinds, and there is no guarantees that methods of data collection have not changed over time and are consistent across strata. 
