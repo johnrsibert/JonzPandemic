@@ -13,29 +13,32 @@ More recently, the Times has created a
 So what is a data geek to do while sheltering in place?
 I decided to improve my [python](https://www.python.org/) 
 programming chops,
-and I've been drawing lots of
-plots of the prevalence of the disease in places where I can no longer
+so I've been drawing lots of
+graphyus tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
 A few of these plots can be found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
 I update most graphs frequently. I'm working in ways to share the results interactively, but haven't quite got it working. 
 
-I also wanted to apply my rusty fish population modeling experience to modeling the spread of Covid-19,
-and I've been writing some statistical models of the Covid-19 pandemic in the United States.
+I also wanted to apply my rusty fish population modeling experience to modeling the spread of Covid-19
+and have been writing some statistical models of the Covid-19 pandemic in the United States.
+This is very much a work in progresss.
 
 Why bother doing this? I'm sure not trying to compete with the New York Times. 
-I'm mostly trying to satisfy my curiosity,
-and I would like to share my
-results with others. 
+I'm mostly trying to satisfy my curiosity
+enjoy sharint sharing my results. 
 The data seem show that if you contact the Covid-19, you have about a
 **2% probability of dying within three weeks**. 
 This the optimistic guess. 
 The distribution is skewed, and the the upper tail is pretty big [see below](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
 The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. 
-Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
+Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. 
+So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
+And vaccines on on the way!
 
-So please have a look at this stuff and act like a Fourteenth Centery Venetian, keep away from sick people, wear your mask, get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
+So please have a look at this stuff and act like a Fourteenth Centery Venetian, keep away from sick people, wear your mask, 
+get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
 In the meantime, I recommend [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
 ## How bad is it?
@@ -54,9 +57,10 @@ The lower panel of each plot is a similar presentation of the number of new deat
 ##### New York City Prevalence
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
 
-The disease attacked the five counties that comprise New York City aggressively with unchecked exponential growth in March and April. Quarantine-like measures "flattened the curve" and kept spread of infection at low levels.
+The disease attacked the five counties that comprise New York City aggressively with unchecked exponential growth in March and April. 
+Quarantine-like measures "flattened the curve" and kept spread of infection at low levels.
 Numbers of new cases stayed relatively low and constant for 5 or 6 months, but began to increase in October and November.
-Currently, the number cases is beginning to rise exponentially for the second time.
+Currently, the number cases is increasing exponentially for the second time.
 
 Numbers of daily deaths reflect the numbers of daily new cases, rising sharply in April,
 falling to low levels in June. 
@@ -68,7 +72,8 @@ reflect changes in data reporting practices in some of the five counties.
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 
 The trajectory of the disease in Los Angeles County is quite different from New York City.
-Los Angeles was able to avoid the initial exponential growth phase. Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
+Los Angeles was able to avoid the initial exponential growth phase. 
+Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
 The disease was controlled for a second time, but an alarming period of exponential growth
 started in November.
 
@@ -84,18 +89,18 @@ the current Case Fatality ratio.
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_5.png)
 The relationship between reported cases and reported deaths for the 5 largest counties in the United States (Los Angeles CA, New York City NY,
 Cook County IL, Maricopa County AZ, and Harris TX) since the beginning of the pandemic. 
-Each dot represents
-one record. The number of deaths is low when the number of cases is less than 100, but increases regularly in proportion to the number of cases
+Each dot represents one record. 
+The number of deaths is low when the number of cases is less than 100, but increases regularly in proportion to the number of cases
 for all counties. 
 The gray diagonal lines indicate mortality rates ranging from 0.5% to 8% of reported cases.
 When the number of cases exceeds 1000 the dots begin to form lines tracing the history of each county. Even with this relative small number of counties, the trajectories seem to converge to mortality rates between 1% and 2%.
 
-##### Deaths vs Cases
+##### Deaths vs Cases, 1000 Counties
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_1000.png)
 Relationship between reported cases and reported deaths for the 1000 most populous counties in the United States. 
 The large number counties makes it difficult to differentiate the complete history of a single county hidden in the mess of colored dots.
-Nevertheless the general trend of the swam of points trajectories
-converge to a mortality rates between 1% and 2%.
+Nevertheless the general trend of the swam of points
+converges to a mortality rates between 1% and 2%.
 
 
 ##### Case Fatality Ratio
@@ -106,14 +111,31 @@ The blue bars indicate the number of values of the ratio that fall into the slot
 Most of the ratios are near 0.015 for a morality rate of 1.5%, 
 but there is a substantial number ratios greater than 0.02
 up to a maximum 0.08.
-The large number of values to the right of the peak are possibly the people most vulnerable to the coronavirus
-(people older that 65 years or people with compromised immune systems).
 The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality ratio in the United States to be about 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
+**Wonkish:** This distribution is skewed to the right, making it difficult to calculate an unambiguous central tendency.
+The mean (or arithmetic average) and the median (the point where is an equal probability of falling above or below)
+of the ratio are both to the right of the mode (peak) of the distribution.
+A less misleading measure of the likelihood of death is to look a the percentiles of the distribution.
+The vertical line labeled "97.5%" indicates the value of the case fatality ratio that is greater than 
+97.5% of all of the point estimates. If the CFR distibution were symmetrical, this point would be something like
+the upper 95% "confidence" region of values indistinguishable from the mean value. In other words if you
+say that the probability of dying after one becomes infection is less than around 4%, you would be correct
+about 98% of the time.
+
+The are a couple of reasons why the distribution if skewed. Skewness is in part a simpe numerical artifact.
+The mean of ratio is low, but there can never be
+instances of the ratio of deaths to cases
+that are less than or equal to zero. So the left limb of the curve encloses fewer instances.
+There are also medical reasons for the skewness.
+The larger number of values to the right of the peak are possibly the people most vulnerable to the coronavirus
+(people older that 65 years or people with compromised immune systems).
+
 ## Model Results (wonkish)
-Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are not collected with the aid of a well planned experimental design. The data often contain errors of many kinds, and there is no guarantees that methods of data collection have not changed over time and are
-consistent across strata. It is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. One of the questions posed in my modeling effort was to ask whether the data collected in an *ad hoc* way from multiple jurisdictions, compiled for
+Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are not collected with the aid of a well planned experimental design. The data often contain errors of many kinds, and there is no guarantees that methods of data collection have not changed over time and are consistent across strata. 
+It is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are thua faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. 
+One of the questions posed in my modeling effort was to ask whether the data collected in an *ad hoc* way from multiple jurisdictions, compiled for
 journalistic purposes, and made public in near real time could be useful
 for statistically estimating parameters of epidemiological models.
 
