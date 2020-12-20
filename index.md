@@ -10,11 +10,11 @@ More recently, the Times has created a
 [Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
-So what is a data geek to do while sheltering in place?
+What is a data geek to do while sheltering in place?
 I decided to improve my [python](https://www.python.org/) 
 programming chops,
 so I've been drawing lots of
-graphys tracking the prevalence of the disease in places where I can no longer
+graphs tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
 A few of these plots can be found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
@@ -79,7 +79,7 @@ started in November.
 
  
 ## How dangerous is it?
-The number of reported deaths divided by the number of reported cases, or case-fatality ratio,
+The number of reported deaths divided by the number of reported cases, or case-fatality ratio (CFR),
 is often considered to be a measure of the risk of dying from a pandemic 
 [CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
 The following plots illustrate trends in deaths and cases and summarizes
@@ -114,8 +114,9 @@ up to a maximum 0.08.
 The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality ratio in the United States to be about 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
-**Wonkish:** This distribution is skewed to the right, making it difficult to calculate an unambiguous central tendency.
-The mean (or arithmetic average) and the median (the point where is an equal probability of falling above or below)
+**Wonkish:** The distribution of observed CFRs is skewed to the right, making it difficult to calculate an unambiguous central tendency.
+Both the mean (or arithmetic average) and the median (the point where there
+is an equal probability of falling above or below)
 of the ratio are both to the right of the mode (peak) of the distribution.
 A less misleading measure of the likelihood of death is to look a the percentiles of the distribution.
 The vertical line labeled "97.5%" indicates the value of the case fatality ratio that is greater than 
@@ -124,18 +125,23 @@ the upper 95% "confidence" region of values indistinguishable from the mean valu
 say that the probability of dying after one becomes infection is less than around 4%, you would be correct
 about 98% of the time.
 
-The are a couple of reasons why the distribution if skewed. Skewness is partly a simple numerical artifact.
-The mean of ratio is low, but there can never be
-instances of the ratio of deaths to cases
-that are less than or equal to zero. So the left limb of the curve encloses fewer instances.
+The are a couple of reasons why the distribution is skewed. Skewness is, in part, a simple numerical artifact.
+The mean of ratio is close to zero, but can never be
+less than or equal to zero. 
+So the left limb of the distribution includes fewer instances than the
+right limb.
 There are also medical reasons for the skewness.
-The larger number of values to the right of the peak are possibly the people most vulnerable to the coronavirus
+The larger number of values to the right of the peak are possibly 
+deaths of the people most vulnerable to the coronavirus
 (people older that 65 years or people with compromised immune systems).
+
 The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
-frequency distribution corresponding to the observed case-fatality ratios.
-This distribution model is commonly used for describing skewed distributions. In my opinion, it doesn't represent these data very well.
-There are a small, but important, number of instances of CFR greater than 0.04 that are higher than predicted by the theoretical distribution, ie. (above the dashed line).
+frequency distribution estimated to the observed case-fatality ratios.
+This distribution model is commonly used for describing skewed distributions. 
+The curve appears to correspond pretty well to the histobram, 
+but in my opinion, the curve doesn't represent these data very well.
+There are a small, but important, number of instances of CFR greater than 0.04 that are higher than predicted by the theoretical distribution, i.e., that are above the dashed line.
 These instances may be a reflection of the very most vulnerable sector of the population.
 
 ## Model Results (wonkish)
@@ -146,9 +152,8 @@ journalistic purposes, and made public in near real time could be useful
 for statistically estimating parameters of epidemiological models.
 
 [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**ecovered. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (or perhaps oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. The rate parameters of the coupled processes are considered to be random effects and vary over time. Maximum likelihood is used for model estimation combining likelihood contributions computed for both cases and deaths. This framework enables simultaneous estimation of time dependent series of both the reported cases and the reported deaths. 
-A summary of the model and some preliminary (August 2020) results is available for
-download as a [pdf](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
-The model is till under development and has evolved slightly since August 2020.
+A summary description of the model and some preliminary (August 2020) results is available for download [(pdf)](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
+The model is still under development and has evolved since August 2020.
 
 ### Estimated instantaneous transmission Rates (31 counties)
 
