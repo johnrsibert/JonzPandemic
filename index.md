@@ -31,7 +31,7 @@ enjoy sharing sharing my results.
 The data seem show that if you contact the Covid-19, you have about a
 **2% probability of dying within three weeks**. 
 This the optimistic guess. 
-The distribution is skewed, and the the upper tail is pretty big [see below](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
+The distribution is skewed, and the the upper tail is pretty big [(below)](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
 The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. 
 Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. 
 So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
@@ -74,8 +74,8 @@ reflect changes in data reporting practices in some of the five counties.
 The trajectory of the disease in Los Angeles County is quite different from New York City.
 Los Angeles was able to avoid the initial exponential growth phase. 
 Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
-The disease was controlled for a second time, but an alarming period of exponential growth
-started in November.
+The disease was controlled for a second time,
+but **exponential growth resumed** in November.
 
  
 ## How dangerous is it?
@@ -126,8 +126,8 @@ say that the probability of dying after one becomes infection is less than aroun
 about 98% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is, in part, a simple numerical artifact.
-The mean of ratio is close to zero, but can never be
-less than or equal to zero. 
+The mean of ratio is close to zero, but ratio can never be
+less than zero. 
 So the left limb of the distribution includes fewer instances than the
 right limb.
 There are also medical reasons for the skewness.
@@ -139,7 +139,7 @@ The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
 frequency distribution estimated to the observed case-fatality ratios.
 This distribution model is commonly used for describing skewed distributions. 
-The curve appears to correspond pretty well to the histobram, 
+The curve appears to correspond pretty well to the histogram, 
 but in my opinion, the curve doesn't represent these data very well.
 There are a small, but important, number of instances of CFR greater than 0.04 that are higher than predicted by the theoretical distribution, i.e., that are above the dashed line.
 These instances may be a reflection of the very most vulnerable sector of the population.
@@ -188,8 +188,35 @@ I'm currently working on inclusion of a **R**ecovered compartment in a slightly 
 that is when I'm not drawing prevalence graphs.
 
 
-## Oddities
+## Quriosities
 **Attention: more wonkish stuff may appear here.*
+### Why do trends in daily cases and deaths have a saw-tooth appearance?
+
+The jagged nature of the daily reports is evident in most published presentations of daily COVID-19 trends.
+Seven-day moving averages are often used to clarify trends.
+
+##### Simple day-by-day histograms, 5 counties.
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/days_of_week_5.png)
+
+These plots show numbers of cases and deaths reported on each day of the week in the 5 most populous counties in the US.
+For some counties, e.g., Maricopa County, Arizona, it is obvious that fewer deaths are reported on Saturday and Sunday than on the other days of the week.
+For cases and other counties, not so much.
+
+##### Proportion reports by day over 1000 counties.
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/days_of_week_1000.png)
+
+Horizontal rectangles enclose 50% of the observations; horizontal red 
+lines are the means; vertical lines show the range of observations extending beyond plus or minus 1.5 times the fiftieth percentiles; circles are the actual data points that extend beyond the vertical lines.
+
+Weekend effects are less pronounced, but nevertheless it is clear that that fewer deaths are reported on Saturday and Sunday.
+The large number of "outliers" indicated by the circles, demonstrates that there is a lot a variability among counties about reporting.
+Counties vary substantially in how and when COVID-19 cases and deaths are reported, but as with the [case fatality
+ratios](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio),
+these distributions are also skewed with long upper tails.
+This may be an example of how averages can obscure signals.
+
+There is probably more to said about these distributions, but the saw-tooth appearance is has little to do with the natural history of viral infection.
+In the end, not really important whether a county reports a death on Sunday or waits until the following Monday or Tuesday.
 
 ## Rant
 It's not rocket science. We have known how to prevent the spread of disease since the Tenth century when the Persian polymath Ibn Sina recommended confining sick people for 40 days.
