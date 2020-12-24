@@ -51,7 +51,7 @@ The following plots are examples of different trends in the spread of Covid-19 i
 two most populous counties in the United states.
 
 The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
-The saw-tooth appearance of the vertical bars is smoothed by with an 11 day moving average shown as the heavy blue line marked "11da.
+The saw-tooth appearance of the vertical bars is smoothed by with an 7 day moving average shown as the heavy blue line marked "7da".
 The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
 
 ##### New York City Prevalence
