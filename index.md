@@ -11,12 +11,12 @@ More recently, the Times has created a
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
 What is a data geek to do while sheltering in place?
-I decided to improve my [python](https://www.python.org/) 
-programming chops,
-so I've been drawing lots of
+I thought it might be a good opportunity to improve my [python](https://www.python.org/) 
+programming chops.
+I've been drawing lots of
 graphs tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
-A few of these plots can be found on my 
+Some of these plots can be found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
 I update most graphs frequently. I'm working in ways to share the results interactively, but haven't quite got it working. 
@@ -26,7 +26,7 @@ and have been writing some statistical models of the Covid-19 pandemic in the Un
 This is very much a work in progress.
 
 Why bother doing this? I'm sure not trying to compete with the New York Times. 
-I'm mostly trying to satisfy my curiosity
+I'm mostly trying to satisfy my curiosity and I
 enjoy sharing sharing my results. 
 The data seem show that if you contact the Covid-19, you have about a
 **2% probability of dying within three weeks**. 
@@ -52,7 +52,9 @@ two most populous counties in the United states.
 
 The upper panel of each plot shows the number of new cases reported each day as vertical blue lines. 
 The saw-tooth appearance of the vertical bars is smoothed by with an 7 day moving average shown as the heavy blue line marked "7da".
-The lower panel of each plot is a similar presentation of the number of new deaths reported each day.
+The middle panel of each plot is a similar presentation of the number of new deaths reported each day.
+The lower panel in each plot shows the trajectory of the ratio of fatalities
+to cases (or Case Fatality Ratio, CFR), often considered a rough measure of lethality.
 
 ##### New York City Prevalence
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
@@ -67,6 +69,8 @@ falling to low levels in June.
 The lower panel of the New York City plot illustrates an important problem with the available data. 
 The sharp jumps at the end June and at the beginning of August
 reflect changes in data reporting practices in some of the five counties.
+The CFR in New York City seems unusually high.
+The ratio is highest in April and May and decreases substantially over the summer to a value about one half of the peak.
 
 ##### Los Angeles County Prevalence
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
@@ -75,7 +79,8 @@ The trajectory of the disease in Los Angeles County is quite different from New 
 Los Angeles was able to avoid the initial exponential growth phase. 
 Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
 The disease was controlled for a second time,
-but **exponential growth resumed** in November.
+but **exponential growth resumed** in December and January.
+The CFR is generally lower the in New York and shows the same decrease of the summer.
 
  
 ## How dangerous is it?
@@ -115,15 +120,12 @@ The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 **Wonkish:** The distribution of observed CFRs is skewed to the right, making it difficult to calculate an unambiguous central tendency.
-Both the mean (or arithmetic average) and the median (the point where there
-is an equal probability of falling above or below)
-of the ratio are both to the right of the mode (peak) of the distribution.
+The median of the distribution lies to the right of the mode (peak).
 A less misleading measure of the likelihood of death is to look a the percentiles of the distribution.
 The vertical line labeled "97.5%" indicates the value of the case fatality ratio that is greater than 
 97.5% of all of the point estimates. If the CFR distribution were symmetrical, this point would be something like
-the upper 95% "confidence" region of values indistinguishable from the mean value. In other words if you
-say that the probability of dying after one becomes infection is less than around 4%, you would be correct
-about 98% of the time.
+the upper 95% "confidence" region of values indistinguishable from the mean value. 
+In other words, if you say that the probability of dying after becoming infected is less than around 4%, you would be correct about 98% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is, in part, a simple numerical artifact.
 The mean of ratio is close to zero, but ratio can never be
@@ -145,32 +147,33 @@ There are a small, but important, number of instances of CFR greater than 0.04 t
 These instances may be a reflection of the very most vulnerable sector of the population.
 
 ## Model Results (wonkish)
-Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are not collected with the aid of a well planned experimental design. The data often contain errors of many kinds, and there is no guarantees that methods of data collection have not changed over time and are consistent across strata. 
-It is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are thua faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. 
+Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are seldom collected with the aid of a well planned experimental design. The data may contain errors of many kinds, and there is no guarantee that methods of data collection have not changed over time and are consistent across strata. 
+It is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are thus faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. 
 One of the questions posed in my modeling effort was to ask whether the data collected in an *ad hoc* way from multiple jurisdictions, compiled for
 journalistic purposes, and made public in near real time could be useful
 for statistically estimating parameters of epidemiological models.
 
-[SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**ecovered. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (or perhaps oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. The rate parameters of the coupled processes are considered to be random effects and vary over time. Maximum likelihood is used for model estimation combining likelihood contributions computed for both cases and deaths. This framework enables simultaneous estimation of time dependent series of both the reported cases and the reported deaths. 
-A summary description of the model and some preliminary (August 2020) results is available for download [(pdf)](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
-The model is still under development and has evolved since August 2020.
+[SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**ecovered. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (some might sat oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. 
+SIR models are often expressed as a set of coupled ordinary differential equations (ODe) with constant parameters.
+We live in a world where we are attempting to change the dynamics of the spread of the epidemic. When we attempt to regulate social behavior and to improve medical care, we are, in fact, attempting to alter the rate parameters in the SIR ODEs.
+I assume that the rate parameters of the coupled processes are variable in time and treat them as [random effects](https://en.wikipedia.org/wiki/Random_effects_model) that may vary over time. Maximum likelihood is used for model estimation combining likelihood contributions computed for both cases and deaths. This framework enables simultaneous estimation of time dependent series of both the reported cases and the reported deaths. 
+A summary description of the model and some preliminary (as of August 2020) results is available for download [(pdf)](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
+The model is still under development and has evolved since August 2020, but without notable success.
 
-### Estimated instantaneous transmission Rates (31 counties)
+### Estimated Instantaneous Transmission Rates
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
+This figure shows transmission rates estimated by the simplified SIR model for the 30 largest counties in the United States. Initial transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decrease substantially through May, and remained low over the summer for some counties. Estimated transmission rates increase for all counties in October.
 
-This figure shows transmission rates estimated by the simplified SIR model. Initial transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decrease substantially through May, and remained low for some counties, e.g. New York City (NYNY in the plot). Estimated transmission rates increase for all counties in October.
 
-
-### Estimated Transmission Rates with "confidence" regions (2 Counties)
+### Estimated Transmission Rates with "Confidence Regions"
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
 
 This figure shows the estimated transmission rate trajectories for New York City (NYNY) and 
-Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard deviations of the estimates). There is considerable overlap at the start and end of the time series, but the two trajecories are distinct during the summer.
+Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard deviations of the estimates). There is considerable overlap at the start and end of the time series, but the two trajectories are distinct during the summer.
 
-
-### Estimated instantaneous mortality rates (31 counties)
+### Estimated Instantaneous Mortality Rates
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
 
 The instantaneous mortality rate is the proportion of infected persons that die per unit of time. 
@@ -178,14 +181,14 @@ The estimated instantaneous mortality rate is highest in March and April and sub
 decreases steadily until the end of the time series.
 This downward trend my reflect improvement of medical care since the start of the pandemic.
 These mortality rate estimates seem very low and are probably biased downward by structural artifacts on the model, namely omission of the **R**ecovered compartment from the SIR model.
-That said, I am fairly confident that the generally downward trend is credible.
+That said, I am fairly confident that the generally downward trend is consistent with empirical CMR data.
 
 
 ### Model conclusions
-The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates seem consistent with the observed prevalence
-trajectories.
-I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple model, 
-that is when I'm not drawing prevalence graphs.
+The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories.
+
+I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple model, that is when I'm not drawing prevalence graphs.
+
 
 
 ## Quriosities
@@ -222,7 +225,7 @@ In the end, not really important whether a county reports a death on Sunday or w
 It's not rocket science. We have known how to prevent the spread of disease since the Tenth century when the Persian polymath Ibn Sina recommended confining sick people for 40 days.
 The Venetians adopted the practice in the Fourteenth Century and 
 called it quarantine.
-If we were serious abut saving lives we would get serious about
+If we were serious abut saving lives, we would get serious about
 staying away from sick people.
 In fact, some places did pretty well practicing social isolation over
 the course of the summer. 
@@ -236,11 +239,23 @@ Science guided to eradicate smallpox.
 I'm old enough to remember the great fear of polio in the 1950s. I know people who where afflicted with polio. 
 Science guided us to eradicate polio in many countries.
 Measles, mumps, rubella, and more are on the hit list. 
-Highly effective Covid-19 vaccines (yes plural!) are on the way.
+Highly effective Covid-19 vaccines (yes plural!) are here and finding their way into arms.
 We are both cursed and blessed to live in the time of Covid-19.
 The curse is obvious. We risk losing family, friends and coworkers.
 The blessing is that it arrived 2019 and not 2015.
 The astonishing recent progress made by the global community of molecular geneticists had enabled
 development of safe and efficacious vaccines in less than a year.
 It raises the hair on the back of my neck.
-These Scientists will be feted as the heroes of the early Twenty-first Century.
+We also need to credit the physicians and nurses who have worked so hard
+to reduce mortality. 
+The case fatality ratio has decreased by 50% in the last six months.
+The scientists and health care workers who have shepherded us through this horrible period should be feted as the heroes of the early Twenty-first Century.
+
+The English village of [Eyam](https://www.historic-uk.com/HistoryUK/HistoryofEngland/Why-Is-Eyam-Significant/) in Derbyshire has become topical recently.
+In 1665, the villagers of Eyam chose to quarantine themselves for longer than one year. They allowed no one to enter or leave the village, they looked after one another, and they subsidized the other residents of Derbyshire to provide necessities. We can survive this pandemic, but we need to **pay attention to Science**.
+Equally important we need to **insist that political leaders actually lead** to provide the economic and logistical support required to get us through.
+
+## What's new?
+- This section
+- CMR trajectories in prevalence plots
+- More blather in rant
