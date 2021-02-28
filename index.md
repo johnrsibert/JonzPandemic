@@ -80,15 +80,15 @@ Los Angeles was able to avoid the initial exponential growth phase.
 Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
 The disease was controlled for a second time,
 but **exponential growth resumed** in December and January.
-The CFR is generally lower the in New York and shows the same decrease of the summer.
+The CFR is generally lower than in New York and shows the same decrease of the summer.
 
  
 ## How dangerous is it?
 The number of reported deaths divided by the number of reported cases, or case-fatality ratio (CFR),
 is often considered to be a measure of the risk of dying from a pandemic 
 [CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
-The following plots illustrate trends in deaths and cases and summarizes
-the current Case Fatality ratio.
+The following plots illustrate some of the relationships between an deaths and 
+cases and summarize current Case Fatality ratioa.
 
 ##### Deaths vs Cases, Simplfied
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_5.png)
@@ -100,16 +100,16 @@ for all counties.
 The gray diagonal lines indicate mortality rates ranging from 0.5% to 8% of reported cases.
 When the number of cases exceeds 1000 the dots begin to form lines tracing the history of each county. Even with this relative small number of counties, the trajectories seem to converge to mortality rates between 1% and 2%.
 
-##### Deaths vs Cases, 1000 Counties
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_1000.png)
-Relationship between reported cases and reported deaths for the 1000 most populous counties in the United States. 
-The large number counties makes it difficult to differentiate the complete history of a single county hidden in the mess of colored dots.
+##### Deaths vs Cases
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_0000.png)
+Relationship between reported cases and reported deaths for the most populous counties in the United States. 
+The number counties makes it difficult to differentiate the complete history of a single county hidden in the mess of colored dots.
 Nevertheless the general trend of the swam of points
 converges to a mortality rates between 1% and 2%.
 
 
 ##### Case Fatality Ratio
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_hist_1000.png)
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_hist_all_recent.png)
 Frequency distribution of the case-fatality ratio (deaths/cases) computed
 for the most recent day of reporting.
 The blue bars indicate the number of values of the ratio that fall into the slots defined along the horizontal axis. 
@@ -153,7 +153,7 @@ One of the questions posed in my modeling effort was to ask whether the data col
 journalistic purposes, and made public in near real time could be useful
 for statistically estimating parameters of epidemiological models.
 
-[SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**ecovered. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (some might sat oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. 
+[SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**emoved. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (some might sat oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. 
 SIR models are often expressed as a set of coupled ordinary differential equations (ODe) with constant parameters.
 We live in a world where we are attempting to change the dynamics of the spread of the epidemic. When we attempt to regulate social behavior and to improve medical care, we are, in fact, attempting to alter the rate parameters in the SIR ODEs.
 I assume that the rate parameters of the coupled processes are variable in time and treat them as [random effects](https://en.wikipedia.org/wiki/Random_effects_model) that may vary over time. Maximum likelihood is used for model estimation combining likelihood contributions computed for both cases and deaths. This framework enables simultaneous estimation of time dependent series of both the reported cases and the reported deaths. 
@@ -163,7 +163,7 @@ The model is still under development and has evolved since August 2020, but with
 ### Estimated Instantaneous Transmission Rates
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
-This figure shows transmission rates estimated by the simplified SIR model for the 30 largest counties in the United States. Initial transmission rates are very high for all counties with doubling times less than 5 days. Transmission rates decrease substantially through May, and remained low over the summer for some counties. Estimated transmission rates increase for all counties in October.
+This figure shows transmission rates estimated by the simplified SIR model for the 30 largest counties in the United States. Initial transmission rates are very high for all counties. Initial doubling times were very short, often less than 5 days. Transmission rates decrease substantially through May, and remained low over the summer for some counties. Estimated transmission rates increase for all counties in October. The increases in estimated transmission rates in mid-winter reflect the observed surges in reported cases.
 
 
 ### Estimated Transmission Rates with "Confidence Regions"
@@ -180,22 +180,36 @@ The instantaneous mortality rate is the proportion of infected persons that die 
 The estimated instantaneous mortality rate is highest in March and April and subsequently
 decreases steadily until the end of the time series.
 This downward trend my reflect improvement of medical care since the start of the pandemic.
-These mortality rate estimates seem very low and are probably biased downward by structural artifacts on the model, namely omission of the **R**ecovered compartment from the SIR model.
+These mortality rate estimates seem very low and are probably biased downward by structural artifacts on the model, namely omission of the **R**emoved compartment from the SIR model.
 That said, I am fairly confident that the generally downward trend is consistent with empirical CMR data.
 
 
 ### Model conclusions
 The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories.
 
-I'm currently working on inclusion of a **R**ecovered compartment in a slightly less simple model, that is when I'm not drawing prevalence graphs.
+I'm currently working on inclusion of a **R**emoved compartment in a slightly less simple model, that is when I'm not drawing prevalence graphs.
 
 
 
 ## Quriosities
-**Attention: more wonkish stuff may appear here.*
+**Attention: more wonkish stuff likely to appear here.*
+
+### Is there a relationsip between mortality and population size?
+A recent essay by Dr. Siddhartha Mukherjee in the *New Yorker* for
+February 22, 2021, entitled "Why Does the Pandemic Seem to Be Hitting Some Countries Harder Than Others?", got me to pondering whether the lethality of Covid-19 might be related to the size of the population in different counties.
+
+#### Relationship between county population size and case-fatality ratio.
+![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_quantiles_boxplot.png)
+
+This plot aggregates counties by population size. The numbers in the horizontal axis indicate the relative rank of the population size of approximately 3200 US counties. "0.2" labels counties with populations smaller than 20% of all counties. "0.8" labels counties with populations larger than 80% of all counties. 
+The horizontal red lines indicate the median ratio for each county.
+The horizontal blue stripe locates the [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality) estimate of the US case-fatality ratio estimated by The Johns Hopkins University Coronavirus Resource Center.
+
+There's nothing in it. The CFR is pretty much about 0.92 in all US counties.
+
 ### Why do trends in daily cases and deaths have a saw-tooth appearance?
 
-The jagged nature of the daily reports is evident in most published presentations of daily COVID-19 trends.
+The jagged look of the daily reports is evident in most published presentations of daily COVID-19 trends.
 Seven-day moving averages are often used to clarify trends.
 
 ##### Simple day-by-day histograms, 5 counties.
@@ -256,6 +270,11 @@ In 1665, the villagers of Eyam chose to quarantine themselves for longer than on
 Equally important we need to **insist that political leaders actually lead** to provide the economic and logistical support required to get us through.
 
 ## What's new?
+#### March 2, 2021
+- Adjust the data masking algorithm to include more counties
+- Add CFR boxplots by population size quantile
+
+#### January 11, 2021
 - This section
 - CMR trajectories in prevalence plots
 - More blather in rant
