@@ -270,8 +270,8 @@ In 1665, the villagers of Eyam chose to quarantine themselves for longer than on
 Equally important we need to **insist that political leaders actually lead** to provide the economic and logistical support required to get us through.
 
 ## What's new?
-#### March 2, 2021
-- Adjust the data masking algorithm to include more counties
+#### February 27, 2021
+- Adjust data masking algorithms to include more counties
 - Add CFR boxplots by population size quantile
 
 #### January 11, 2021
