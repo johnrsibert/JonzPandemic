@@ -300,6 +300,10 @@ Equally important we need to **insist that political leaders actually lead** to 
 
 #### February 27, 2021
 - Adjust the data masking algorithm to include more counties
+
+#### February 27, 2021
+- Adjust data masking algorithms to include more counties
+
 - Add CFR boxplots by population size quantile
 
 #### January 11, 2021
