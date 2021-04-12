@@ -16,12 +16,10 @@ programming chops.
 I've been drawing lots of
 graphs tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
-Some of these plots can be seen by following the [links below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live). 
-
-found on my 
+Some of these plots can be seen by following the [links below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live) and on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
-I update most graphs frequently. I'm working in ways to share the results interactively, but haven't quite got it working. 
+I update most graphs frequently.
 
 I also wanted to apply my rusty fish population modeling experience to modeling the spread of Covid-19
 and have been writing some statistical models of the Covid-19 pandemic in the United States.
