@@ -16,7 +16,9 @@ programming chops.
 I've been drawing lots of
 graphs tracking the prevalence of the disease in places where I can no longer
 travel, parts of the country where friends and family live.
-Some of these plots can be found on my 
+Some of these plots can be seen by following the [links below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live). 
+
+found on my 
 [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare). 
 **Have a look, download, share,** and let me know if you'd like something specific.
 I update most graphs frequently. I'm working in ways to share the results interactively, but haven't quite got it working. 
@@ -37,7 +39,7 @@ Finally, the data seem to show that front-line health workers have learned how t
 So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
 And vaccines on on the way!
 
-So please have a look at this stuff and act like a Fourteenth Centery Venetian, keep away from sick people, wear your mask, 
+So please have a look at this stuff and act like a Fourteenth Century Venetian, keep away from sick people, wear your mask, 
 get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
 In the meantime, I recommend [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
@@ -75,6 +77,7 @@ The ratio is highest in April and May and decreases substantially over the summe
 ##### Los Angeles County Prevalence
 ![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
 
+
 The trajectory of the disease in Los Angeles County is quite different from New York City.
 Los Angeles was able to avoid the initial exponential growth phase. 
 Instead, the prevalence of the disease grew relatively slowly through the spring, reaching a mid-summer peak.
@@ -82,15 +85,33 @@ The disease was controlled for a second time,
 but **exponential growth resumed** in December and January.
 The CFR is generally lower than in New York and shows the same decrease of the summer.
 
+## How bad is it where you live?
+Here is a list of places where some of my friends an family live. Click on the link to see the Covid-19 prevalence in each county. If I've omitted a place you love, let me know and I'll try to include it.
+- [Alameda County](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/AlamedaCA_prevalence.png)
+- [Fairfax County, VA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/FairfaxVA_prevalence.png)
+- [Honolulu County, HI](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/HonoluluHI_prevalence.png)
+- [Los Angeles County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Los_AngelesCA_prevalence.png)
+- [Marin County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/MarinCA_prevalence.png)
+- [Multnomah Couonty, OR](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/MultnomahOR_prevalence.png)
+- [Plumas County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/PlumasCA_prevalence.png)
+- [San Diego County. CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_DiegoCA_prevalence.png)
+- [San Francisco County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_FranciscoCA_prevalence.png)
+- [Santa Clara County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Santa_ClaraCA_prevalence.png)
+- [Sonoma County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/SonomaCA_prevalence.png)
+- [Tompkins County, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/TompkinsNY_prevalence.png)
+- [Vancouver Island](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Vancouver_IslandBC_prevalence.png)
+(Cases only; data on daily deaths not reaily availavle.)
+- [Washington DC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/District_of_ColumbiaDC_prevalence.png)
+
  
 ## How dangerous is it?
 The number of reported deaths divided by the number of reported cases, or case-fatality ratio (CFR),
 is often considered to be a measure of the risk of dying from a pandemic 
 [CDC Principles of Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
 The following plots illustrate some of the relationships between an deaths and 
-cases and summarize current Case Fatality ratioa.
+cases and summarize current Case Fatality ratios.
 
-##### Deaths vs Cases, Simplfied
+##### Deaths vs Cases, Simplified
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_5.png)
 The relationship between reported cases and reported deaths for the 5 largest counties in the United States (Los Angeles CA, New York City NY,
 Cook County IL, Maricopa County AZ, and Harris TX) since the beginning of the pandemic. 
@@ -170,6 +191,7 @@ This figure shows transmission rates estimated by the simplified SIR model for t
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
 
+
 This figure shows the estimated transmission rate trajectories for New York City (NYNY) and 
 Los Angeles Counties (LACA) with "confidence regions" (plus or minus 2 standard deviations of the estimates). There is considerable overlap at the start and end of the time series, but the two trajectories are distinct during the summer.
 
@@ -191,10 +213,9 @@ I'm currently working on inclusion of a **R**emoved compartment in a slightly le
 
 
 
-## Quriosities
-**Attention: more wonkish stuff likely to appear here.*
+## Curiosities
 
-### Is there a relationsip between mortality and population size?
+### Is there a relationship between mortality and population size?
 A recent essay by Dr. Siddhartha Mukherjee in the *New Yorker* for
 February 22, 2021, entitled "Why Does the Pandemic Seem to Be Hitting Some Countries Harder Than Others?", got me to pondering whether the lethality of Covid-19 might be related to the size of the population in different counties.
 
@@ -270,7 +291,14 @@ In 1665, the villagers of Eyam chose to quarantine themselves for longer than on
 Equally important we need to **insist that political leaders actually lead** to provide the economic and logistical support required to get us through.
 
 ## What's new?
-#### March 2, 2021
+
+#### April 12, 2021
+- Added links to prevalence plots for selected counties.
+
+#### April 3, 2021
+- Prevalence presented on per capita basis as New Cases and Deaths per day per 1000 people
+
+#### February 27, 2021
 - Adjust the data masking algorithm to include more counties
 - Add CFR boxplots by population size quantile
 
