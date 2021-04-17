@@ -91,6 +91,7 @@ Here is a list of places where some of my friends an family live. Click on the l
 - [Los Angeles County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Los_AngelesCA_prevalence.png)
 - [Marin County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/MarinCA_prevalence.png)
 - [Multnomah Couonty, OR](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/MultnomahOR_prevalence.png)
+- [Otsego Couonty, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/OtsegoNY_prevalence.png)
 - [Plumas County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/PlumasCA_prevalence.png)
 - [San Diego County. CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_DiegoCA_prevalence.png)
 - [San Francisco County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/San_FranciscoCA_prevalence.png)
