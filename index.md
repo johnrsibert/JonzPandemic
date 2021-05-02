@@ -6,7 +6,7 @@ The New York Times created public data bases documenting the
 course of the Covid-19 pandemic in the United States. 
 The NYT updates these data continuously and make them
 freely available [online](https://github.com/nytimes/covid-19-data).
-More recently, the Times has created a 
+More recently, the Times has created an excellent interactive
 [Covid-19 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain [GitHub](https://github.com/) for these vital public services.
 
@@ -85,7 +85,7 @@ The CFR is generally lower than in New York and shows the same decrease of the s
 
 ## How bad is it where you live?
 Here is a list of places where some of my friends an family live. Click on the link to see the Covid-19 prevalence in each county. If I've omitted a place you love, let me know and I'll try to include it.
-- [Alameda County](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/AlamedaCA_prevalence.png)
+- [Alameda County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/AlamedaCA_prevalence.png)
 - [Fairfax County, VA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/FairfaxVA_prevalence.png)
 - [Honolulu County, HI](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/HonoluluHI_prevalence.png)
 - [Los Angeles County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Los_AngelesCA_prevalence.png)
@@ -98,7 +98,7 @@ Here is a list of places where some of my friends an family live. Click on the l
 - [Santa Clara County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Santa_ClaraCA_prevalence.png)
 - [Sonoma County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/SonomaCA_prevalence.png)
 - [Tompkins County, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/TompkinsNY_prevalence.png)
-- [Vancouver Island](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Vancouver_IslandBC_prevalence.png)
+- [Vancouver Island, BC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Vancouver_IslandBC_prevalence.png)
 (Cases only; data on daily deaths not reaily availavle.)
 - [Washington DC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/District_of_ColumbiaDC_prevalence.png)
 
@@ -290,6 +290,9 @@ In 1665, the villagers of Eyam chose to quarantine themselves for longer than on
 Equally important we need to **insist that political leaders actually lead** to provide the economic and logistical support required to get us through.
 
 ## What's new?
+
+#### May 2, 2021
+- Added reference line to per percapita prevelence at 0.05 cases per 1000 people to simplify comparisions between areas. Very few areas have prevelence this low.
 
 #### April 12, 2021
 - Added links to prevalence plots for selected counties.
