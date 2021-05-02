@@ -34,8 +34,8 @@ This the optimistic guess.
 The distribution is skewed, and the the upper tail is pretty big [(below)](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
 The data also seem to show that the spread of the virus can be slowed by implementation of policies that aim to change individual behavior. 
 Finally, the data seem to show that front-line health workers have learned how to improve treatment of the disease to reduce mortality. 
-So while the situation seems scary, especially so as we move into winter, there is reason to be optimistic.
-And vaccines on on the way!
+So while the situation seems scary, especially so as we move into our second year of the pandemic, there are reasons to be optimistic.
+Several vaccines available, and really effective. All vaccines are nearly 100% effective in preventing death and serious illness and over 90% effective in preventing infection. **Get jabbed!**
 
 So please have a look at this stuff and act like a Fourteenth Century Venetian, keep away from sick people, wear your mask, 
 get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
@@ -44,8 +44,8 @@ In the meantime, I recommend [boulevardiers](https://robbreport.com/food-drink/s
 ## How bad is it?
 The number of cases and the number of deaths are two common indicators of how bad the epidemic
 has become.
-It seems useful refer to number of cases and the number of deaths in an area as "prevalence" for
-want of a better work.
+It seems useful refer to number of cases and the number of deaths divided by the total population in an area as "prevalence" for
+want of a better word.
 The [Times data repository](https://github.com/nytimes/covid-19-data) is an easy starting point to explore prevalence.
 The following plots are examples of different trends in the spread of Covid-19 in the 
 two most populous counties in the United states.
@@ -59,16 +59,16 @@ to cases (or Case Fatality Ratio, CFR), often considered a rough measure of leth
 ##### New York City Prevalence
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
 
-The disease attacked the five counties that comprise New York City aggressively with unchecked exponential growth in March and April. 
+The disease attacked the five counties that comprise New York City aggressively with unchecked exponential growth in March and April os 2020. 
 Quarantine-like measures "flattened the curve" and kept spread of infection at low levels.
 Numbers of new cases stayed relatively low and constant for 5 or 6 months, but began to increase in October and November.
 Currently, the number cases is increasing exponentially for the second time.
 
 Numbers of daily deaths reflect the numbers of daily new cases, rising sharply in April,
 falling to low levels in June. 
-The lower panel of the New York City plot illustrates an important problem with the available data. 
+The number of deaths plot for the New York City illustrates an important problem with the available data. 
 The sharp jumps at the end June and at the beginning of August
-reflect changes in data reporting practices in some of the five counties.
+reflect changes in data reporting practices in some of the five counties. Similar anomalies and "corrections" are seen in data from other counties.
 The CFR in New York City seems unusually high.
 The ratio is highest in April and May and decreases substantially over the summer to a value about one half of the peak.
 
@@ -99,7 +99,7 @@ Here is a list of places where some of my friends an family live. Click on the l
 - [Sonoma County, CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/SonomaCA_prevalence.png)
 - [Tompkins County, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/TompkinsNY_prevalence.png)
 - [Vancouver Island, BC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Vancouver_IslandBC_prevalence.png)
-(Cases only; data on daily deaths not reaily availavle.)
+(Cases only; data on daily deaths not readily available.)
 - [Washington DC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/District_of_ColumbiaDC_prevalence.png)
 
  
@@ -123,8 +123,8 @@ When the number of cases exceeds 1000 the dots begin to form lines tracing the h
 ##### Deaths vs Cases
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_0000.png)
 Relationship between reported cases and reported deaths for the most populous counties in the United States. 
-The number counties makes it difficult to differentiate the complete history of a single county hidden in the mess of colored dots.
-Nevertheless the general trend of the swam of points
+The number counties makes it difficult to differentiate the complete history of a single county from the mess of colored dots.
+Nevertheless the general trend of the swarm of points
 converges to a mortality rates between 1% and 2%.
 
 
@@ -140,12 +140,12 @@ The Johns Hopkins University Coronavirus Resource Center pegs the case-fatality 
 [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 **Wonkish:** The distribution of observed CFRs is skewed to the right, making it difficult to calculate an unambiguous central tendency.
-The median of the distribution lies to the right of the mode (peak).
+The median of the distribution lies to the right of the mode (or peak).
 A less misleading measure of the likelihood of death is to look a the percentiles of the distribution.
 The vertical line labeled "97.5%" indicates the value of the case fatality ratio that is greater than 
 97.5% of all of the point estimates. If the CFR distribution were symmetrical, this point would be something like
 the upper 95% "confidence" region of values indistinguishable from the mean value. 
-In other words, if you say that the probability of dying after becoming infected is less than around 4%, you would be correct about 98% of the time.
+In other words, if you were to say that the probability of dying after becoming infected is less than 4%, you would be correct about 98% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is, in part, a simple numerical artifact.
 The mean of ratio is close to zero, but ratio can never be
@@ -162,29 +162,26 @@ The dashed curve that outlines the histogram is the theoretical
 frequency distribution estimated to the observed case-fatality ratios.
 This distribution model is commonly used for describing skewed distributions. 
 The curve appears to correspond pretty well to the histogram, 
-but in my opinion, the curve doesn't represent these data very well.
-There are a small, but important, number of instances of CFR greater than 0.04 that are higher than predicted by the theoretical distribution, i.e., that are above the dashed line.
-These instances may be a reflection of the very most vulnerable sector of the population.
+but in my opinion.
 
 ## Model Results (wonkish)
-Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are seldom collected with the aid of a well planned experimental design. The data may contain errors of many kinds, and there is no guarantee that methods of data collection have not changed over time and are consistent across strata. 
-It is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are thus faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. 
+Fisheries scientists, ecologists, and epidemiologists are usually faced with the challenge of analyzing data that are presented to them. These data are seldom collected with the aid of a well planned and meticulously executed experimental design. The data may contain errors of many kinds, and there is no guarantee that methods of data collection have not changed over time and are consistent across strata. 
+Furthermore, it is not feasible to repeat the observations or to wait another year for more data to accumulate. Analysts are thus faced with the twin quandaries selecting a model with which to interpret the data and of determining whether information in the data is sufficiently uncompromised by error to inform a statistical estimation process. 
 One of the questions posed in my modeling effort was to ask whether the data collected in an *ad hoc* way from multiple jurisdictions, compiled for
 journalistic purposes, and made public in near real time could be useful
 for statistically estimating parameters of epidemiological models.
 
 [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology) are often used in epidemiology. These models resolve the effected population into several "compartments", usually **S**usceptible, **I**nfected, and **R**emoved. The data at hand, however include just one of these compartments, assuming that "Cases" in the data are a measure of the **I**nfected compartment. "Deaths" in the data to not correspond to the any compartment of the standard SIR models. My first steps were to simplify (some might sat oversimplify) the SIR model to a model of **I**nfected compartment and to add a Deaths compartment. This two compartment model is considered to represent coupled processes of infection and death with the introduction random variation in both infection and death. 
-SIR models are often expressed as a set of coupled ordinary differential equations (ODe) with constant parameters.
+SIR models are often expressed as a set of coupled ordinary differential equations (ODEs) with constant parameters.
 We live in a world where we are attempting to change the dynamics of the spread of the epidemic. When we attempt to regulate social behavior and to improve medical care, we are, in fact, attempting to alter the rate parameters in the SIR ODEs.
 I assume that the rate parameters of the coupled processes are variable in time and treat them as [random effects](https://en.wikipedia.org/wiki/Random_effects_model) that may vary over time. Maximum likelihood is used for model estimation combining likelihood contributions computed for both cases and deaths. This framework enables simultaneous estimation of time dependent series of both the reported cases and the reported deaths. 
 A summary description of the model and some preliminary (as of August 2020) results is available for download [(pdf)](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
-The model is still under development and has evolved since August 2020, but without notable success.
+The model is still under development and has evolved somewhat since the preliminary write-up in August 2020.
 
 ### Estimated Instantaneous Transmission Rates
 
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
-This figure shows transmission rates estimated by the simplified SIR model for the 30 largest counties in the United States. Initial transmission rates are very high for all counties. Initial doubling times were very short, often less than 5 days. Transmission rates decrease substantially through May, and remained low over the summer for some counties. Estimated transmission rates increase for all counties in October. The increases in estimated transmission rates in mid-winter reflect the observed surges in reported cases.
-
+This figure shows instantaneous transmission rates estimated by the simplified SIR model for the 30 largest counties in the United States. Initial transmission rates were extremely high for all counties. Initial doubling times were very short, often less than 5 days and sometimes less than 1 day (imagine New Delhi in April 2021!). The vertical gray line marks March 19, 2020, the date of California Governor Gavin Newsom's "Stay at Home Order", Transmission rates decrease substantially through May, and remained low over the summer for some counties. Estimated transmission rates increase for all counties in October. The increases in estimated transmission rates in mid-winter reflect the observed surges in reported cases. Transmission rates declined again in the early Spring of 2021. I expect the model to begin to "fall apart" later in the Spring because of my simplification of the model omitting the **S**usceptible compartment.
 
 ### Estimated Transmission Rates with "Confidence Regions"
 
@@ -206,11 +203,7 @@ That said, I am fairly confident that the generally downward trend is consistent
 
 
 ### Model conclusions
-The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories.
-
-I'm currently working on inclusion of a **R**emoved compartment in a slightly less simple model, that is when I'm not drawing prevalence graphs.
-
-
+The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories. However the rapidly increasing proportion of fully vaccinated people effectively reduces the size of the *S**usceptible compartment. Clearly some more model development would be appropriate.
 
 ## Curiosities
 
@@ -225,7 +218,7 @@ This plot aggregates counties by population size. The numbers in the horizontal 
 The horizontal red lines indicate the median ratio for each county.
 The horizontal blue stripe locates the [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality) estimate of the US case-fatality ratio estimated by The Johns Hopkins University Coronavirus Resource Center.
 
-There's nothing in it. The CFR is pretty much about 0.92 in all US counties.
+There's nothing in it. The CFR is pretty much about 0.02 in all US counties. Furthermore, the tragic turn of the pandemic in India might induce Dr. Mukherjee to revisit his original question.
 
 ### Why do trends in daily cases and deaths have a saw-tooth appearance?
 
@@ -292,7 +285,8 @@ Equally important we need to **insist that political leaders actually lead** to 
 ## What's new?
 
 #### May 2, 2021
-- Added reference line to per percapita prevelence at 0.05 cases per 1000 people to simplify comparisions between areas. Very few areas have prevelence this low.
+- Added reference line to per pcapita prevalence at 0.05 cases per 1000 people to simplify comparisons between areas. Very few areas have prevalence rates this low.
+- Fix some typo's and add a caveates to the model interpretation.
 
 #### April 12, 2021
 - Added links to prevalence plots for selected counties.
