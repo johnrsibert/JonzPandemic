@@ -203,7 +203,7 @@ That said, I am fairly confident that the generally downward trend is consistent
 
 
 ### Model conclusions
-The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories. However the rapidly increasing proportion of fully vaccinated people effectively reduces the size of the *S**usceptible compartment. Clearly some more model development would be appropriate.
+The data at hand are sufficiently informative to estimate the parameters of a simplified SIR model. The estimated transmission and mortality rates trends seem consistent with the observed prevalence trajectories. However the rapidly increasing proportion of fully vaccinated people effectively reduces the size of the **S**usceptible compartment. Clearly some more model development would be appropriate.
 
 ## Curiosities
 
@@ -218,7 +218,7 @@ This plot aggregates counties by population size. The numbers in the horizontal 
 The horizontal red lines indicate the median ratio for each county.
 The horizontal blue stripe locates the [two deaths for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality) estimate of the US case-fatality ratio estimated by The Johns Hopkins University Coronavirus Resource Center.
 
-There's nothing in it. The CFR is pretty much about 0.02 in all US counties. Furthermore, the tragic turn of the pandemic in India might induce Dr. Mukherjee to revisit his original question.
+There's nothing in it. The CFR is pretty much about 0.02 in all US counties. Alas, the tragic turn of the pandemic in India might induce Dr. Mukherjee to revisit his original question.
 
 ### Why do trends in daily cases and deaths have a saw-tooth appearance?
 
