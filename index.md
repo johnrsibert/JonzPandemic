@@ -41,12 +41,49 @@ So please have a look at this stuff and act like a Fourteenth Century Venetian, 
 get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
 In the meantime, I recommend [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
-## So, how are wd doing?
-It seems reasonable to ask if it was all worth it after more than a year of watching people die, being separated from family, not getting out much, and breathing through masks.
-The vaccines seem effective and safe. We hear of places opening up again. Most of the graphs that I have been sharing show notable decreases in the number of cases per capita, for example [New York City](https:////johnrsibert.github.io/JonzPandemic/# New York City Prevalence).
+## So, how are we doing?
+Politicians make great fusses about "Opening up ... ". The vaccines seem effective and safe. The mood seems optimistic.
+Many of the graphs that I have been sharing show notable decreases in the number of cases per capita, for example [(New York City)](https://johnrsibert.github.io/JonzPandemic/#New-York-City-Prevalence).
+It seems reasonable, after more than 400 consecutive days of watching people die, being separated from family, not getting out much, 
+and breathing through masks, to ask if it was all worth it. The decreases in cases seem to be more pronounced in some areas that in others.
 
+##### Prevalence distribution across regions (under construction)
+![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 
-<!--- raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
+This graph shows the per capita prevalence in 138 regions with more than 500,000 people averaged over the most recent 14 days. 
+The number of cases relative the the population size ranges from less than 0.03 to more than 0.3 per 1000 people. The difference is about one
+an order of magnitude. The vertical red line represnts the fifth percentile of the distribution. 
+The prevalence in places to the left of the red line is lower thant 95% of all other places.
+In other words places to the left of the red line are doing much better than the majority of other places.
+In this case the seven places with the lowest prevalence are Orange County CA (OrCA), Vancouver Island BC (VIBC), Los Angeles County CA
+(LACA, larges in the USA), San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA (VeCA),
+abd Santa Barbara CA (SBCA).
+
+<!---START TABLE--->
+<table>
+<thead>
+<tr><th style="text-align: right;">  Rank</th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: right;">     0</td><td>Orange CA          </td><td style="text-align: right;">       0.024</td></tr>
+<tr><td style="text-align: right;">     1</td><td>Vancouver Island BC</td><td style="text-align: right;">       0.025</td></tr>
+<tr><td style="text-align: right;">     2</td><td>Los Angeles CA     </td><td style="text-align: right;">       0.028</td></tr>
+<tr><td style="text-align: right;">     3</td><td>San Francisco CA   </td><td style="text-align: right;">       0.029</td></tr>
+<tr><td style="text-align: right;">     4</td><td>Riverside CA       </td><td style="text-align: right;">       0.034</td></tr>
+<tr><td style="text-align: right;">     5</td><td>Ventura CA         </td><td style="text-align: right;">       0.034</td></tr>
+<tr><td style="text-align: right;">     ...</td><td> ...        </td><td style="text-align: right;">       ...</td></tr>
+<tr><td style="text-align: right;">   132</td><td>Oakland MI         </td><td style="text-align: right;">       0.324</td></tr>
+<tr><td style="text-align: right;">   133</td><td>Adams CO           </td><td style="text-align: right;">       0.324</td></tr>
+<tr><td style="text-align: right;">   134</td><td>Wayne MI           </td><td style="text-align: right;">       0.328</td></tr>
+<tr><td style="text-align: right;">   135</td><td>Macomb MI          </td><td style="text-align: right;">       0.356</td></tr>
+<tr><td style="text-align: right;">   136</td><td>Kent MI            </td><td style="text-align: right;">       0.368</td></tr>
+<tr><td style="text-align: right;">   137</td><td>El Paso CO         </td><td style="text-align: right;">       0.382</td></tr>
+</tbody>
+</table>
+<!---END TABLE--->
+
+<!--- DescribeResult(nobs=138, minmax=(0.024201699301173683, 0.3819290829478183), mean=0.14642097818725733, variance=0.0055934873709249325, skewness=0.8301916318933221, kurtosis=0.6697725903782401)
+raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
  here seem to show shar--->
 
 
