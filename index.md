@@ -1,7 +1,7 @@
 # John's Pandemic Amusements 
 #### Or how I occupied my days of social isolation
 
-Around the Ides of March, we were all asked to stay home. 
+Around the Ides of March in 2020, we were all asked to stay home. 
 The New York Times created public data bases documenting the
 course of the Covid-19 pandemic in the United States. 
 The NYT updates these data continuously and make them
@@ -40,6 +40,15 @@ Several vaccines available, and really effective. All vaccines are nearly 100% e
 So please have a look at this stuff and act like a Fourteenth Century Venetian, keep away from sick people, wear your mask, 
 get vaccinated, and I'll see you all in person when we emerge into the light at the end of this tunnel.
 In the meantime, I recommend [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
+
+## So, how are wd doing?
+It seems reasonable to ask if it was all worth it after more than a year of watching people die, being separated from family, not getting out much, and breathing through masks.
+The vaccines seem effective and safe. We hear of places opening up again. Most of the graphs that I have been sharing show notable decreases in the number of cases per capita, for example [New York City](https:////johnrsibert.github.io/JonzPandemic/# New York City Prevalence).
+
+
+<!--- raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
+ here seem to show shar--->
+
 
 ## How bad is it?
 The number of cases and the number of deaths are two common indicators of how bad the epidemic
