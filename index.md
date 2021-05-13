@@ -23,12 +23,12 @@ below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live)
 and on my [repository on
 GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare).
 **Have a look, download, share,** and let me know if you'd like something
-specific.  I update most graphs weekly.
+specific.  I update most graphs weekly if I remember.
 
 I also wanted to apply my rusty fish population modeling experience to
 modeling the spread of Covid-19 and have been writing some statistical
 models of the Covid-19 pandemic in the United States.  This is very much
-a work in progress.
+a work in progress, or more accurately, a work without much recent progress.
 
 Why bother doing this? I'm sure not trying to compete with the
 New York Times.  I'm mostly trying to satisfy my curiosity and
@@ -66,12 +66,11 @@ breathing through masks, to ask if it was all worth it. The decreases
 in cases seem to be more pronounced in some areas that in others.
 
 ###### Prevalence Histories
-
 Per capita prevalence histories of the 30 largest US counties.
 ![Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
 
-This messy graph makes it pretty clear that each county is experience
-the pandemic differently. (In face, I can imagine distinct patterns in
+This messy graph makes it pretty clear that each county is experiencing
+the pandemic differently. (In fact, I can imagine distinct patterns in
 these lines, but that is a diversion for another day.) The critical
 part of the daily cases graph (top) for evaluating how we are doint at
 the moment is the period since the start of 2021. Some counties
@@ -83,7 +82,6 @@ the averages per capita numbers of cases for the last few weeks.
 
 
 ###### Current Prevalance
-
 Per capita prevalence averaged over the most recent 14 days in regions
 with more than 500,000 people.
 
