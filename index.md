@@ -72,31 +72,31 @@ Per capita prevalence histories of the 30 largest US counties.
 This messy graph makes it pretty clear that each county is experiencing
 the pandemic differently. (In fact, I can imagine distinct patterns in
 these lines, but that is a diversion for another day.) The critical
-part of the daily cases graph (top) for evaluating how we are doint at
+part of the daily cases graph (top) for evaluating how we are doing at
 the moment is the period since the start of 2021. Some counties
 experienced a surge. Other counties enjoyed a substantial decrease in
 the number of cases, but the details of current numbers of cases
-cannot be distinguished from the simple graph. Lets have a look at
-the averages per capita numbers of cases for the last few weeks.
+cannot be distinguished from the simple graph. So, lets just look at
+the average per capita numbers of cases for the last few weeks.
 
 
 
 ###### Current Prevalance
-Per capita prevalence averaged over the most recent 14 days in regions
+Cases per 1000 people averaged over the most recent two weeks in regions
 with more than 500,000 people.
 
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 
 Prevalence  ranges from less than 0.03 to more than 0.3 cases per 1000
-people, a renge of  about one an order of magnitude. The vertical
+people, a range of about one order of magnitude. The vertical
 red line represnts the fifth percentile of the distribution. The
 prevalence in places to the left of the red line is lower than 95%
 of all other places. The places to the left of the red line are doing
-much better than the majority of other places. At beginning of May 2021,
-the lowest prevalence are Orange County CA (OrCA), Vancouver Island BC
+much better than the majority of other places. In early May of 2021,
+the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vancouver Island BC
 (VIBC), Los Angeles County CA (LACA, mot populous county in the USA),
 San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
-(VeCA), abd Santa Barbara CA (SBCA).
+(VeCA), and Santa Barbara CA (SBCA).
 
 <!---START TABLE--->
 
@@ -133,13 +133,12 @@ style="text-align: right;">       0.382</td></tr> </tbody> </table>
 minmax=(0.024201699301173683, 0.3819290829478183),
 mean=0.14642097818725733, variance=0.0055934873709249325,
 skewness=0.8301916318933221, kurtosis=0.6697725903782401)
-raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
- here seem to show shar--->
+--->
 
 ## How bad is it?
 
 The number of cases and the number of deaths are two common indicators
-of how bad the epidemic has become.  It seems useful refer to number
+of how bad the epidemic has become.  It is useful refer to number
 of cases and the number of deaths divided by the total population
 in an area as "prevalence" for want of a better word.  The [Times
 data repository](https://github.com/nytimes/covid-19-data) is an easy
@@ -148,9 +147,12 @@ of different trends in the spread of Covid-19 in the two most populous
 counties in the United states.
 
 The upper panel of each plot shows the number of new cases reported each
-day as vertical blue lines.  The saw-tooth appearance of the vertical bars
+day as vertical blue lines. The saw-tooth appearance of the vertical bars
 is smoothed by with an 7 day moving average shown as the heavy blue line
-marked "7da".  The middle panel of each plot is a similar presentation
+marked "7da". The horizontal red lin in the per capita cases is 0.05 cases per 1000 people.
+Ths prevalence rate is a usefule reference for comparison with other counties. 0.05 per 1000 is
+lower than than the per capita case count in 95% of all US counties.
+The middle panel of each plot is a similar presentation
 of the number of new deaths reported each day.  The lower panel in each
 plot shows the trajectory of the ratio of fatalities to cases (or Case
 Fatality Ratio, CFR), often considered a rough measure of lethality.
