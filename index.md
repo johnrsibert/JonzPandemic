@@ -58,8 +58,8 @@ the light at the end of this tunnel.  In the meantime, I recommend
 Politicians make great fusses about "Opening up ... ". The
 vaccines seem effective and safe. The mood seems optimistic.
 Many of the graphs that I have been sharing show notable
-decreases in the number of cases per capita, for example
-https://johnrsibert.github.io/JonzPandemic/#New-York-City-Prevalence.
+decreases in the number of cases per capita, 
+[for example](https://johnrsibert.github.io/JonzPandemic/#New-York-City-Prevalence).
 It seems reasonable, after more than 400 consecutive days of watching
 people die, being separated from family, not getting out much, and
 breathing through masks, to ask if it was all worth it. The decreases
