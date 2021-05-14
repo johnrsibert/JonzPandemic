@@ -5,25 +5,20 @@
 Around the Ides of March in 2020, we were all asked to stay
 home. The New York Times created public data bases documenting
 the course of the Covid-19 pandemic in the United States. The NYT
-updates these data continuously and make them freely available
-[online](https://github.com/nytimes/covid-19-data). More
-recently, the Times has created an excellent interactive [Covid-19
-tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html)
-that you can use to check out what is happening in places you care about.
+updates these data continuously and makes them freely available
+[online](https://github.com/nytimes/covid-19-data). More recently, the Times has created an excellent interactive [Covid-19
+tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain
 [GitHub](https://github.com/) for these vital public services.
 
-What is a data geek to do while sheltering in place?
-I thought it might be a good opportunity to improve my
-[python](https://www.python.org/) programming chops.  I've been
+What is a data geek to do while sheltering in place? I thought it might be a good opportunity to improve my [python](https://www.python.org/) programming chops.  I've been
 drawing lots of graphs tracking the prevalence of the disease in places
 where I can no longer travel, parts of the country where friends and
 family live.  Some of these plots can be seen by following the [links
 below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live)
-and on my [repository on
-GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare).
+and on my [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare).
 **Have a look, download, share,** and let me know if you'd like something
-specific.  I update most graphs weekly if I remember.
+specific.  I update most graphs weekly if I can remember.
 
 I also wanted to apply my rusty fish population modeling experience to
 modeling the spread of Covid-19 and have been writing some statistical
@@ -35,69 +30,78 @@ New York Times.  I'm mostly trying to satisfy my curiosity and
 I enjoy sharing sharing my results.  The data seem show that
 if you contact the Covid-19, you have about a **2% probability
 of dying within three weeks**.  This the optimistic guess.
-The distribution is skewed, and the the upper tail is pretty big
+The distribution is skewed, and the upper tail is pretty big
 [(below)](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
-The data also seem to show that the spread of the virus can be slowed
-by implementation of policies that aim to change individual behavior.
+The data also seem to show that the spread of the virus can be slowed.
 Finally, the data seem to show that front-line health workers have
 learned how to improve treatment of the disease to reduce mortality.
 So while the situation seems scary, especially so as we move into
 our second year of the pandemic, there are reasons to be optimistic.
-Several vaccines available, and really effective. All vaccines are nearly
+Several vaccines available and really effective. All vaccines are nearly
 100% effective in preventing death and serious illness and over 90%
-effective in preventing infection. **Get jabbed!**
+effective in preventing infection. Listen to "Sleepy Joe", our new
+President: **Get the jab!**
 
 So please have a look at this stuff and act like a Fourteenth
 Century Venetian, keep away from sick people, wear your mask,
 get vaccinated, and I'll see you all in person when we emerge into
-the light at the end of this tunnel.  In the meantime, I recommend
+the light at the end of this tunnel. In the meantime, I recommend
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
 ## So, how are we doing? (under construction)
 
-Politicians make great fusses about "Opening up ... ". The
+Politicians are making great fusses about "Opening up ... ". The
 vaccines seem effective and safe. The mood seems optimistic.
 Many of the graphs that I have been sharing show notable
 decreases in the number of cases per capita, 
 [for example](https://johnrsibert.github.io/JonzPandemic/#new-york-city-prevalence).
-It seems reasonable, after more than 400 consecutive days of watching
+
+After more than 400 consecutive days of watching
 people die, being separated from family, not getting out much, and
-breathing through masks, to ask if it was all worth it. The decreases
-in cases seem to be more pronounced in some areas that in others.
+breathing through masks, it seems reasonable to ask if it was all
+worth it.
 
-###### Prevalence Histories
-Per capita prevalence histories of the 30 largest US counties.
+###### Prevalence Histories Compared
+
 ![Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
+Per capita prevalence histories of the 30 largest US counties.
 
-This messy graph makes it pretty clear that each county is experiencing
-the pandemic differently. (In fact, I can imagine distinct patterns in
+This ugly graph makes it pretty clear that each county is experiencing
+the pandemic differently. (I imagine distinct patterns in
 these lines, but that is a diversion for another day.) The critical
-part of the daily cases graph (top) for evaluating how we are doing at
+part of the daily cases graph (top graph) for evaluating how we are doing at
 the moment is the period since the start of 2021. Some counties
-experienced a surge. Other counties enjoyed a substantial decrease in
-the number of cases, but the details of current numbers of cases
-cannot be distinguished from the simple graph. So, lets just look at
-the average per capita numbers of cases for the last few weeks.
+experienced a surge in cases. Other counties enjoyed a substantial
+decreases, but the details of current numbers of cases
+cannot be seen from this simple graph. So, lets just look at
+the numbers of cases for the last few weeks.
 
-
-
-###### Current Prevalance
+###### Current Prevalence
+![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions
 with more than 500,000 people.
-
-![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
-
-Prevalence  ranges from less than 0.03 to more than 0.3 cases per 1000
-people, a range of about one order of magnitude. The vertical
-red line represnts the fifth percentile of the distribution. The
-prevalence in places to the left of the red line is lower than 95%
-of all other places. The places to the left of the red line are doing
-much better than the majority of other places. In early May of 2021,
+Average prevalence  ranges from less than 0.03 to greater than 0.3 cases per 1000
+people, a range of one order of magnitude. The vertical
+red line represents the fifth percentile of the distribution.
+Prevalence estimates in places to the left of the red line is lower than
+estimates in 95% of all other places. In other works, places to the
+left of the red line are doing much better than the majority of other
+places. In early May of 2021,
 the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vancouver Island BC
 (VIBC), Los Angeles County CA (LACA, mot populous county in the USA),
 San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
 (VeCA), and Santa Barbara CA (SBCA).
+Theses ranking are more clearly expressed in the following table. You
+are more likely to encounter an person infected with Covid-19 in
+Michigan than in California.
 
+<!--- DescribeResult(nobs=138,
+minmax=(0.024201699301173683, 0.3819290829478183),
+mean=0.14642097818725733, variance=0.0055934873709249325,
+skewness=0.8301916318933221, kurtosis=0.6697725903782401)
+--->
+
+#### Top and bottom of the range
 <!---START TABLE--->
 
 <table> <thead> <tr><th style="text-align: right;">  Rank</th><th>Region
@@ -127,13 +131,8 @@ right;">       0.328</td></tr> <tr><td style="text-align: right;">
 </td><td style="text-align: right;">       0.368</td></tr> <tr><td
 style="text-align: right;">   137</td><td>El Paso CO         </td><td
 style="text-align: right;">       0.382</td></tr> </tbody> </table>
-<!---END TABLE--->
 
-<!--- DescribeResult(nobs=138,
-minmax=(0.024201699301173683, 0.3819290829478183),
-mean=0.14642097818725733, variance=0.0055934873709249325,
-skewness=0.8301916318933221, kurtosis=0.6697725903782401)
---->
+<!---END TABLE--->
 
 ## How bad is it?
 
@@ -149,12 +148,11 @@ counties in the United states.
 The upper panel of each plot shows the number of new cases reported each
 day as vertical blue lines. The saw-tooth appearance of the vertical bars
 is smoothed by with an 7 day moving average shown as the heavy blue line
-marked "7da". The horizontal red lin in the per capita cases is 0.05 cases per 1000 people.
-Ths prevalence rate is a usefule reference for comparison with other counties. 0.05 per 1000 is
-lower than than the per capita case count in 95% of all US counties.
+marked "7da". The horizontal red line in the per capita cases is 0.05 new cases per day per 1000 people.
+This prevalence rate is a useful standard for comparison with other counties. The arbitrary value 0.05 is a proxy value that is less than the per capita case count in 95% of all US counties.
 The middle panel of each plot is a similar presentation
-of the number of new deaths reported each day.  The lower panel in each
-plot shows the trajectory of the ratio of fatalities to cases (or Case
+of the number of new deaths reported each day. 
+The lower panel in each plot shows the trajectory of the ratio of fatalities to cases (or Case
 Fatality Ratio, CFR), often considered a rough measure of lethality.
 
 ##### New York City Prevalence
@@ -162,8 +160,8 @@ Fatality Ratio, CFR), often considered a rough measure of lethality.
 ![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
 
 The disease attacked the five counties that comprise New York City
-aggressively with unchecked exponential growth in March and April os
-2020.  Quarantine-like measures "flattened the curve" and kept spread
+aggressively with unchecked exponential growth in March and April of 2020.  
+Quarantine-like measures "flattened the curve" and kept spread
 of infection at low levels.  Numbers of new cases stayed relatively
 low and constant for 5 or 6 months, but began to increase in October
 and November.  Currently, the number cases is increasing exponentially
@@ -261,7 +259,7 @@ for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 **Wonkish:** The distribution of observed CFRs is skewed to the right,
 making it difficult to calculate an unambiguous central tendency.
 The median of the distribution lies to the right of the mode (or peak).
-A less misleading measure of the likelihood of death is to look a the
+A less misleading measure of the likelihood of death is to look at the
 percentiles of the distribution.  The vertical line labeled "97.5%"
 indicates the value of the case fatality ratio that is greater than 97.5%
 of all of the point estimates. If the CFR distribution were symmetrical,
@@ -276,7 +274,7 @@ zero, but ratio can never be less than zero.  So the left limb of the
 distribution includes fewer instances than the right limb.  There are
 also medical reasons for the skewness.  The larger number of values to
 the right of the peak are possibly deaths of the people most vulnerable
-to the coronavirus (people older that 65 years or people with compromised
+to Covid-19 (people older that 65 years or people with compromised
 immune systems).
 
 The dashed curve that outlines the histogram is the theoretical
@@ -334,7 +332,6 @@ The model is still under development and has evolved somewhat since the
 preliminary write-up in August 2020.
 
 ###### Estimated Instantaneous Transmission Rates
-
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
 This figure shows instantaneous transmission rates estimated by
 the simplified SIR model for the 30 largest counties in the United
@@ -352,7 +349,6 @@ begin to "fall apart" later in the Spring because of my simplification
 of the model omitting the **S**usceptible compartment.
 
 ###### Estimated Transmission Rates with "Confidence Regions"
-
 ![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
 
 This figure shows the estimated transmission rate trajectories for
@@ -457,7 +453,7 @@ reports a death on Sunday or waits until the following Monday or Tuesday.
 
 It's not rocket science. We have known how to prevent the spread of
 disease since the Tenth century when the Persian polymath Ibn Sina
-recommended confining sick people for 40 days.  The Venetians adopted
+recommended confining sick people for 40 days. The Venetians adopted
 the practice in the Fourteenth Century and called it quarantine.  If we
 were serious abut saving lives, we would get serious about staying away
 from sick people.  In fact, some places did pretty well practicing social
@@ -472,8 +468,7 @@ ago](https://www.historyofvaccines.org/timeline/all).  It didn't get
 really technical until we began to understand the immune system in the
 20th century.  Science guided to eradicate smallpox.  I'm old enough
 to remember the great fear of polio in the 1950s. I know people who
-where afflicted with polio.  Science guided us to eradicate polio in
-many countries.  Measles, mumps, rubella, and more are on the hit list.
+where afflicted with polio.  Science guided us further to eradicate polio in many countries. Measles, mumps, rubella, and more are on the hit list.
 Highly effective Covid-19 vaccines (yes plural!) are here and finding
 their way into arms.  We are both cursed and blessed to live in the
 time of Covid-19.  The curse is obvious. We risk losing family, friends
