@@ -92,7 +92,7 @@ the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vanc
 San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
 (VeCA), and Santa Barbara CA (SBCA).
 Theses ranking are more clearly expressed in the following table. You
-are more likely to encounter an person infected with Covid-19 in
+are more likely to encounter a person infected with Covid-19 in
 Michigan than in California.
 
 <!--- DescribeResult(nobs=138,
@@ -104,33 +104,37 @@ skewness=0.8301916318933221, kurtosis=0.6697725903782401)
 #### Top and bottom of the range
 <!---START TABLE--->
 
-<table> <thead> <tr><th style="text-align: right;">  Rank</th><th>Region
-</th><th style="text-align: right;">  Prevalence</th></tr> </thead>
-<tbody> <tr><td style="text-align: right;">     0</td><td>Orange
-CA          </td><td style="text-align: right;">       0.024</td></tr>
-<tr><td style="text-align: right;">     1</td><td>Vancouver Island
-BC</td><td style="text-align: right;">       0.025</td></tr>
-<tr><td style="text-align: right;">     2</td><td>Los Angeles
-CA     </td><td style="text-align: right;">       0.028</td></tr>
-<tr><td style="text-align: right;">     3</td><td>San Francisco
-CA   </td><td style="text-align: right;">       0.029</td></tr>
-<tr><td style="text-align: right;">     4</td><td>Riverside
-CA       </td><td style="text-align: right;">       0.034</td></tr>
-<tr><td style="text-align: right;">     5</td><td>Ventura CA
-</td><td style="text-align: right;">       0.034</td></tr> <tr><td
-style="text-align: right;">     ...</td><td> ...        </td><td
-style="text-align: right;">       ...</td></tr> <tr><td style="text-align:
-right;">   132</td><td>Oakland MI         </td><td style="text-align:
-right;">       0.324</td></tr> <tr><td style="text-align: right;">
-133</td><td>Adams CO           </td><td style="text-align:
-right;">       0.324</td></tr> <tr><td style="text-align: right;">
-134</td><td>Wayne MI           </td><td style="text-align:
-right;">       0.328</td></tr> <tr><td style="text-align: right;">
-135</td><td>Macomb MI          </td><td style="text-align: right;">
-0.356</td></tr> <tr><td style="text-align: right;">   136</td><td>Kent MI
-</td><td style="text-align: right;">       0.368</td></tr> <tr><td
-style="text-align: right;">   137</td><td>El Paso CO         </td><td
-style="text-align: right;">       0.382</td></tr> </tbody> </table>
+<table>
+<thead>
+<tr><th style="text-align: right;">  Rank</th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align: right;">     0</td><td>Vancouver Island BC</td><td style="text-align: right;">       0.019</td></tr>
+<tr><td style="text-align: right;">     1</td><td>Orange CA          </td><td style="text-align: right;">       0.023</td></tr>
+<tr><td style="text-align: right;">     2</td><td>Santa Clara CA     </td><td style="text-align: right;">       0.025</td></tr>
+<tr><td style="text-align: right;">     3</td><td>San Francisco CA   </td><td style="text-align: right;">       0.027</td></tr>
+<tr><td style="text-align: right;">     4</td><td>Los Angeles CA     </td><td style="text-align: right;">       0.028</td></tr>
+<tr><td style="text-align: right;">     5</td><td>San Bernardino CA  </td><td style="text-align: right;">       0.033</td></tr>
+<tr><td style="text-align: right;">     6</td><td>Ventura CA         </td><td style="text-align: right;">       0.035</td></tr>
+<tr><td style="text-align: right;">     7</td><td>Riverside CA       </td><td style="text-align: right;">       0.039</td></tr>
+<tr><td style="text-align: right;">     8</td><td>Montgomery MD      </td><td style="text-align: right;">       0.043</td></tr>
+<tr><td style="text-align: right;">     9</td><td>Essex NJ           </td><td style="text-align: right;">       0.047</td></tr>
+<tr><td style="text-align: right;">     ... </td><td> ...           </td><td style="text-align: right;">       ... </td></tr>  
+<tr><td style="text-align: right;">   128</td><td>Monroe NY          </td><td style="text-align: right;">       0.262</td></tr>
+<tr><td style="text-align: right;">   129</td><td>Wayne MI           </td><td style="text-align: right;">       0.268</td></tr>
+<tr><td style="text-align: right;">   130</td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.272</td></tr>
+<tr><td style="text-align: right;">   131</td><td>Macomb MI          </td><td style="text-align: right;">       0.286</td></tr>
+<tr><td style="text-align: right;">   132</td><td>Oakland MI         </td><td style="text-align: right;">       0.288</td></tr>
+<tr><td style="text-align: right;">   133</td><td>Pierce WA          </td><td style="text-align: right;">       0.294</td></tr>
+<tr><td style="text-align: right;">   134</td><td>Adams CO           </td><td style="text-align: right;">       0.312</td></tr>
+<tr><td style="text-align: right;">   135</td><td>Kent MI            </td><td style="text-align: right;">       0.323</td></tr>
+<tr><td style="text-align: right;">   136</td><td>Jefferson AL       </td><td style="text-align: right;">       0.330</td></tr>
+<tr><td style="text-align: right;">   137</td><td>El Paso CO         </td><td style="text-align: right;">       0.349</td></tr>
+</tbody>
+</table>
+
+Updated 2021-05-15
+
 
 <!---END TABLE--->
 
