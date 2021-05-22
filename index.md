@@ -96,7 +96,7 @@ the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vanc
 San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
 (VeCA), and Santa Barbara CA (SBCA).
 Theses ranking are more clearly expressed in the following table. You
-are more likely to encounter an person infected with Covid-19 in
+are more likely to encounter a person infected with Covid-19 in
 Michigan than in California.
 
 <!---
