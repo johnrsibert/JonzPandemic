@@ -82,25 +82,22 @@ the numbers of cases for the last few weeks.
 
 ###### Current Prevalence
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
-Cases per 1000 people averaged over the most recent two weeks in regions
-with more than 500,000 people.
+Cases per 1000 people averaged over the most recent two weeks 
+in regions with more than 500,000 people.
 Average prevalence  ranges from less than 0.03 to greater than 0.3 cases per 1000
 people, a range of one order of magnitude. The vertical
 red line represents the fifth percentile of the distribution.
-Prevalence estimates in places to the left of the red line is lower than
+Prevalence estimates to the left of the red line are lower than
 estimates in 95% of all other places. In other words, places to the
-left of the red line are doing much better than the majority of other
-places. In early May of 2021,
-the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vancouver Island BC
-(VIBC), Los Angeles County CA (LACA, mot populous county in the USA),
-San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
-(VeCA), and Santa Barbara CA (SBCA).
-Theses ranking are more clearly expressed in the following table. You
-are more likely to encounter a person infected with Covid-19 in
-Michigan than in California.
+left of the red line are doing much better than the majority of other places. 
+
+In late May of 2010 the places to the left of the red line seem to be changing rapidly. Nevertheless Vancouver Island BC and several counties in California are regulars in the lowest 5%.
+The ranking is more clearly expressed in the following table. You
+are less likely to encounter a person infected with Covid-19 in
+California than in other states.
 
 <!---
-DescribeResult(nobs=138, minmax=(0.016526796499235635, 0.3491101508461236), mean=0.12760583578255028, variance=0.004720015765138381, skewness=1.0443477140993667, kurtosis=1.0180367530025745)
+DescribeResult
 --->
 
 #### Top and bottom of the range
@@ -254,7 +251,7 @@ number of values of the ratio that fall into the slots defined along the
 horizontal axis.  Most of the ratios are near 0.015 for a morality rate
 of 1.5%, but there is a substantial number ratios greater than 0.02 up to
 a maximum 0.08.  The Johns Hopkins University Coronavirus Resource Center
-pegs the case-fatality ratio in the United States to be about [two deaths
+pegs the case-fatality ratio in the United States to be about [1.8 deaths
 for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 **Wonkish:** The distribution of observed CFRs is skewed to the right,
