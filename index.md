@@ -82,57 +82,58 @@ the numbers of cases for the last few weeks.
 
 ###### Current Prevalence
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
-Cases per 1000 people averaged over the most recent two weeks 
-in regions with more than 500,000 people.
+Cases per 1000 people averaged over the most recent two weeks in regions
+with more than 500,000 people.
 Average prevalence  ranges from less than 0.03 to greater than 0.3 cases per 1000
 people, a range of one order of magnitude. The vertical
 red line represents the fifth percentile of the distribution.
-Prevalence estimates to the left of the red line are lower than
+Prevalence estimates in places to the left of the red line is lower than
 estimates in 95% of all other places. In other words, places to the
-left of the red line are doing much better than the majority of other places. 
-
-In late May of 2010 the places to the left of the red line seem to be changing rapidly. Nevertheless Vancouver Island BC and several counties in California are regulars in the lowest 5%.
-The ranking is more clearly expressed in the following table. You
-are less likely to encounter a person infected with Covid-19 in
-California than in other states.
+left of the red line are doing much better than the majority of other
+places. In early May of 2021,
+the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vancouver Island BC
+(VIBC), Los Angeles County CA (LACA, mot populous county in the USA),
+San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
+(VeCA), and Santa Barbara CA (SBCA).
+Theses ranking are more clearly expressed in the following table. You
+are more likely to encounter a person infected with Covid-19 in
+Michigan than in California.
 
 <!---
-DescribeResult
+DescribeResult(nobs=138, minmax=(0.016526796499235635, 0.3491101508461236), mean=0.12760583578255028, variance=0.004720015765138381, skewness=1.0443477140993667, kurtosis=1.0180367530025745)
 --->
 
 #### Top and bottom of the range
-<table>
+<!---START TABLE---><table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th>Prevalence          </th></tr>
+<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td>0.011584960291130863</td></tr>
-<tr><td>1     </td><td>Santa Clara CA     </td><td>0.013227156441469573</td></tr>
-<tr><td>2     </td><td>San Francisco CA   </td><td>0.018960132351446956</td></tr>
-<tr><td>3     </td><td>Orange CA          </td><td>0.019523303897229328</td></tr>
-<tr><td>4     </td><td>Hudson NJ          </td><td>0.02230844850689554 </td></tr>
-<tr><td>5     </td><td>Fairfax VA         </td><td>0.024586927174393144</td></tr>
-<tr><td>6     </td><td>Montgomery MD      </td><td>0.02576543043360976 </td></tr>
-<tr><td>7     </td><td>San Mateo CA       </td><td>0.027301472173650036</td></tr>
-<tr><td>8     </td><td>Ventura CA         </td><td>0.027608720100262715</td></tr>
-<tr><td>9     </td><td>Travis TX          </td><td>0.028314545557711325</td></tr>
-<tr><td>...   </td><td>...                </td><td>...                 </td></tr>
-<tr><td>128   </td><td>Arapahoe CO        </td><td>0.16666195255573713 </td></tr>
-<tr><td>129   </td><td>Monroe NY          </td><td>0.17727867128624775 </td></tr>
-<tr><td>130   </td><td>New Castle DE      </td><td>0.17960913472883877 </td></tr>
-<tr><td>131   </td><td>Miami-Dade FL      </td><td>0.1826897696883784  </td></tr>
-<tr><td>132   </td><td>Kent MI            </td><td>0.18635762179840543 </td></tr>
-<tr><td>133   </td><td>Adams CO           </td><td>0.18705408996873782 </td></tr>
-<tr><td>134   </td><td>Pierce WA          </td><td>0.2127908114780753  </td></tr>
-<tr><td>135   </td><td>Spokane WA         </td><td>0.2675165988721129  </td></tr>
-<tr><td>136   </td><td>El Paso CO         </td><td>0.2772257829496625  </td></tr>
-<tr><td>137   </td><td>Jefferson AL       </td><td>0.32809032342872935 </td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.012</td></tr>
+<tr><td>1     </td><td>Santa Clara CA     </td><td style="text-align: right;">       0.013</td></tr>
+<tr><td>2     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.019</td></tr>
+<tr><td>3     </td><td>Orange CA          </td><td style="text-align: right;">       0.020</td></tr>
+<tr><td>4     </td><td>Hudson NJ          </td><td style="text-align: right;">       0.022</td></tr>
+<tr><td>5     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.025</td></tr>
+<tr><td>6     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.026</td></tr>
+<tr><td>7     </td><td>San Mateo CA       </td><td style="text-align: right;">       0.027</td></tr>
+<tr><td>8     </td><td>Ventura CA         </td><td style="text-align: right;">       0.028</td></tr>
+<tr><td>9     </td><td>Travis TX          </td><td style="text-align: right;">       0.028</td></tr>
+<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>128   </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.167</td></tr>
+<tr><td>129   </td><td>Monroe NY          </td><td style="text-align: right;">       0.177</td></tr>
+<tr><td>130   </td><td>New Castle DE      </td><td style="text-align: right;">       0.180</td></tr>
+<tr><td>131   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.183</td></tr>
+<tr><td>132   </td><td>Kent MI            </td><td style="text-align: right;">       0.186</td></tr>
+<tr><td>133   </td><td>Adams CO           </td><td style="text-align: right;">       0.187</td></tr>
+<tr><td>134   </td><td>Pierce WA          </td><td style="text-align: right;">       0.213</td></tr>
+<tr><td>135   </td><td>Spokane WA         </td><td style="text-align: right;">       0.268</td></tr>
+<tr><td>136   </td><td>El Paso CO         </td><td style="text-align: right;">       0.277</td></tr>
+<tr><td>137   </td><td>Jefferson AL       </td><td style="text-align: right;">       0.328</td></tr>
 </tbody>
-</table>Updated 2021-05-29
-<br>
-<br>
-
-## How bad is it?
+</table>
+Updated 2021-05-29
+<!---END TABLE--->## How bad is it?
 
 The number of cases and the number of deaths are two common indicators
 of how bad the epidemic has become.  It is useful refer to number
@@ -251,7 +252,7 @@ number of values of the ratio that fall into the slots defined along the
 horizontal axis.  Most of the ratios are near 0.015 for a morality rate
 of 1.5%, but there is a substantial number ratios greater than 0.02 up to
 a maximum 0.08.  The Johns Hopkins University Coronavirus Resource Center
-pegs the case-fatality ratio in the United States to be about [1.8 deaths
+pegs the case-fatality ratio in the United States to be about [two deaths
 for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
 **Wonkish:** The distribution of observed CFRs is skewed to the right,
