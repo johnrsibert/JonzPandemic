@@ -132,8 +132,12 @@ DescribeResult(nobs=138, minmax=(0.016526796499235635, 0.3491101508461236), mean
 <tr><td>137   </td><td>Jefferson AL       </td><td style="text-align: right;">       0.328</td></tr>
 </tbody>
 </table>
+<br>
 Updated 2021-05-29
-<!---END TABLE--->## How bad is it?
+<!---END TABLE--->
+<br>
+
+## How bad is it?
 
 The number of cases and the number of deaths are two common indicators
 of how bad the epidemic has become.  It is useful refer to number
