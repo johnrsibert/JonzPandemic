@@ -109,33 +109,31 @@ DescribeResult(nobs=138, minmax=(0.016526796499235635, 0.3491101508461236), mean
 <tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>1     </td><td>Santa Clara CA     </td><td style="text-align: right;">       0.013</td></tr>
-<tr><td>2     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.019</td></tr>
-<tr><td>3     </td><td>Orange CA          </td><td style="text-align: right;">       0.020</td></tr>
-<tr><td>4     </td><td>Hudson NJ          </td><td style="text-align: right;">       0.022</td></tr>
-<tr><td>5     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.025</td></tr>
-<tr><td>6     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.026</td></tr>
-<tr><td>7     </td><td>San Mateo CA       </td><td style="text-align: right;">       0.027</td></tr>
-<tr><td>8     </td><td>Ventura CA         </td><td style="text-align: right;">       0.028</td></tr>
-<tr><td>9     </td><td>Travis TX          </td><td style="text-align: right;">       0.028</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>1     </td><td>Santa Clara CA     </td><td style="text-align: right;">       0.014</td></tr>
+<tr><td>2     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.016</td></tr>
+<tr><td>3     </td><td>Orange CA          </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>4     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>5     </td><td>Riverside CA       </td><td style="text-align: right;">       0.020</td></tr>
+<tr><td>6     </td><td>Ventura CA         </td><td style="text-align: right;">       0.020</td></tr>
+<tr><td>7     </td><td>Travis TX          </td><td style="text-align: right;">       0.021</td></tr>
+<tr><td>8     </td><td>San Diego CA       </td><td style="text-align: right;">       0.021</td></tr>
+<tr><td>9     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.023</td></tr>
 <tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>128   </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.167</td></tr>
-<tr><td>129   </td><td>Monroe NY          </td><td style="text-align: right;">       0.177</td></tr>
-<tr><td>130   </td><td>New Castle DE      </td><td style="text-align: right;">       0.180</td></tr>
-<tr><td>131   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.183</td></tr>
-<tr><td>132   </td><td>Kent MI            </td><td style="text-align: right;">       0.186</td></tr>
-<tr><td>133   </td><td>Adams CO           </td><td style="text-align: right;">       0.187</td></tr>
-<tr><td>134   </td><td>Pierce WA          </td><td style="text-align: right;">       0.213</td></tr>
-<tr><td>135   </td><td>Spokane WA         </td><td style="text-align: right;">       0.268</td></tr>
-<tr><td>136   </td><td>El Paso CO         </td><td style="text-align: right;">       0.277</td></tr>
-<tr><td>137   </td><td>Jefferson AL       </td><td style="text-align: right;">       0.328</td></tr>
+<tr><td>128   </td><td>Monroe NY          </td><td style="text-align: right;">       0.110</td></tr>
+<tr><td>129   </td><td>Kent MI            </td><td style="text-align: right;">       0.112</td></tr>
+<tr><td>130   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.123</td></tr>
+<tr><td>131   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.131</td></tr>
+<tr><td>132   </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.150</td></tr>
+<tr><td>133   </td><td>Adams CO           </td><td style="text-align: right;">       0.152</td></tr>
+<tr><td>134   </td><td>Providence RI      </td><td style="text-align: right;">       0.153</td></tr>
+<tr><td>135   </td><td>Pierce WA          </td><td style="text-align: right;">       0.195</td></tr>
+<tr><td>136   </td><td>El Paso CO         </td><td style="text-align: right;">       0.234</td></tr>
+<tr><td>137   </td><td>Spokane WA         </td><td style="text-align: right;">       0.272</td></tr>
 </tbody>
-</table>
-<br>
-Updated 2021-05-29
-<!---END TABLE--->
-<br>
+</table><br>
+Updated 2021-06-05<br>
+<!---END TABLE---><br>
 
 ## How bad is it?
 
