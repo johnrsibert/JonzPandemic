@@ -89,15 +89,8 @@ people, a range of one order of magnitude. The vertical
 red line represents the fifth percentile of the distribution.
 Prevalence estimates in places to the left of the red line is lower than
 estimates in 95% of all other places. In other words, places to the
-left of the red line are doing much better than the majority of other
-places. In early May of 2021,
-the lowest numbers of cases per 1000 people are in Orange County CA (OrCA), Vancouver Island BC
-(VIBC), Los Angeles County CA (LACA, mot populous county in the USA),
-San Francisco CA (SFCA), Riverside County CA (RiCA), Ventura County CA
-(VeCA), and Santa Barbara CA (SBCA).
-Theses ranking are more clearly expressed in the following table. You
-are more likely to encounter a person infected with Covid-19 in
-Michigan than in California.
+left of the red line are doing much better than the majority of other places.
+Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as to several counties in California.
 
 <!---
 DescribeResult(nobs=138, minmax=(0.016526796499235635, 0.3491101508461236), mean=0.12760583578255028, variance=0.004720015765138381, skewness=1.0443477140993667, kurtosis=1.0180367530025745)
@@ -149,8 +142,9 @@ counties in the United states.
 The upper panel of each plot shows the number of new cases reported each
 day as vertical blue lines. The saw-tooth appearance of the vertical bars
 is smoothed by with an 7 day moving average shown as the heavy blue line
-marked "7da". The horizontal red line in the per capita cases is 0.05 new cases per day per 1000 people.
-This prevalence rate is a useful standard for comparison with other counties. The arbitrary value 0.05 is a proxy value that is less than the per capita case count in 95% of all US counties.
+marked "7da". 
+The horizontal red line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
+It marks the number of cases per 1000 people that is less than or equal to the lowest 5% of the prevalence estimates in all counties with more then 500,000 people.
 The middle panel of each plot is a similar presentation
 of the number of new deaths reported each day. 
 The lower panel in each plot shows the trajectory of the ratio of fatalities to cases (or Case
@@ -495,6 +489,9 @@ lead** to provide the economic and logistical support required to get
 us through.
 
 ## What's new?
+#### June 6, 2021
+- Rescale axis in prevalence graphs to more easily visualize variability at low levels pr prevalence.
+- Set prevalence comparison line to correspond to lowest fifth percentile.
 
 #### May 13, 2021
 
@@ -502,9 +499,11 @@ us through.
 
 #### May 2, 2021
 
-- Added reference line to per pcapita prevalence at 0.05 cases per
-  1000 people to simplify comparisons between areas. Very few areas have
-  prevalence rates this low.  - Fix some typo's and add a caveates to the
+- Added reference line to per capita prevalence at 0.05 cases per
+  1000 people to simplify comparisons between areas. 
+Very few areas have
+  prevalence rates this low.  
+- Fix some typo's and add a caveates to the
   model interpretation.
 
 #### April 12, 2021
