@@ -104,7 +104,7 @@ DescribeResult(nobs=138, minmax=(0.006724137791355675, 0.27229856054755924), mea
 <tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.006</td></tr>
 <tr><td>1     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.012</td></tr>
 <tr><td>2     </td><td>Santa Clara CA     </td><td style="text-align: right;">       0.014</td></tr>
 <tr><td>3     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.016</td></tr>
@@ -127,9 +127,8 @@ DescribeResult(nobs=138, minmax=(0.006724137791355675, 0.27229856054755924), mea
 <tr><td>137   </td><td>Spokane WA         </td><td style="text-align: right;">       0.249</td></tr>
 </tbody>
 </table><br>
-Updated 2021-06-06<br>
+Updated 2021-06-12<br>
 <!---END TABLE--->
-
 ## How bad is it?
 
 The number of cases and the number of deaths are two common indicators
