@@ -47,108 +47,7 @@ Century Venetian, keep away from sick people, wear your mask,
 get vaccinated, and I'll see you all in person when we emerge into
 the light at the end of this tunnel. In the meantime, I recommend
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
-
-## So, how are we doing?
-
-Politicians are making great fusses about "Opening up ... ". The
-vaccines seem effective and safe. The mood seems optimistic.
-Many of the graphs that I have been sharing show notable
-decreases in the number of cases per capita, 
-[for example](https://johnrsibert.github.io/JonzPandemic/#new-york-city-prevalence).
-
-After more than 400 consecutive days of watching
-people die, being separated from family, not getting out much, and
-breathing through masks, it seems reasonable to ask if it was all
-worth it.
-
-###### Prevalence Histories Compared
-
-![Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
-Per capita prevalence histories of the 30 largest US counties.
-
-These ugly graphs make it pretty clear that each county is experiencing the pandemic differently. 
-(I imagine distinct patterns in
-these lines, but that is a diversion for another day.) 
-The most interesting aspect may be the vertical green bar in the lower panel marking June 25 2020, the date that the United States
-National Institutes of Health Treatment Guidelines Panel published recommendations on the use of corticosteroids in patients with COVID-19 [see](https://www.patientcareonline.com/view/nih-dexamethasone-recommendations-for-patients-with-covid-19/). Case fatality ratios are and remain consistently lower after that date.
-
-The critical
-part of the daily cases graph (top graph) for evaluating how we are doing at
-the moment is the period since the start of 2021. Some counties
-experienced a surge in cases. Other counties enjoyed a substantial
-decreases, but the details of current numbers of cases
-cannot be seen from this simple graph. So, lets just look at
-the numbers of cases for the last few weeks.
-
-###### Current Prevalence
-![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
-Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
-
-Average prevalence is decreasing weekly. As of July 1 the  twoo week average prevalence ranges from about 0.003 to greater than 0.14 cases per 1000 people. 
-The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
-estimates in 95% of all other places. In other words, places to the
-left of the red line are doing much better than the majority of other places.
-Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as to several counties in California.
-
-
-#### Top and bottom of the range
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.0031001245720788414, 0.14273225056230418), mean=0.03274204525258152, variance=0.0005858763811608619, skewness=1.5855539333828916, kurtosis=3.05201522493147)
---->
-<!---START TABLE--->
-<table>
-<thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
-</thead>
-<tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.003</td></tr>
-<tr><td>1     </td><td>Davidson TN        </td><td style="text-align: right;">       0.005</td></tr>
-<tr><td>2     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.005</td></tr>
-<tr><td>3     </td><td>Jefferson KY       </td><td style="text-align: right;">       0.007</td></tr>
-<tr><td>4     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.007</td></tr>
-<tr><td>5     </td><td>Erie NY            </td><td style="text-align: right;">       0.007</td></tr>
-<tr><td>6     </td><td>Plymouth MA        </td><td style="text-align: right;">       0.007</td></tr>
-<tr><td>7     </td><td>Bucks PA           </td><td style="text-align: right;">       0.007</td></tr>
-<tr><td>8     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.008</td></tr>
-<tr><td>9     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.008</td></tr>
-<tr><td>10    </td><td>Montgomery PA      </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>11    </td><td>Worcester MA       </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>12    </td><td>Anne Arundel MD    </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>13    </td><td>Bristol MA         </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>14    </td><td>Delaware PA        </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>15    </td><td>Baltimore MD       </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>16    </td><td>Suffolk MA         </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>17    </td><td>Essex MA           </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>18    </td><td>Harris TX          </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>19    </td><td>Lancaster PA       </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>118   </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.058</td></tr>
-<tr><td>119   </td><td>St. Louis MO       </td><td style="text-align: right;">       0.059</td></tr>
-<tr><td>120   </td><td>Lee FL             </td><td style="text-align: right;">       0.060</td></tr>
-<tr><td>121   </td><td>Stanislaus CA      </td><td style="text-align: right;">       0.060</td></tr>
-<tr><td>122   </td><td>Adams CO           </td><td style="text-align: right;">       0.066</td></tr>
-<tr><td>123   </td><td>Brevard FL         </td><td style="text-align: right;">       0.067</td></tr>
-<tr><td>124   </td><td>Volusia FL         </td><td style="text-align: right;">       0.068</td></tr>
-<tr><td>125   </td><td>Polk FL            </td><td style="text-align: right;">       0.069</td></tr>
-<tr><td>126   </td><td>Orange FL          </td><td style="text-align: right;">       0.070</td></tr>
-<tr><td>127   </td><td>Maricopa AZ        </td><td style="text-align: right;">       0.070</td></tr>
-<tr><td>128   </td><td>Broward FL         </td><td style="text-align: right;">       0.070</td></tr>
-<tr><td>129   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.076</td></tr>
-<tr><td>130   </td><td>Hidalgo TX         </td><td style="text-align: right;">       0.076</td></tr>
-<tr><td>131   </td><td>Salt Lake UT       </td><td style="text-align: right;">       0.085</td></tr>
-<tr><td>132   </td><td>Spokane WA         </td><td style="text-align: right;">       0.092</td></tr>
-<tr><td>133   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.094</td></tr>
-<tr><td>134   </td><td>Duval FL           </td><td style="text-align: right;">       0.100</td></tr>
-<tr><td>135   </td><td>Utah UT            </td><td style="text-align: right;">       0.102</td></tr>
-<tr><td>136   </td><td>El Paso CO         </td><td style="text-align: right;">       0.105</td></tr>
-<tr><td>137   </td><td>Clark NV           </td><td style="text-align: right;">       0.143</td></tr>
-</tbody>
-</table>
-<br>
-Updated 2021-07-01
-<br>
-<!---END TABLE--->
-
+## How bad is it?
 The number of cases and the number of deaths are two common indicators of how bad the epidemic has become. It is useful refer to number of cases and the number of deaths divided by the total population in an area as “prevalence” for want of a better word. The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
 `
 The upper panel of each plot shows the number of new cases reported each
@@ -218,6 +117,108 @@ a place you love, let me know and I'll try to include it.
 - [Tompkins County, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/TompkinsNY_prevalence.png) 
 - [Vancouver Island, BC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/Vancouver_IslandBC_prevalence.png) (Cases only; data on daily deaths not readily available.)
 - [Washington DC](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/PlotsToShare/District_of_ColumbiaDC_prevalence.png)
+
+## So, how are we doing?
+
+Politicians are making great fusses about "Opening up ... ". The
+vaccines seem effective and safe. The mood seems optimistic.
+Many of the graphs that I have been sharing show notable
+decreases in the number of cases per capita, 
+[for example](https://johnrsibert.github.io/JonzPandemic/#new-york-city-prevalence).
+
+After more than 400 consecutive days of watching
+people die, being separated from family, not getting out much, and
+breathing through masks, it seems reasonable to ask if it was all
+worth it.
+
+##### Prevalence Histories Compared
+
+![Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
+Per capita prevalence histories of the 30 largest US counties.
+
+These ugly graphs make it pretty clear that each county is experiencing the pandemic differently. 
+(I imagine distinct patterns in
+these lines, but that is a diversion for another day.) 
+The most interesting aspect may be the vertical green bar in the lower panel marking June 25 2020, the date that the United States
+National Institutes of Health Treatment Guidelines Panel published recommendations on the use of corticosteroids in patients with COVID-19 [see](https://www.patientcareonline.com/view/nih-dexamethasone-recommendations-for-patients-with-covid-19/). Case fatality ratios are and remain consistently lower after that date.
+
+The critical
+part of the daily cases graph (top graph) for evaluating how we are doing at
+the moment is the period since the start of 2021. Some counties
+experienced a surge in cases. Other counties enjoyed a substantial
+decreases, but the details of current numbers of cases
+cannot be seen from this simple graph. So, lets just look at
+the numbers of cases for the last few weeks.
+
+##### Current Prevalence
+![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
+Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
+
+Average prevalence is decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to greater than 0.14 cases per 1000 people. 
+The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
+estimates in 95% of all other places. In other words, places to the
+left of the red line are doing much better than the majority of other places.
+Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as to several counties in California.
+
+
+#### Top and bottom of the range
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.0031001245720788414, 0.14273225056230418), mean=0.03274204525258152, variance=0.0005858763811608619, skewness=1.5855539333828916, kurtosis=3.05201522493147)
+--->
+<!---START TABLE--->
+<table>
+<thead>
+<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+</thead>
+<tbody>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.003</td></tr>
+<tr><td>1     </td><td>Davidson TN        </td><td style="text-align: right;">       0.005</td></tr>
+<tr><td>2     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.005</td></tr>
+<tr><td>3     </td><td>Jefferson KY       </td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>4     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>5     </td><td>Erie NY            </td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>6     </td><td>Plymouth MA        </td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>7     </td><td>Bucks PA           </td><td style="text-align: right;">       0.007</td></tr>
+<tr><td>8     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.008</td></tr>
+<tr><td>9     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.008</td></tr>
+<tr><td>10    </td><td>Montgomery PA      </td><td style="text-align: right;">       0.009</td></tr>
+<tr><td>11    </td><td>Worcester MA       </td><td style="text-align: right;">       0.009</td></tr>
+<tr><td>12    </td><td>Anne Arundel MD    </td><td style="text-align: right;">       0.009</td></tr>
+<tr><td>13    </td><td>Bristol MA         </td><td style="text-align: right;">       0.010</td></tr>
+<tr><td>14    </td><td>Delaware PA        </td><td style="text-align: right;">       0.011</td></tr>
+<tr><td>15    </td><td>Baltimore MD       </td><td style="text-align: right;">       0.011</td></tr>
+<tr><td>16    </td><td>Suffolk MA         </td><td style="text-align: right;">       0.011</td></tr>
+<tr><td>17    </td><td>Essex MA           </td><td style="text-align: right;">       0.012</td></tr>
+<tr><td>18    </td><td>Harris TX          </td><td style="text-align: right;">       0.012</td></tr>
+<tr><td>19    </td><td>Lancaster PA       </td><td style="text-align: right;">       0.012</td></tr>
+<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>118   </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.058</td></tr>
+<tr><td>119   </td><td>St. Louis MO       </td><td style="text-align: right;">       0.059</td></tr>
+<tr><td>120   </td><td>Lee FL             </td><td style="text-align: right;">       0.060</td></tr>
+<tr><td>121   </td><td>Stanislaus CA      </td><td style="text-align: right;">       0.060</td></tr>
+<tr><td>122   </td><td>Adams CO           </td><td style="text-align: right;">       0.066</td></tr>
+<tr><td>123   </td><td>Brevard FL         </td><td style="text-align: right;">       0.067</td></tr>
+<tr><td>124   </td><td>Volusia FL         </td><td style="text-align: right;">       0.068</td></tr>
+<tr><td>125   </td><td>Polk FL            </td><td style="text-align: right;">       0.069</td></tr>
+<tr><td>126   </td><td>Orange FL          </td><td style="text-align: right;">       0.070</td></tr>
+<tr><td>127   </td><td>Maricopa AZ        </td><td style="text-align: right;">       0.070</td></tr>
+<tr><td>128   </td><td>Broward FL         </td><td style="text-align: right;">       0.070</td></tr>
+<tr><td>129   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.076</td></tr>
+<tr><td>130   </td><td>Hidalgo TX         </td><td style="text-align: right;">       0.076</td></tr>
+<tr><td>131   </td><td>Salt Lake UT       </td><td style="text-align: right;">       0.085</td></tr>
+<tr><td>132   </td><td>Spokane WA         </td><td style="text-align: right;">       0.092</td></tr>
+<tr><td>133   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.094</td></tr>
+<tr><td>134   </td><td>Duval FL           </td><td style="text-align: right;">       0.100</td></tr>
+<tr><td>135   </td><td>Utah UT            </td><td style="text-align: right;">       0.102</td></tr>
+<tr><td>136   </td><td>El Paso CO         </td><td style="text-align: right;">       0.105</td></tr>
+<tr><td>137   </td><td>Clark NV           </td><td style="text-align: right;">       0.143</td></tr>
+</tbody>
+</table>
+<br>
+Updated 2021-07-01
+<br>
+<!---END TABLE--->
+
 
 ## How dangerous is it?
 
