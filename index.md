@@ -154,11 +154,11 @@ the numbers of cases for the last few weeks.
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
-Average prevalence is decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to greater than 0.14 cases per 1000 people. 
+Average prevalence is decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to more than 0.14 cases per 1000 people. 
 The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
-estimates in 95% of all other places. In other words, places to the
-left of the red line are doing much better than the majority of other places.
-Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as to several counties in California.
+estimates in 95% of all 138 places. In other words, places to the
+left of the red line are controlling infections better than the most other places.
+Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as have several counties in California. However California counties have dropped out of the lowest tier since the June 15 "reopening" of the state.
 
 
 #### Top and bottom of the range
@@ -224,8 +224,8 @@ Updated 2021-07-01
 
 The number of reported deaths divided by the number of reported
 cases, or case-fatality ratio (CFR), is often considered to be
-a measure of the risk of dying from a pandemic [CDC Principles of
-Epidemiology](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
+a measure of the risk of dying from a pandemic [(CDC Principles of
+Epidemiology)](https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html).
 The following plots illustrate some of the relationships between an
 deaths and cases and summarize current Case Fatality ratios.
 
