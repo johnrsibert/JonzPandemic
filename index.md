@@ -131,20 +131,23 @@ people die, being separated from family, not getting out much, and
 breathing through masks, it seems reasonable to ask if it was all
 worth it.
 
-##### Prevalence Histories Compared
+##### Prevalence Histories Since Apriil 2021 Compared
 
-![Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
+![Recent Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
 Per capita prevalence histories of the 30 largest US counties.
-
+<!---
 These ugly graphs make it pretty clear that each county is experiencing the pandemic differently. 
 (I imagine distinct patterns in
 these lines, but that is a diversion for another day.) 
 The most interesting aspect may be the vertical green bar in the lower panel marking June 25 2020, the date that the United States
 National Institutes of Health Treatment Guidelines Panel published recommendations on the use of corticosteroids in patients with COVID-19 [see](https://www.patientcareonline.com/view/nih-dexamethasone-recommendations-for-patients-with-covid-19/). Case fatality ratios are and remain consistently lower after that date.
+--->
 
-The critical
-part of the daily cases graph (top graph) for evaluating how we are doing at
-the moment is the period since the start of 2021. Some counties
+The daily cases graph (top graph) is a good indications of how we are doing preventing the spread of Covid-19 disease.
+The dramatic decrease in number of cases per capitata during April, May and June is pretty clear. Most epidemiologists attribute this decrease to the rapid success of vaccination efforts.
+Cases started to increase again in July. The increase may have been triggered by July 4 US Independence Day celebrations.
+More importantly the increase in cases continues because the pace of vaccination has slowed and the newer, highly contagious, Delta variant has become dominant in the United States.
+Some counties
 experienced a surge in cases. Other counties enjoyed a substantial
 decreases, but the details of current numbers of cases
 cannot be seen from this simple graph. So, lets just look at
@@ -154,20 +157,14 @@ the numbers of cases for the last few weeks.
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
-Average prevalence is decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to more than 0.14 cases per 1000 people. 
+Average prevalence has been decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.002 to more than 0.3 cases per 1000 people. 
 The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
 estimates in 95% of all 138 places. In other words, places to the
 left of the red line are controlling infections better than the most other places.
-Prevalence rates were declined rapidly since April and May 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently show very low prevalence as have several counties in California. However California counties have dropped out of the lowest tier since the June 15 "reopening" of the state.
+Prevalence rates declined rapidly since April 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently shows very low prevalence as do several counties in California. However California counties have dropped out of the lowest tier since the June 15 "reopening" of the state.
 
 
 #### Top and bottom of the range
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.0031001245720788414, 0.14273225056230418), mean=0.03274204525258152, variance=0.0005858763811608619, skewness=1.5855539333828916, kurtosis=3.05201522493147)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.001965932655464631, 0.1559378513252291), mean=0.03329771394300077, variance=0.0006727190393668853, skewness=1.6454413859395087, kurtosis=3.382412315810172)
---->
 <!--- recent summary
 DescribeResult(nobs=138, minmax=(0.0021927710387874733, 0.30306985258930175), mean=0.04495751449619599, variance=0.0022323576739819583, skewness=2.6266935355902437, kurtosis=8.15533063351977)
 --->
@@ -224,6 +221,7 @@ DescribeResult(nobs=138, minmax=(0.0021927710387874733, 0.30306985258930175), me
 Updated 2021-07-17
 <br>
 <!---END TABLE--->
+
 ## How dangerous is it?
 
 The number of reported deaths divided by the number of reported
@@ -507,6 +505,8 @@ lead** to provide the economic and logistical support required to get
 us through.
 
 ## What's new?
+#### July 17, 2021
+- Change starting date for recent prevalence comparison plots.
 #### July 1, 2021
 - Revise computation of most recent two week average new cases. 
 Calculation of new cases requires computing the difference between successive reports of the cumulative number cases. Reporting anomalies appear to cause occasional decreases in cumulative numbers, an impossibility. So my current estimates only include days with increasing numbers on successive days.
