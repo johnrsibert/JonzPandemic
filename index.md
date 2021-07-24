@@ -1,5 +1,11 @@
 # John's Pandemic Amusements
 
+## WTF America?
+We were doing pretty well containing the pandemic until Independence Day. Two week later, as predicted, prevalence rates [(increased sharply)](https://johnrsibert.github.io/JonzPandemic/#So,-how-are-we-doing?)
+
+**Get the shots, wear your mask, or die!**
+
+
 #### Or how I occupied my days of social isolation
 
 Around the Ides of March in 2020, we were all asked to stay
@@ -47,6 +53,7 @@ Century Venetian, keep away from sick people, wear your mask,
 get vaccinated, and I'll see you all in person when we emerge into
 the light at the end of this tunnel. In the meantime, I recommend
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
+
 ## How bad is it?
 The number of cases and the number of deaths are two common indicators of how bad the epidemic has become. It is useful refer to number of cases and the number of deaths divided by the total population in an area as “prevalence” for want of a better word. The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
 `
@@ -131,7 +138,7 @@ people die, being separated from family, not getting out much, and
 breathing through masks, it seems reasonable to ask if it was all
 worth it.
 
-##### Prevalence Histories Since Apriil 2021 Compared
+##### Prevalence Histories Since April 2021 Compared
 
 ![Recent Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
 Per capita prevalence histories of the 30 largest US counties.
@@ -144,9 +151,11 @@ National Institutes of Health Treatment Guidelines Panel published recommendatio
 --->
 
 The daily cases graph (top graph) is a good indications of how we are doing preventing the spread of Covid-19 disease.
-The dramatic decrease in number of cases per capitata during April, May and June is pretty clear. Most epidemiologists attribute this decrease to the rapid success of vaccination efforts.
+The dramatic decrease in number of cases per capita during April, May and June is pretty clear. Most epidemiologists attribute this decrease to the rapid success of vaccination efforts.
 Cases started to increase again in July. The increase may have been triggered by July 4 US Independence Day celebrations.
+The increase in prevalence is now alarming.
 More importantly the increase in cases continues because the pace of vaccination has slowed and the newer, highly contagious, Delta variant has become dominant in the United States.
+The fat green line indicate and approximate prevalence of 0.03 cases per 1000 people. It the prevalence is above this line in your county, you are at risk if you are not vaccinated and not wearing a mask.
 Some counties
 experienced a surge in cases. Other counties enjoyed a substantial
 decreases, but the details of current numbers of cases
@@ -157,7 +166,7 @@ the numbers of cases for the last few weeks.
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
-Average prevalence has been decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.002 to more than 0.3 cases per 1000 people. 
+Average prevalence has been decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
 The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
 estimates in 95% of all 138 places. In other words, places to the
 left of the red line are controlling infections better than the most other places.
@@ -166,7 +175,7 @@ Prevalence rates declined rapidly since April 2021, and the rankings of counties
 
 #### Top and bottom of the range
 <!--- recent summary
-DescribeResult(nobs=138, minmax=(0.0021927710387874733, 0.30306985258930175), mean=0.04495751449619599, variance=0.0022323576739819583, skewness=2.6266935355902437, kurtosis=8.15533063351977)
+DescribeResult(nobs=138, minmax=(0.0029488989831969467, 0.5554656462247652), mean=0.06865664117966486, variance=0.006113108090222878, skewness=3.0796313561850583, kurtosis=12.113709176710781)
 --->
 <!---START TABLE--->
 <table>
@@ -174,51 +183,51 @@ DescribeResult(nobs=138, minmax=(0.0021927710387874733, 0.30306985258930175), me
 <tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.002</td></tr>
-<tr><td>1     </td><td>Baltimore MD       </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>2     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>3     </td><td>Anne Arundel MD    </td><td style="text-align: right;">       0.009</td></tr>
-<tr><td>4     </td><td>Plymouth MA        </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>5     </td><td>Bucks PA           </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>6     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>7     </td><td>Lancaster PA       </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>8     </td><td>Montgomery PA      </td><td style="text-align: right;">       0.010</td></tr>
-<tr><td>9     </td><td>Chester PA         </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>10    </td><td>Allegheny PA       </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>11    </td><td>Erie NY            </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>12    </td><td>Montgomery MD      </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>13    </td><td>Fairfax VA         </td><td style="text-align: right;">       0.011</td></tr>
-<tr><td>14    </td><td>Worcester MA       </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>15    </td><td>Baltimore city MD  </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>16    </td><td>Suffolk MA         </td><td style="text-align: right;">       0.012</td></tr>
-<tr><td>17    </td><td>Delaware PA        </td><td style="text-align: right;">       0.013</td></tr>
-<tr><td>18    </td><td>Essex MA           </td><td style="text-align: right;">       0.013</td></tr>
-<tr><td>19    </td><td>Bristol MA         </td><td style="text-align: right;">       0.013</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.003</td></tr>
+<tr><td>1     </td><td>Lancaster PA       </td><td style="text-align: right;">       0.012</td></tr>
+<tr><td>2     </td><td>Baltimore city MD  </td><td style="text-align: right;">       0.014</td></tr>
+<tr><td>3     </td><td>Baltimore MD       </td><td style="text-align: right;">       0.014</td></tr>
+<tr><td>4     </td><td>Philadelphia PA    </td><td style="text-align: right;">       0.014</td></tr>
+<tr><td>5     </td><td>Chester PA         </td><td style="text-align: right;">       0.014</td></tr>
+<tr><td>6     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.015</td></tr>
+<tr><td>7     </td><td>Allegheny PA       </td><td style="text-align: right;">       0.016</td></tr>
+<tr><td>8     </td><td>Delaware PA        </td><td style="text-align: right;">       0.016</td></tr>
+<tr><td>9     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.016</td></tr>
+<tr><td>10    </td><td>Plymouth MA        </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>11    </td><td>Essex MA           </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>12    </td><td>Erie NY            </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>13    </td><td>Anne Arundel MD    </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>14    </td><td>Norfolk MA         </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>15    </td><td>Worcester MA       </td><td style="text-align: right;">       0.017</td></tr>
+<tr><td>16    </td><td>Fairfax VA         </td><td style="text-align: right;">       0.018</td></tr>
+<tr><td>17    </td><td>Montgomery PA      </td><td style="text-align: right;">       0.018</td></tr>
+<tr><td>18    </td><td>Macomb MI          </td><td style="text-align: right;">       0.018</td></tr>
+<tr><td>19    </td><td>Summit OH          </td><td style="text-align: right;">       0.020</td></tr>
 <tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>118   </td><td>Maricopa AZ        </td><td style="text-align: right;">       0.079</td></tr>
-<tr><td>119   </td><td>Hidalgo TX         </td><td style="text-align: right;">       0.085</td></tr>
-<tr><td>120   </td><td>Johnson KS         </td><td style="text-align: right;">       0.087</td></tr>
-<tr><td>121   </td><td>Pinellas FL        </td><td style="text-align: right;">       0.089</td></tr>
-<tr><td>122   </td><td>Pasco FL           </td><td style="text-align: right;">       0.092</td></tr>
-<tr><td>123   </td><td>El Paso CO         </td><td style="text-align: right;">       0.098</td></tr>
-<tr><td>124   </td><td>St. Louis MO       </td><td style="text-align: right;">       0.099</td></tr>
-<tr><td>125   </td><td>Salt Lake UT       </td><td style="text-align: right;">       0.105</td></tr>
-<tr><td>126   </td><td>Lee FL             </td><td style="text-align: right;">       0.112</td></tr>
-<tr><td>127   </td><td>Utah UT            </td><td style="text-align: right;">       0.132</td></tr>
-<tr><td>128   </td><td>Palm Beach FL      </td><td style="text-align: right;">       0.134</td></tr>
-<tr><td>129   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.137</td></tr>
-<tr><td>130   </td><td>Polk FL            </td><td style="text-align: right;">       0.146</td></tr>
-<tr><td>131   </td><td>Broward FL         </td><td style="text-align: right;">       0.160</td></tr>
-<tr><td>132   </td><td>Volusia FL         </td><td style="text-align: right;">       0.171</td></tr>
-<tr><td>133   </td><td>Brevard FL         </td><td style="text-align: right;">       0.172</td></tr>
-<tr><td>134   </td><td>Orange FL          </td><td style="text-align: right;">       0.180</td></tr>
-<tr><td>135   </td><td>Clark NV           </td><td style="text-align: right;">       0.197</td></tr>
-<tr><td>136   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.229</td></tr>
-<tr><td>137   </td><td>Duval FL           </td><td style="text-align: right;">       0.303</td></tr>
+<tr><td>118   </td><td>Shelby TN          </td><td style="text-align: right;">       0.113</td></tr>
+<tr><td>119   </td><td>Jackson MO         </td><td style="text-align: right;">       0.116</td></tr>
+<tr><td>120   </td><td>Williamson TX      </td><td style="text-align: right;">       0.118</td></tr>
+<tr><td>121   </td><td>Salt Lake UT       </td><td style="text-align: right;">       0.128</td></tr>
+<tr><td>122   </td><td>Johnson KS         </td><td style="text-align: right;">       0.135</td></tr>
+<tr><td>123   </td><td>St. Louis MO       </td><td style="text-align: right;">       0.147</td></tr>
+<tr><td>124   </td><td>Pinellas FL        </td><td style="text-align: right;">       0.159</td></tr>
+<tr><td>125   </td><td>Lee FL             </td><td style="text-align: right;">       0.169</td></tr>
+<tr><td>126   </td><td>Utah UT            </td><td style="text-align: right;">       0.171</td></tr>
+<tr><td>127   </td><td>Pasco FL           </td><td style="text-align: right;">       0.186</td></tr>
+<tr><td>128   </td><td>Palm Beach FL      </td><td style="text-align: right;">       0.212</td></tr>
+<tr><td>129   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.236</td></tr>
+<tr><td>130   </td><td>Clark NV           </td><td style="text-align: right;">       0.239</td></tr>
+<tr><td>131   </td><td>Polk FL            </td><td style="text-align: right;">       0.242</td></tr>
+<tr><td>132   </td><td>Broward FL         </td><td style="text-align: right;">       0.254</td></tr>
+<tr><td>133   </td><td>Brevard FL         </td><td style="text-align: right;">       0.292</td></tr>
+<tr><td>134   </td><td>Volusia FL         </td><td style="text-align: right;">       0.298</td></tr>
+<tr><td>135   </td><td>Orange FL          </td><td style="text-align: right;">       0.322</td></tr>
+<tr><td>136   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.350</td></tr>
+<tr><td>137   </td><td>Duval FL           </td><td style="text-align: right;">       0.555</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2021-07-17
+Updated 2021-07-24
 <br>
 <!---END TABLE--->
 
