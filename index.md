@@ -1,7 +1,7 @@
 # John's Pandemic Amusements
 
 ## WTF America?
-We were doing pretty well containing the pandemic until Independence Day. Two week later, as predicted, prevalence rates [increased sharply](https://johnrsibert.github.io/JonzPandemic/#So,-how-are-we-doing?)
+We were doing pretty well containing the pandemic until Independence Day. Two week later, as predicted, prevalence rates [increased sharply](https://johnrsibert.github.io/JonzPandemic/#so-how-are-we-doing)
 
 **Get the shots, wear your mask, or die!**
 
