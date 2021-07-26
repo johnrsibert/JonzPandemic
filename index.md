@@ -1,7 +1,7 @@
 # John's Pandemic Amusements
 
 ## WTF America?
-We were doing pretty well containing the pandemic until Independence Day. Two week later, as predicted, prevalence rates [increased sharply](https://johnrsibert.github.io/JonzPandemic/#so-how-are-we-doing)
+We were doing pretty well containing the pandemic until Independence Day. Two weeks later, just about as predicted, prevalence rates [increased sharply](https://johnrsibert.github.io/JonzPandemic/#so-how-are-we-doing)
 
 **Get the shots, wear your mask, or die!**
 
@@ -127,18 +127,18 @@ a place you love, let me know and I'll try to include it.
 
 ## So, how are we doing?
 
-Politicians are making great fusses about "Opening up ... ". The
+Politicians made great fusses about "Opening up ... ". The
 vaccines seem effective and safe. The mood seems optimistic.
 Many of the graphs that I have been sharing show notable
 decreases in the number of cases per capita, 
 [for example](https://johnrsibert.github.io/JonzPandemic/#new-york-city-prevalence).
 
 After more than 400 consecutive days of watching
-people die, being separated from family, not getting out much, and
+people die, of being separated from family, of not getting out much, and of
 breathing through masks, it seems reasonable to ask if it was all
 worth it.
 
-##### Prevalence Histories Since April 2021 Compared
+#### Prevalence Histories Since April 2021 Compared
 
 ![Recent Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
 Per capita prevalence histories of the 30 largest US counties.
@@ -150,27 +150,25 @@ The most interesting aspect may be the vertical green bar in the lower panel mar
 National Institutes of Health Treatment Guidelines Panel published recommendations on the use of corticosteroids in patients with COVID-19 [see](https://www.patientcareonline.com/view/nih-dexamethasone-recommendations-for-patients-with-covid-19/). Case fatality ratios are and remain consistently lower after that date.
 --->
 
-The daily cases graph (top graph) is a good indications of how we are doing preventing the spread of Covid-19 disease.
+The Daily Cases graph (top panel) is a good indication of how we are doing preventing the spread of Covid-19 disease.
 The dramatic decrease in number of cases per capita during April, May and June is pretty clear. Most epidemiologists attribute this decrease to the rapid success of vaccination efforts.
 Cases started to increase again in July. The increase may have been triggered by July 4 US Independence Day celebrations.
-The increase in prevalence is now alarming.
-More importantly the increase in cases continues because the pace of vaccination has slowed and the newer, highly contagious, Delta variant has become dominant in the United States.
-The fat green line indicate and approximate prevalence of 0.03 cases per 1000 people. It the prevalence is above this line in your county, you are at risk if you are not vaccinated and not wearing a mask.
+These increases in prevalence have now become alarming.
+The increase in cases continues because the pace of vaccination has slowed and the newer, highly contagious, Delta variant has become dominant in the United States.
+The fat green line indicate and approximate prevalence of 0.03 cases per 1000 people. It the prevalence in your county is above this line, you are at risk if you are not vaccinated and not wearing a mask.
 Some counties
-experienced a surge in cases. Other counties enjoyed a substantial
-decreases, but the details of current numbers of cases
-cannot be seen from this simple graph. So, lets just look at
-the numbers of cases for the last few weeks.
+
+Lets just look at the numbers of cases per capita for the last few weeks.
 
 ##### Current Prevalence
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
-Average prevalence has been decreasing weekly. As of July 1 the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
+Corrently, the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
 The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
 estimates in 95% of all 138 places. In other words, places to the
-left of the red line are controlling infections better than the most other places.
-Prevalence rates declined rapidly since April 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently shows very low prevalence as do several counties in California. However California counties have dropped out of the lowest tier since the June 15 "reopening" of the state.
+left of the red line are controlling infections much better than the most other places.
+Prevalence rates declined rapidly since April 2021, and the rankings of counties by average recent prevalence also change rapidly. Vancouver Island consistently shows very low prevalence as do several counties in California. However California counties have dropped out of the lowest tier since the June 15 "reopening" of the state. Florida now dominates the highest tier.
 
 
 #### Top and bottom of the range
@@ -515,7 +513,7 @@ us through.
 
 ## What's new?
 #### July 17, 2021
-- Change starting date for recent prevalence comparison plots.
+- Change ending date for recent prevalence comparison plots.
 #### July 1, 2021
 - Revise computation of most recent two week average new cases. 
 Calculation of new cases requires computing the difference between successive reports of the cumulative number cases. Reporting anomalies appear to cause occasional decreases in cumulative numbers, an impossibility. So my current estimates only include days with increasing numbers on successive days.
