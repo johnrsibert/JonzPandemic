@@ -539,9 +539,11 @@ us through.
 
 ## What's new?
 #### August 21, 2021
-- More [WTF America?](https://johnrsibert.github.io/JonzPandemic/##wtf-america?) rant.
+- More [WTF America?](https://johnrsibert.github.io/JonzPandemic/##wtf-america) rant.
+
 #### July 17, 2021
 - Change ending date for recent prevalence comparison plots.
+
 #### July 1, 2021
 - Revise computation of most recent two week average new cases. 
 Calculation of new cases requires computing the difference between successive reports of the cumulative number cases. Reporting anomalies appear to cause occasional decreases in cumulative numbers, an impossibility. So my current estimates only include days with increasing numbers on successive days.
