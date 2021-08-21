@@ -539,7 +539,7 @@ us through.
 
 ## What's new?
 #### August 21, 2021
-More [WTF America?](https://johnrsibert.github.io/JonzPandemic/#wtf-america?) rant.
+- More [WTF America?](https://johnrsibert.github.io/JonzPandemic/##wtf-america?) rant.
 #### July 17, 2021
 - Change ending date for recent prevalence comparison plots.
 #### July 1, 2021
