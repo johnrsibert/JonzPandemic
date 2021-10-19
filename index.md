@@ -213,57 +213,63 @@ DescribeResult(nobs=138, minmax=(0.08755961596261704, 1.9049537535913346), mean=
 <!--- recent summary
 DescribeResult(nobs=138, minmax=(0.08755961596261704, 1.9049537535913346), mean=0.4303527172002849, variance=0.11596671744987429, skewness=2.2288338082277552, kurtosis=5.286083869467092)
 --->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.07803240386305767, 0.9553283285755481), mean=0.3507130096340889, variance=0.033045066335450714, skewness=1.1442123656704375, kurtosis=1.063424004855829)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.07803240386305767, 0.9553283285755481), mean=0.3507130096340889, variance=0.033045066335450714, skewness=1.1442123656704375, kurtosis=1.063424004855829)
+--->
 <!---START TABLE--->
 <table>
 <thead>
 <tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.088</td></tr>
-<tr><td>1     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.144</td></tr>
-<tr><td>2     </td><td>Baltimore city MD  </td><td style="text-align: right;">       0.145</td></tr>
-<tr><td>3     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.152</td></tr>
-<tr><td>4     </td><td>Baltimore MD       </td><td style="text-align: right;">       0.155</td></tr>
-<tr><td>5     </td><td>Hudson NJ          </td><td style="text-align: right;">       0.156</td></tr>
-<tr><td>6     </td><td>Fairfield CT       </td><td style="text-align: right;">       0.157</td></tr>
-<tr><td>7     </td><td>El Paso TX         </td><td style="text-align: right;">       0.160</td></tr>
-<tr><td>8     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.164</td></tr>
-<tr><td>9     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.167</td></tr>
-<tr><td>10    </td><td>Erie NY            </td><td style="text-align: right;">       0.179</td></tr>
-<tr><td>11    </td><td>Essex NJ           </td><td style="text-align: right;">       0.181</td></tr>
-<tr><td>12    </td><td>Union NJ           </td><td style="text-align: right;">       0.182</td></tr>
-<tr><td>13    </td><td>Wayne MI           </td><td style="text-align: right;">       0.185</td></tr>
-<tr><td>14    </td><td>Anne Arundel MD    </td><td style="text-align: right;">       0.190</td></tr>
-<tr><td>15    </td><td>Bergen NJ          </td><td style="text-align: right;">       0.190</td></tr>
-<tr><td>16    </td><td>Orange CA          </td><td style="text-align: right;">       0.195</td></tr>
-<tr><td>17    </td><td>Hartford CT        </td><td style="text-align: right;">       0.195</td></tr>
-<tr><td>18    </td><td>Westchester NY     </td><td style="text-align: right;">       0.197</td></tr>
-<tr><td>19    </td><td>Chester PA         </td><td style="text-align: right;">       0.197</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.078</td></tr>
+<tr><td>1     </td><td>Santa Clara CA     </td><td style="text-align: right;">       0.112</td></tr>
+<tr><td>2     </td><td>El Paso TX         </td><td style="text-align: right;">       0.117</td></tr>
+<tr><td>3     </td><td>San Mateo CA       </td><td style="text-align: right;">       0.120</td></tr>
+<tr><td>4     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.125</td></tr>
+<tr><td>5     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.128</td></tr>
+<tr><td>6     </td><td>Alameda CA         </td><td style="text-align: right;">       0.132</td></tr>
+<tr><td>7     </td><td>Orange CA          </td><td style="text-align: right;">       0.139</td></tr>
+<tr><td>8     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.152</td></tr>
+<tr><td>9     </td><td>New Haven CT       </td><td style="text-align: right;">       0.154</td></tr>
+<tr><td>10    </td><td>Baltimore MD       </td><td style="text-align: right;">       0.157</td></tr>
+<tr><td>11    </td><td>Hudson NJ          </td><td style="text-align: right;">       0.166</td></tr>
+<tr><td>12    </td><td>Fairfax VA         </td><td style="text-align: right;">       0.167</td></tr>
+<tr><td>13    </td><td>Fairfield CT       </td><td style="text-align: right;">       0.170</td></tr>
+<tr><td>14    </td><td>Los Angeles CA     </td><td style="text-align: right;">       0.170</td></tr>
+<tr><td>15    </td><td>Contra Costa CA    </td><td style="text-align: right;">       0.172</td></tr>
+<tr><td>16    </td><td>Westchester NY     </td><td style="text-align: right;">       0.173</td></tr>
+<tr><td>17    </td><td>Baltimore city MD  </td><td style="text-align: right;">       0.177</td></tr>
+<tr><td>18    </td><td>Middlesex MA       </td><td style="text-align: right;">       0.182</td></tr>
+<tr><td>19    </td><td>Hartford CT        </td><td style="text-align: right;">       0.183</td></tr>
 <tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>118   </td><td>Stanislaus CA      </td><td style="text-align: right;">       0.672</td></tr>
-<tr><td>119   </td><td>Williamson TX      </td><td style="text-align: right;">       0.672</td></tr>
-<tr><td>120   </td><td>Jefferson KY       </td><td style="text-align: right;">       0.702</td></tr>
-<tr><td>121   </td><td>Davidson TN        </td><td style="text-align: right;">       0.720</td></tr>
-<tr><td>122   </td><td>Shelby TN          </td><td style="text-align: right;">       0.759</td></tr>
-<tr><td>123   </td><td>Montgomery TX      </td><td style="text-align: right;">       0.871</td></tr>
-<tr><td>124   </td><td>Greenville SC      </td><td style="text-align: right;">       0.873</td></tr>
-<tr><td>125   </td><td>Volusia FL         </td><td style="text-align: right;">       0.916</td></tr>
-<tr><td>126   </td><td>Jefferson AL       </td><td style="text-align: right;">       0.962</td></tr>
-<tr><td>127   </td><td>Duval FL           </td><td style="text-align: right;">       0.999</td></tr>
-<tr><td>128   </td><td>Palm Beach FL      </td><td style="text-align: right;">       1.104</td></tr>
-<tr><td>129   </td><td>Broward FL         </td><td style="text-align: right;">       1.162</td></tr>
-<tr><td>130   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       1.196</td></tr>
-<tr><td>131   </td><td>Orange FL          </td><td style="text-align: right;">       1.212</td></tr>
-<tr><td>132   </td><td>Pinellas FL        </td><td style="text-align: right;">       1.282</td></tr>
-<tr><td>133   </td><td>Brevard FL         </td><td style="text-align: right;">       1.416</td></tr>
-<tr><td>134   </td><td>Hillsborough FL    </td><td style="text-align: right;">       1.492</td></tr>
-<tr><td>135   </td><td>Pasco FL           </td><td style="text-align: right;">       1.499</td></tr>
-<tr><td>136   </td><td>Lee FL             </td><td style="text-align: right;">       1.898</td></tr>
-<tr><td>137   </td><td>Polk FL            </td><td style="text-align: right;">       1.905</td></tr>
+<tr><td>118   </td><td>Kern CA            </td><td style="text-align: right;">       0.541</td></tr>
+<tr><td>119   </td><td>Montgomery TX      </td><td style="text-align: right;">       0.560</td></tr>
+<tr><td>120   </td><td>Broward FL         </td><td style="text-align: right;">       0.570</td></tr>
+<tr><td>121   </td><td>Jefferson KY       </td><td style="text-align: right;">       0.575</td></tr>
+<tr><td>122   </td><td>Palm Beach FL      </td><td style="text-align: right;">       0.583</td></tr>
+<tr><td>123   </td><td>Spokane WA         </td><td style="text-align: right;">       0.588</td></tr>
+<tr><td>124   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       0.595</td></tr>
+<tr><td>125   </td><td>Volusia FL         </td><td style="text-align: right;">       0.625</td></tr>
+<tr><td>126   </td><td>Montgomery OH      </td><td style="text-align: right;">       0.652</td></tr>
+<tr><td>127   </td><td>Brevard FL         </td><td style="text-align: right;">       0.660</td></tr>
+<tr><td>128   </td><td>Orange FL          </td><td style="text-align: right;">       0.662</td></tr>
+<tr><td>129   </td><td>Pinellas FL        </td><td style="text-align: right;">       0.687</td></tr>
+<tr><td>130   </td><td>Sedgwick KS        </td><td style="text-align: right;">       0.703</td></tr>
+<tr><td>131   </td><td>Davidson TN        </td><td style="text-align: right;">       0.711</td></tr>
+<tr><td>132   </td><td>Tarrant TX         </td><td style="text-align: right;">       0.738</td></tr>
+<tr><td>133   </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.786</td></tr>
+<tr><td>134   </td><td>Greenville SC      </td><td style="text-align: right;">       0.862</td></tr>
+<tr><td>135   </td><td>Lee FL             </td><td style="text-align: right;">       0.900</td></tr>
+<tr><td>136   </td><td>Pasco FL           </td><td style="text-align: right;">       0.914</td></tr>
+<tr><td>137   </td><td>Polk FL            </td><td style="text-align: right;">       0.955</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2021-09-25
+Updated 2021-10-19
 <br>
 <!---END TABLE--->
 
