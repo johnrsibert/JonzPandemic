@@ -270,57 +270,117 @@ DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9
 <!--- recent summary
 DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9038577017177862, variance=1.254166424619129, skewness=1.303309585419988, kurtosis=1.1222106635223525)
 --->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.171929842879094, 8.045198428101367), mean=2.162508795054478, variance=2.713660813876959, skewness=1.0502425975099803, kurtosis=0.5556893155111542)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region          </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Fairfield CT       </td><td style="text-align: right;">       0.644</td></tr>
-<tr><td>1     </td><td>Honolulu HI        </td><td style="text-align: right;">       0.664</td></tr>
-<tr><td>2     </td><td>San Francisco CA   </td><td style="text-align: right;">       0.672</td></tr>
-<tr><td>3     </td><td>Hidalgo TX         </td><td style="text-align: right;">       0.703</td></tr>
-<tr><td>4     </td><td>Montgomery MD      </td><td style="text-align: right;">       0.712</td></tr>
-<tr><td>5     </td><td>Fairfax VA         </td><td style="text-align: right;">       0.719</td></tr>
-<tr><td>6     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.743</td></tr>
-<tr><td>7     </td><td>Alameda CA         </td><td style="text-align: right;">       0.774</td></tr>
-<tr><td>8     </td><td>Westchester NY     </td><td style="text-align: right;">       0.786</td></tr>
-<tr><td>9     </td><td>San Mateo CA       </td><td style="text-align: right;">       0.792</td></tr>
-<tr><td>10    </td><td>Prince George's MD </td><td style="text-align: right;">       0.807</td></tr>
-<tr><td>11    </td><td>Duval FL           </td><td style="text-align: right;">       0.810</td></tr>
-<tr><td>12    </td><td>Union NJ           </td><td style="text-align: right;">       0.815</td></tr>
-<tr><td>13    </td><td>Fulton GA          </td><td style="text-align: right;">       0.830</td></tr>
-<tr><td>14    </td><td>Hudson NJ          </td><td style="text-align: right;">       0.842</td></tr>
-<tr><td>15    </td><td>Orange CA          </td><td style="text-align: right;">       0.845</td></tr>
-<tr><td>16    </td><td>Brevard FL         </td><td style="text-align: right;">       0.846</td></tr>
-<tr><td>17    </td><td>Travis TX          </td><td style="text-align: right;">       0.852</td></tr>
-<tr><td>18    </td><td>Essex NJ           </td><td style="text-align: right;">       0.854</td></tr>
-<tr><td>19    </td><td>Pasco FL           </td><td style="text-align: right;">       0.869</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>118   </td><td>Erie NY            </td><td style="text-align: right;">       3.334</td></tr>
-<tr><td>119   </td><td>Wayne MI           </td><td style="text-align: right;">       3.349</td></tr>
-<tr><td>120   </td><td>Bernalillo NM      </td><td style="text-align: right;">       3.462</td></tr>
-<tr><td>121   </td><td>Pima AZ            </td><td style="text-align: right;">       3.504</td></tr>
-<tr><td>122   </td><td>Maricopa AZ        </td><td style="text-align: right;">       3.563</td></tr>
-<tr><td>123   </td><td>Oakland MI         </td><td style="text-align: right;">       3.658</td></tr>
-<tr><td>124   </td><td>Fresno CA          </td><td style="text-align: right;">       3.761</td></tr>
-<tr><td>125   </td><td>Ramsey MN          </td><td style="text-align: right;">       3.775</td></tr>
-<tr><td>126   </td><td>Denver CO          </td><td style="text-align: right;">       3.839</td></tr>
-<tr><td>127   </td><td>Kern CA            </td><td style="text-align: right;">       4.051</td></tr>
-<tr><td>128   </td><td>Hennepin MN        </td><td style="text-align: right;">       4.064</td></tr>
-<tr><td>129   </td><td>Arapahoe CO        </td><td style="text-align: right;">       4.144</td></tr>
-<tr><td>130   </td><td>Salt Lake UT       </td><td style="text-align: right;">       4.359</td></tr>
-<tr><td>131   </td><td>Spokane WA         </td><td style="text-align: right;">       4.406</td></tr>
-<tr><td>132   </td><td>Utah UT            </td><td style="text-align: right;">       4.446</td></tr>
-<tr><td>133   </td><td>Jefferson CO       </td><td style="text-align: right;">       4.541</td></tr>
-<tr><td>134   </td><td>Macomb MI          </td><td style="text-align: right;">       4.556</td></tr>
-<tr><td>135   </td><td>Adams CO           </td><td style="text-align: right;">       5.177</td></tr>
-<tr><td>136   </td><td>Kent MI            </td><td style="text-align: right;">       5.340</td></tr>
-<tr><td>137   </td><td>El Paso CO         </td><td style="text-align: right;">       5.703</td></tr>
+<tr><td>0     </td><td>Duval FL        </td><td style="text-align: right;">       0.364</td></tr>
+<tr><td>1     </td><td>Jefferson AL    </td><td style="text-align: right;">       0.442</td></tr>
+<tr><td>2     </td><td>Travis TX       </td><td style="text-align: right;">       0.461</td></tr>
+<tr><td>3     </td><td>Pasco FL        </td><td style="text-align: right;">       0.492</td></tr>
+<tr><td>4     </td><td>Pinellas FL     </td><td style="text-align: right;">       0.510</td></tr>
+<tr><td>5     </td><td>Honolulu HI     </td><td style="text-align: right;">       0.511</td></tr>
+<tr><td>6     </td><td>Brevard FL      </td><td style="text-align: right;">       0.558</td></tr>
+<tr><td>7     </td><td>Palm Beach FL   </td><td style="text-align: right;">       0.562</td></tr>
+<tr><td>8     </td><td>Lee FL          </td><td style="text-align: right;">       0.587</td></tr>
+<tr><td>9     </td><td>Harris TX       </td><td style="text-align: right;">       0.600</td></tr>
+<tr><td>10    </td><td>Polk FL         </td><td style="text-align: right;">       0.600</td></tr>
+<tr><td>11    </td><td>Alameda CA      </td><td style="text-align: right;">       0.610</td></tr>
+<tr><td>12    </td><td>Dallas TX       </td><td style="text-align: right;">       0.624</td></tr>
+<tr><td>13    </td><td>Broward FL      </td><td style="text-align: right;">       0.626</td></tr>
+<tr><td>14    </td><td>San Francisco CA</td><td style="text-align: right;">       0.629</td></tr>
+<tr><td>15    </td><td>San Mateo CA    </td><td style="text-align: right;">       0.657</td></tr>
+<tr><td>16    </td><td>Hillsborough FL </td><td style="text-align: right;">       0.667</td></tr>
+<tr><td>17    </td><td>Orange FL       </td><td style="text-align: right;">       0.675</td></tr>
+<tr><td>18    </td><td>Volusia FL      </td><td style="text-align: right;">       0.676</td></tr>
+<tr><td>19    </td><td>Orange CA       </td><td style="text-align: right;">       0.723</td></tr>
+<tr><td>...   </td><td>...             </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>118   </td><td>Maricopa AZ     </td><td style="text-align: right;">       4.813</td></tr>
+<tr><td>119   </td><td>Utah UT         </td><td style="text-align: right;">       4.866</td></tr>
+<tr><td>120   </td><td>Pima AZ         </td><td style="text-align: right;">       4.890</td></tr>
+<tr><td>121   </td><td>Plymouth MA     </td><td style="text-align: right;">       4.918</td></tr>
+<tr><td>122   </td><td>Essex MA        </td><td style="text-align: right;">       4.968</td></tr>
+<tr><td>123   </td><td>Lancaster PA    </td><td style="text-align: right;">       5.036</td></tr>
+<tr><td>124   </td><td>Adams CO        </td><td style="text-align: right;">       5.235</td></tr>
+<tr><td>125   </td><td>Bristol MA      </td><td style="text-align: right;">       5.278</td></tr>
+<tr><td>126   </td><td>Hennepin MN     </td><td style="text-align: right;">       5.287</td></tr>
+<tr><td>127   </td><td>Ramsey MN       </td><td style="text-align: right;">       5.394</td></tr>
+<tr><td>128   </td><td>Bernalillo NM   </td><td style="text-align: right;">       5.430</td></tr>
+<tr><td>129   </td><td>Allegheny PA    </td><td style="text-align: right;">       5.447</td></tr>
+<tr><td>130   </td><td>Cuyahoga OH     </td><td style="text-align: right;">       5.963</td></tr>
+<tr><td>131   </td><td>Summit OH       </td><td style="text-align: right;">       6.055</td></tr>
+<tr><td>132   </td><td>Monroe NY       </td><td style="text-align: right;">       6.137</td></tr>
+<tr><td>133   </td><td>Wayne MI        </td><td style="text-align: right;">       6.186</td></tr>
+<tr><td>134   </td><td>Oakland MI      </td><td style="text-align: right;">       6.811</td></tr>
+<tr><td>135   </td><td>Erie NY         </td><td style="text-align: right;">       7.381</td></tr>
+<tr><td>136   </td><td>Kent MI         </td><td style="text-align: right;">       7.816</td></tr>
+<tr><td>137   </td><td>Macomb MI       </td><td style="text-align: right;">       7.952</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2021-11-19
+Updated 2021-12-06
 <br>
 <!---END TABLE--->
 
