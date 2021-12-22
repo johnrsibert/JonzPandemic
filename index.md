@@ -171,6 +171,9 @@ Prevalence rates declined rapidly since April 2021, and the rankings of counties
 
 
 #### Top and bottom of the range
+<!--- recent summary
+DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
+--->
 <!---START TABLE--->
 <table>
 <thead>
