@@ -68,7 +68,7 @@ The lower panel is the number of covid-19 vaccinations reported by the CDC divid
 
 ##### New York City Prevalence
 
-<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png" alt="NYC prevalence" style="width:8in;"/>
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png" alt="NYC prevalence" style="width:6.5in;"/>
 
 The disease attacked the five counties that comprise New York City
 aggressively with unchecked exponential growth in March and April of 2020.  
@@ -90,7 +90,7 @@ the summer to a value about one half of the peak.
 
 ##### Los Angeles County Prevalence
 
-![Los Angeles Co., CA](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png)
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/Los_AngelesCA_prevalence.png" alt="Los Angeles prevalence" style="width:6.5in;"/>
 
 The trajectory of the disease in Los Angeles County is quite different
 from New York City.  Los Angeles was able to avoid the initial exponential
@@ -171,234 +171,6 @@ Prevalence rates declined rapidly since April 2021, and the rankings of counties
 
 
 #### Top and bottom of the range
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.0029488989831969467, 0.5554656462247652), mean=0.06865664117966486, variance=0.006113108090222878, skewness=3.0796313561850583, kurtosis=12.113709176710781)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.005670959583071051, 0.9050331243376437), mean=0.11314890145288754, variance=0.01610906604233084, skewness=3.1244479864293204, kurtosis=12.293403415001963)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.005670959583071051, 1.3368763410266717), mean=0.1799417424852845, variance=0.039625735431368714, skewness=2.9368580173592322, kurtosis=10.058346354731599)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.005670959583071051, 1.3368763410266717), mean=0.1799417424852845, variance=0.039625735431368714, skewness=2.9368580173592322, kurtosis=10.058346354731599)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.005670959583071051, 1.3368763410266717), mean=0.1799417424852845, variance=0.039625735431368714, skewness=2.9368580173592322, kurtosis=10.058346354731599)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.005670959583071051, 1.3368763410266717), mean=0.1799417424852845, variance=0.039625735431368714, skewness=2.9368580173592322, kurtosis=10.058346354731599)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.008393020182945157, 1.3368763410266717), mean=0.17996146756209516, variance=0.03961886393251733, skewness=2.937550540305859, kurtosis=10.061444018417799)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.025027834959953574, 1.0279594816350042), mean=0.19436071716849831, variance=0.025215140098300347, skewness=2.158078957303758, kurtosis=5.891027705123996)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.03727710765938704, 1.592265245287156), mean=0.33020222121797577, variance=0.10001081982170154, skewness=2.3769323535822258, kurtosis=5.024823899167528)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.05247527934201746, 1.767440191948696), mean=0.3804214248122288, variance=0.1159884840705607, skewness=2.282495056028911, kurtosis=4.610019787908371)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.06449771365812809, 1.9343880945449428), mean=0.4115591261027828, variance=0.1250450551993747, skewness=2.31503905273175, kurtosis=5.093074348373403)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.08755961596261704, 1.9049537535913346), mean=0.4303527172002849, variance=0.11596671744987429, skewness=2.2288338082277552, kurtosis=5.286083869467092)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.08755961596261704, 1.9049537535913346), mean=0.4303527172002849, variance=0.11596671744987429, skewness=2.2288338082277552, kurtosis=5.286083869467092)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.07803240386305767, 0.9553283285755481), mean=0.3507130096340889, variance=0.033045066335450714, skewness=1.1442123656704375, kurtosis=1.063424004855829)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.07803240386305767, 0.9553283285755481), mean=0.3507130096340889, variance=0.033045066335450714, skewness=1.1442123656704375, kurtosis=1.063424004855829)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.07513961488338358, 0.5377545623768918), mean=0.22490369851335495, variance=0.010717580318851444, skewness=0.6892005069453564, kurtosis=-0.1652139037060225)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.2490369851335488, variance=1.0717580318851436, skewness=0.6892005069453594, kurtosis=-0.16521390370601496)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.24887260949346, variance=1.0722481262057362, skewness=0.6882224003864421, kurtosis=-0.16548486851365052)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.7513961488338358, 5.377545623768918), mean=2.24887260949346, variance=1.0722481262057362, skewness=0.6882224003864421, kurtosis=-0.16548486851365052)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.40862228980667137, 5.355335832860218), mean=1.9297912011751404, variance=0.9996787278729315, skewness=1.1545916949387345, kurtosis=1.1784128432208556)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.40862228980667137, 5.355335832860218), mean=1.9297912011751404, variance=0.9996787278729315, skewness=1.1545916949387345, kurtosis=1.1784128432208556)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.40862228980667137, 5.355335832860218), mean=1.9297912011751404, variance=0.9996787278729315, skewness=1.1545916949387345, kurtosis=1.1784128432208556)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.40862228980667137, 5.355335832860218), mean=1.9297912011751404, variance=0.9996787278729315, skewness=1.1545916949387345, kurtosis=1.1784128432208556)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9041371403059375, variance=1.2535238421249255, skewness=1.304347048301661, kurtosis=1.1240573936037066)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9041371403059375, variance=1.2535238421249255, skewness=1.304347048301661, kurtosis=1.1240573936037066)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9038577017177862, variance=1.254166424619129, skewness=1.303309585419988, kurtosis=1.1222106635223525)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.6438171644058861, 5.70328922376318), mean=1.9038577017177862, variance=1.254166424619129, skewness=1.303309585419988, kurtosis=1.1222106635223525)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.37309471977001774, 6.8710946716289545), mean=2.2372438757927293, variance=2.3216619204028266, skewness=0.9970839312441414, kurtosis=0.08787686419430907)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.171929842879094, 8.045198428101367), mean=2.162508795054478, variance=2.713660813876959, skewness=1.0502425975099803, kurtosis=0.5556893155111542)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.3640457806711181, 7.952199841642524), mean=2.5754777948897067, variance=3.2736178123733866, skewness=0.835259501307164, kurtosis=-0.08119587538198658)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.5461914874040545, 10.449610132437499), mean=3.5446952060282255, variance=5.116063567165744, skewness=0.6266473584717472, kurtosis=-0.4263840605294398)
---->
-<!--- recent summary
-DescribeResult(nobs=138, minmax=(0.0, 13.612701661657512), mean=3.970134342454232, variance=6.354809491435248, skewness=0.6589659949563883, kurtosis=0.30984333423486365)
---->
-<!--- recent summary
-DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
---->
 <!---START TABLE--->
 <table>
 <thead>
@@ -526,6 +298,9 @@ This distribution model is commonly used for describing skewed
 distributions.  The curve appears to correspond pretty well to the
 histogram, but in my opinion.
 
+
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFRridge_30_23.png" alt="CFR ridge" style="width:8.0in;"/>
+
 ## Model Results (wonkish)
 
 Fisheries scientists, ecologists, and epidemiologists are usually faced
@@ -573,46 +348,6 @@ some preliminary (as of August 2020) results is available for download
 The model is still under development and has evolved somewhat since the
 preliminary write-up in August 2020.
 
-###### Estimated Instantaneous Transmission Rates
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_g.png)
-This figure shows instantaneous transmission rates estimated by
-the simplified SIR model for the 30 largest counties in the United
-States. Initial transmission rates were extremely high for all
-counties. Initial doubling times were very short, often less than
-5 days and sometimes less than 1 day (imagine New Delhi in April
-2021!). The vertical gray line marks March 19, 2020, the date of
-California Governor Gavin Newsom's "Stay at Home Order", Transmission
-rates decrease substantially through May, and remained low over the
-summer for some counties. Estimated transmission rates increase for all
-counties in October. The increases in estimated transmission rates in
-mid-winter reflect the observed surges in reported cases. Transmission
-rates declined again in the early Spring of 2021. I expect the model to
-begin to "fall apart" later in the Spring because of my simplification
-of the model omitting the **S**usceptible compartment.
-
-###### Estimated Transmission Rates with "Confidence Regions"
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logbeta_summary_2.png)
-
-This figure shows the estimated transmission rate trajectories for
-New York City (NYNY) and Los Angeles Counties (LACA) with "confidence
-regions" (plus or minus 2 standard deviations of the estimates). There
-is considerable overlap at the start and end of the time series, but
-the two trajectories are distinct during the summer.
-
-###### Estimated Instantaneous Mortality Rates
-
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/logmu_summary_g.png)
-
-The instantaneous mortality rate is the proportion of infected persons
-that die per unit of time.  The estimated instantaneous mortality rate
-is highest in March and April and subsequently decreases steadily until
-the end of the time series.  This downward trend my reflect improvement
-of medical care since the start of the pandemic.  These mortality rate
-estimates seem very low and are probably biased downward by structural
-artifacts on the model, namely omission of the **R**emoved compartment
-from the SIR model.  That said, I am fairly confident that the generally
-downward trend is consistent with empirical CMR data.
-
 #### Model conclusions
 
 The data at hand are sufficiently informative to estimate the parameters
@@ -622,74 +357,6 @@ the rapidly increasing proportion of fully vaccinated people effectively
 reduces the size of the **S**usceptible compartment. Clearly some more
 model development would be appropriate.
 
-## Curiosities
-
-###### Is there a relationship between mortality and population size?
-
-A recent essay by Dr. Siddhartha Mukherjee in the *New Yorker* for
-February 22, 2021, entitled "Why Does the Pandemic Seem to Be Hitting
-Some Countries Harder Than Others?", got me to pondering whether the
-lethality of Covid-19 might be related to the size of the population in
-different counties.
-
-###### Relationship between county population size and case-fatality ratio.
-
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_quantiles_boxplot.png)
-
-This plot aggregates counties by population size. The numbers
-in the horizontal axis indicate the relative rank of the
-population size of approximately 3200 US counties. "0.2" labels
-counties with populations smaller than 20% of all counties. "0.8"
-labels counties with populations larger than 80% of all counties.
-The horizontal red lines indicate the median ratio for each county.
-The horizontal blue stripe locates the [two deaths for 100 confirmed
-cases](https://coronavirus.jhu.edu/data/mortality) estimate of the US
-case-fatality ratio estimated by The Johns Hopkins University Coronavirus
-Resource Center.
-
-There's nothing in it. The CFR is pretty much about 0.02 in all US
-counties. Alas, the tragic turn of the pandemic in India might induce
-Dr. Mukherjee to revisit his original question.
-
-###### Why do trends in daily cases and deaths have a saw-tooth appearance?
-
-The jagged look of the daily reports is evident in most published
-presentations of daily COVID-19 trends.  Seven-day moving averages are
-often used to clarify trends.
-
-###### Simple day-by-day histograms, 5 counties.
-
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/days_of_week_5.png)
-
-These plots show numbers of cases and deaths reported on each day of
-the week in the 5 most populous counties in the US.  For some counties,
-e.g., Maricopa County, Arizona, it is obvious that fewer deaths are
-reported on Saturday and Sunday than on the other days of the week.
-For cases and other counties, not so much.
-
-###### Proportion reports by day over 1000 counties.
-
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/days_of_week_1000.png)
-
-Horizontal rectangles enclose 50% of the observations; horizontal red
-lines are the means; vertical lines show the range of observations
-extending beyond plus or minus 1.5 times the fiftieth percentiles;
-circles are the actual data points that extend beyond the vertical lines.
-
-Weekend effects are less pronounced, but nevertheless it is clear
-that that fewer deaths are reported on Saturday and Sunday.
-The large number of "outliers" indicated by the circles,
-demonstrates that there is a lot a variability among counties
-about reporting.  Counties vary substantially in how and when
-COVID-19 cases and deaths are reported, but as with the [case fatality
-ratios](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio),
-these distributions are also skewed with long upper tails.  This may be
-an example of how averages can obscure signals.
-
-There is probably more to said about these distributions, but the
-saw-tooth appearance is has little to do with the natural history of
-viral infection.  In the end, not really important whether a county
-reports a death on Sunday or waits until the following Monday or Tuesday.
 
 ## Rant
 
@@ -735,56 +402,3 @@ Equally important we need to **insist that political leaders actually
 lead** to provide the economic and logistical support required to get
 us through.
 
-## What's new?
-#### August 21, 2021
-- More [WTF America?](https://johnrsibert.github.io/JonzPandemic/##wtf-america) rant.
-
-#### July 17, 2021
-- Change ending date for recent prevalence comparison plots.
-
-#### July 1, 2021
-- Revise computation of most recent two week average new cases. 
-Calculation of new cases requires computing the difference between successive reports of the cumulative number cases. Reporting anomalies appear to cause occasional decreases in cumulative numbers, an impossibility. So my current estimates only include days with increasing numbers on successive days.
-- Change definition of two weeks to be 15 days to avoid potential day of week aliasing.
-- Add Mendocino County CA to list of places where friends live.
-
-#### June 6, 2021
-- Rescale axis in prevalence graphs to more easily visualize variability at low levels pr prevalence.
-- Set prevalence comparison line to correspond to lowest fifth percentile.
-
-#### May 13, 2021
-
-- Begin current prevalence comparisons.
-
-#### May 2, 2021
-
-- Added reference line to per capita prevalence at 0.05 cases per
-  1000 people to simplify comparisons between areas. 
-Very few areas have
-  prevalence rates this low.  
-- Fix some typo's and add a caveates to the
-  model interpretation.
-
-#### April 12, 2021
-
-- Added links to prevalence plots for selected counties.
-
-#### April 3, 2021
-
-- Prevalence presented on per capita basis as New Cases and Deaths per
-  day per 1000 people
-
-#### February 27, 2021
-
-- Adjust the data masking algorithm to include more counties
-
-#### February 27, 2021
-
-- Adjust data masking algorithms to include more counties
-
-- Add CFR boxplots by population size quantile
-
-#### January 11, 2021
-
-- This section - CMR trajectories in prevalence plots - More blather
-  in rant
