@@ -1,13 +1,7 @@
 # John's Pandemic Amusements
 
-## WTF America?
-I haven't had the heart to update these graphs for a couple of week. Things have only gotten worse with current prevalence rates in some counties approaching the extremely high prevalence rates seen last winter. Comparing prevalence rates across counties against a standard derived from the lowest rates is no longer a rational thing to do. The graphs need revision and the table no longer seems relevant.
 
-We were doing pretty well containing the pandemic until Independence Day. Two weeks later, just about as predicted, prevalence rates [increased sharply](https://johnrsibert.github.io/JonzPandemic/#so-how-are-we-doing)
-
-**Get the shots, wear your mask, or die!**
-
-#### Or how I occupied my days of social isolation
+## Or how I occupied my days of social isolation
 
 Around the Ides of March in 2020, we were all asked to stay
 home. The New York Times created public data bases documenting
@@ -46,8 +40,10 @@ So while the situation seems scary, especially so as we move into
 our second year of the pandemic, there are reasons to be optimistic.
 Several vaccines available and really effective. All vaccines are nearly
 100% effective in preventing death and serious illness and over 90%
-effective in preventing infection. Listen to "Sleepy Joe", our new
-President: **Get the jab!**
+effective in preventing infection. To paraphrase "Sleepy Joe", the new
+President of the United States of America: 
+
+**Get the jab! Get the shots, wear your mask, or die!**
 
 So please have a look at this stuff and act like a Fourteenth
 Century Venetian, keep away from sick people, wear your mask,
@@ -56,22 +52,23 @@ the light at the end of this increasingly long, grim tunnel. In the meantime, I 
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
 ## How bad is it?
-The number of cases and the number of deaths are two common indicators of how bad the epidemic has become. It is useful refer to number of cases and the number of deaths divided by the total population in an area as “prevalence” for want of a better word. The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
-`
+The number of cases and the number of deaths are two common indicators of how bad the epidemic has become. The number of cases and the number of deaths divided by the total population in an area as “prevalence” for want of a better word. The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
+
 The upper panel of each plot shows the number of new cases reported each
 day as vertical blue lines. The saw-tooth appearance of the vertical bars
 is smoothed by with an 7 day moving average shown as the heavy blue line
 marked "7da". 
-The horizontal red line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
-It marks the number of cases per 1000 people that is less than or equal to the lowest 5% of the prevalence estimates in all counties with more then 500,000 people.
-The middle panel of each plot is a similar presentation
+(The horizontal red line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
+It marks the number of cases per 1000 people that is less than or equal to the lowest 5% of the prevalence estimates in all counties with more then 500,000 people.)
+The second panel of each plot is a similar presentation
 of the number of new deaths reported each day. 
-The lower panel in each plot shows the trajectory of the ratio of fatalities to cases (or Case
-Fatality Ratio, CFR), often considered a rough measure of lethality.
+The third panel in each plot shows the trajectory of the ratio of fatalities to cases (or Case
+Fatality Ratio, CFR), sometimes considered a rough measure of lethality. The CFR rises and falls over the course of the pandemic reflecting, perhaps, how well local health care facilities are coping with rising case loads.
+The lower panel is the number of covid-19 vaccinations reported by the CDC divided by the US census population estimate. The blue line, labeled "first", is the percentage of the population receiving their first shot; the red line, "full", is the percentage of the population that is fully vaccinated by some definition.
 
 ##### New York City Prevalence
 
-![New York City, NY](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png)
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/New_York_CityNY_prevalence.png" alt="NYC prevalence" style="width:8in;"/>
 
 The disease attacked the five counties that comprise New York City
 aggressively with unchecked exponential growth in March and April of 2020.  
