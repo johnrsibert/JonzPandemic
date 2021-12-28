@@ -40,15 +40,12 @@ So while the situation seems scary, especially so as we move into
 our second year of the pandemic, there are reasons to be optimistic.
 Several vaccines available and really effective. All vaccines are nearly
 100% effective in preventing death and serious illness and over 90%
-effective in preventing infection. To paraphrase "Sleepy Joe", the new
-President of the United States of America: 
-
-**Get the jab! Get the shots, wear your mask, or die!**
+effective in preventing infection. To paraphrase the President of the United States of America, Joe Biden: **Get the jab! Get the shots, wear your mask, or die!**
 
 So please have a look at this stuff and act like a Fourteenth
-Century Venetian, keep away from sick people, wear your mask,
+Century Venetian, keep away from sick people, wear a mask,
 get vaccinated, and I'll see you all in person when we emerge into
-the light at the end of this increasingly long, grim tunnel. In the meantime, I recommend
+the light at the end of this long, grim tunnel. In the meantime, I recommend
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
 ## How bad is it?
@@ -58,8 +55,9 @@ The upper panel of each plot shows the number of new cases reported each
 day as vertical blue lines. The saw-tooth appearance of the vertical bars
 is smoothed by with an 7 day moving average shown as the heavy blue line
 marked "7da". 
-(The horizontal red line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
-It marks the number of cases per 1000 people that is less than or equal to the lowest 5% of the prevalence estimates in all counties with more then 500,000 people.)
+The horizontal dotted red line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
+It marks the number of cases per 10,000 people that is less than or equal to the lowest 5% of the prevalence estimates in the 138 US counties with more then 500,000 people.
+The prevalence in 95% of all counties will be higher than the red line.
 The second panel of each plot is a similar presentation
 of the number of new deaths reported each day. 
 The third panel in each plot shows the trajectory of the ratio of fatalities to cases (or Case
@@ -138,9 +136,10 @@ breathing through masks, it seems reasonable to ask if it was all
 worth it.
 
 #### Prevalence Histories Since April 2021 Compared
+Per capita prevalence histories of the largest counties in the 50 US states and the District of columbia.
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_L.png" alt="county prevalance comp" style="width:6.5in;"/>
 
-![Recent Prevalence Histories](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_m.png)
-Per capita prevalence histories of the 30 largest US counties.
+
 <!---
 These ugly graphs make it pretty clear that each county is experiencing the pandemic differently. 
 (I imagine distinct patterns in
@@ -163,7 +162,7 @@ Lets just look at the numbers of cases per capita for the last few weeks.
 ![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
-Corrently, the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
+Currently, the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
 The vertical red line represents the fifth percentile of the distribution. Prevalence estimates in places to the left of the red line are lower than
 estimates in 95% of all 138 places. In other words, places to the
 left of the red line are controlling infections much better than the most other places.
@@ -171,6 +170,8 @@ Prevalence rates declined rapidly since April 2021, and the rankings of counties
 
 
 #### Top and bottom of the range
+The prevalence rate for the lowest 5% of counties is approximately 1.0 case per 10,000 people.
+
 <!--- recent summary
 DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
 --->
@@ -179,58 +180,61 @@ DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4
 --->
 <!--- recent summary
 DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
+--->
+<!--- recent summary
+DescribeResult(nobs=133, minmax=(1.0529058320776357, 21.203622137009017), mean=5.229461210230441, variance=14.732234043077401, skewness=1.54096434915421, kurtosis=2.7208873811762926)
 --->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Duval FL           </td><td style="text-align: right;">       0.653</td></tr>
-<tr><td>1     </td><td>Brevard FL         </td><td style="text-align: right;">       0.659</td></tr>
-<tr><td>2     </td><td>Pinellas FL        </td><td style="text-align: right;">       0.737</td></tr>
-<tr><td>3     </td><td>Volusia FL         </td><td style="text-align: right;">       0.784</td></tr>
-<tr><td>4     </td><td>Polk FL            </td><td style="text-align: right;">       0.785</td></tr>
-<tr><td>5     </td><td>Lee FL             </td><td style="text-align: right;">       0.816</td></tr>
-<tr><td>6     </td><td>Pasco FL           </td><td style="text-align: right;">       0.822</td></tr>
-<tr><td>7     </td><td>Hillsborough FL    </td><td style="text-align: right;">       0.991</td></tr>
-<tr><td>8     </td><td>Orange FL          </td><td style="text-align: right;">       1.114</td></tr>
-<tr><td>9     </td><td>Alameda CA         </td><td style="text-align: right;">       1.217</td></tr>
-<tr><td>10    </td><td>Jefferson AL       </td><td style="text-align: right;">       1.244</td></tr>
-<tr><td>11    </td><td>Vancouver Island BC</td><td style="text-align: right;">       1.256</td></tr>
-<tr><td>12    </td><td>Contra Costa CA    </td><td style="text-align: right;">       1.262</td></tr>
-<tr><td>13    </td><td>San Mateo CA       </td><td style="text-align: right;">       1.322</td></tr>
-<tr><td>14    </td><td>Orange CA          </td><td style="text-align: right;">       1.353</td></tr>
-<tr><td>15    </td><td>Santa Clara CA     </td><td style="text-align: right;">       1.376</td></tr>
-<tr><td>16    </td><td>Hidalgo TX         </td><td style="text-align: right;">       1.456</td></tr>
-<tr><td>17    </td><td>Palm Beach FL      </td><td style="text-align: right;">       1.460</td></tr>
-<tr><td>18    </td><td>Denton TX          </td><td style="text-align: right;">       1.504</td></tr>
-<tr><td>19    </td><td>Multnomah OR       </td><td style="text-align: right;">       1.622</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>113   </td><td>DuPage IL          </td><td style="text-align: right;">       6.759</td></tr>
-<tr><td>114   </td><td>Hartford CT        </td><td style="text-align: right;">       6.759</td></tr>
-<tr><td>115   </td><td>Suffolk MA         </td><td style="text-align: right;">       6.822</td></tr>
-<tr><td>116   </td><td>Essex NJ           </td><td style="text-align: right;">       6.994</td></tr>
-<tr><td>117   </td><td>Ocean NJ           </td><td style="text-align: right;">       7.016</td></tr>
-<tr><td>118   </td><td>Providence RI      </td><td style="text-align: right;">       7.041</td></tr>
-<tr><td>119   </td><td>Oakland MI         </td><td style="text-align: right;">       7.237</td></tr>
-<tr><td>120   </td><td>New Haven CT       </td><td style="text-align: right;">       7.452</td></tr>
-<tr><td>121   </td><td>Monmouth NJ        </td><td style="text-align: right;">       7.497</td></tr>
-<tr><td>122   </td><td>Will IL            </td><td style="text-align: right;">       7.845</td></tr>
-<tr><td>123   </td><td>Wayne MI           </td><td style="text-align: right;">       7.933</td></tr>
-<tr><td>124   </td><td>Worcester MA       </td><td style="text-align: right;">       8.150</td></tr>
-<tr><td>125   </td><td>Essex MA           </td><td style="text-align: right;">       8.448</td></tr>
-<tr><td>126   </td><td>Plymouth MA        </td><td style="text-align: right;">       8.456</td></tr>
-<tr><td>127   </td><td>Summit OH          </td><td style="text-align: right;">       8.584</td></tr>
-<tr><td>128   </td><td>Nassau NY          </td><td style="text-align: right;">       8.654</td></tr>
-<tr><td>129   </td><td>Suffolk NY         </td><td style="text-align: right;">       8.737</td></tr>
-<tr><td>130   </td><td>Macomb MI          </td><td style="text-align: right;">       9.085</td></tr>
-<tr><td>131   </td><td>Bristol MA         </td><td style="text-align: right;">      10.096</td></tr>
-<tr><td>132   </td><td>Cuyahoga OH        </td><td style="text-align: right;">      13.613</td></tr>
+<tr><td>0     </td><td>Hidalgo TX             </td><td style="text-align: right;">       1.053</td></tr>
+<tr><td>1     </td><td>Spokane WA             </td><td style="text-align: right;">       1.113</td></tr>
+<tr><td>2     </td><td>Denton TX              </td><td style="text-align: right;">       1.229</td></tr>
+<tr><td>3     </td><td>Orange CA              </td><td style="text-align: right;">       1.294</td></tr>
+<tr><td>4     </td><td>Bexar TX               </td><td style="text-align: right;">       1.332</td></tr>
+<tr><td>5     </td><td>Washington OR          </td><td style="text-align: right;">       1.372</td></tr>
+<tr><td>6     </td><td>Contra Costa CA        </td><td style="text-align: right;">       1.434</td></tr>
+<tr><td>7     </td><td>Santa Clara CA         </td><td style="text-align: right;">       1.449</td></tr>
+<tr><td>8     </td><td>Dallas TX              </td><td style="text-align: right;">       1.462</td></tr>
+<tr><td>9     </td><td>Fresno CA              </td><td style="text-align: right;">       1.489</td></tr>
+<tr><td>10    </td><td>Alameda CA             </td><td style="text-align: right;">       1.501</td></tr>
+<tr><td>11    </td><td>Multnomah OR           </td><td style="text-align: right;">       1.514</td></tr>
+<tr><td>12    </td><td>San Joaquin CA         </td><td style="text-align: right;">       1.517</td></tr>
+<tr><td>13    </td><td>Volusia FL             </td><td style="text-align: right;">       1.529</td></tr>
+<tr><td>14    </td><td>Stanislaus CA          </td><td style="text-align: right;">       1.574</td></tr>
+<tr><td>15    </td><td>Collin TX              </td><td style="text-align: right;">       1.577</td></tr>
+<tr><td>16    </td><td>San Mateo CA           </td><td style="text-align: right;">       1.617</td></tr>
+<tr><td>17    </td><td>Sacramento CA          </td><td style="text-align: right;">       1.639</td></tr>
+<tr><td>18    </td><td>Pasco FL               </td><td style="text-align: right;">       1.646</td></tr>
+<tr><td>19    </td><td>Duval FL               </td><td style="text-align: right;">       1.650</td></tr>
+<tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>113   </td><td>Suffolk MA             </td><td style="text-align: right;">       8.547</td></tr>
+<tr><td>114   </td><td>Bristol MA             </td><td style="text-align: right;">       8.949</td></tr>
+<tr><td>115   </td><td>Providence RI          </td><td style="text-align: right;">       9.003</td></tr>
+<tr><td>116   </td><td>Ocean NJ               </td><td style="text-align: right;">       9.358</td></tr>
+<tr><td>117   </td><td>Middlesex NJ           </td><td style="text-align: right;">       9.566</td></tr>
+<tr><td>118   </td><td>Broward FL             </td><td style="text-align: right;">       9.640</td></tr>
+<tr><td>119   </td><td>Hudson NJ              </td><td style="text-align: right;">      10.191</td></tr>
+<tr><td>120   </td><td>District of Columbia DC</td><td style="text-align: right;">      10.261</td></tr>
+<tr><td>121   </td><td>Bergen NJ              </td><td style="text-align: right;">      10.913</td></tr>
+<tr><td>122   </td><td>Monmouth NJ            </td><td style="text-align: right;">      11.487</td></tr>
+<tr><td>123   </td><td>Passaic NJ             </td><td style="text-align: right;">      11.754</td></tr>
+<tr><td>124   </td><td>Westchester NY         </td><td style="text-align: right;">      11.906</td></tr>
+<tr><td>125   </td><td>Union NJ               </td><td style="text-align: right;">      12.580</td></tr>
+<tr><td>126   </td><td>Summit OH              </td><td style="text-align: right;">      12.829</td></tr>
+<tr><td>127   </td><td>Suffolk NY             </td><td style="text-align: right;">      14.450</td></tr>
+<tr><td>128   </td><td>New York City NY       </td><td style="text-align: right;">      15.086</td></tr>
+<tr><td>129   </td><td>Miami-Dade FL          </td><td style="text-align: right;">      15.699</td></tr>
+<tr><td>130   </td><td>Nassau NY              </td><td style="text-align: right;">      16.479</td></tr>
+<tr><td>131   </td><td>Essex NJ               </td><td style="text-align: right;">      18.422</td></tr>
+<tr><td>132   </td><td>Cuyahoga OH            </td><td style="text-align: right;">      21.204</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2021-12-21
+Updated 2021-12-27
 <br>
 <!---END TABLE--->
 
