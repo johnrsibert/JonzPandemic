@@ -19,15 +19,14 @@ family live.  Some of these plots can be seen by following the [links
 below](https://johnrsibert.github.io/JonzPandemic/#how-bad-is-it-where-you-live)
 and on my [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/master/PlotsToShare).
 **Have a look, download, share,** and let me know if you'd like something
-specific.  I update most graphs weekly if I can remember.
+specific.  I update most graphs weekly if I can remember to do it.
 
 I also wanted to apply my rusty fish population modeling experience to
 modeling the spread of Covid-19 and have been writing some statistical
 models of the Covid-19 pandemic in the United States.  This is very much
 a work in progress, or more accurately, a work without much recent progress.
 
-Why bother doing this? I'm sure not trying to compete with the
-New York Times.  I'm mostly trying to satisfy my curiosity and
+Why bother doing this? I'm sure not trying to compete with the excellent IT team at the New York Times. Mostly, I'm mostly trying to satisfy my curiosity and
 I enjoy sharing sharing my results.  The data seem show that
 if you contact the Covid-19, you have about a **2% probability
 of dying within three weeks**.  This the optimistic guess.
@@ -38,9 +37,10 @@ Finally, the data seem to show that front-line health workers have
 learned how to improve treatment of the disease to reduce mortality.
 So while the situation seems scary, especially so as we move into
 our second year of the pandemic, there are reasons to be optimistic.
-Several vaccines available and really effective. All vaccines are nearly
+Several vaccines are available and are **very effective**. All vaccines are nearly
 100% effective in preventing death and serious illness and over 90%
-effective in preventing infection. To paraphrase the President of the United States of America, Joe Biden: **Get the jab! Get the shots, wear your mask, or die!**
+effective in preventing infection, even against newly emerging variants. 
+So, to paraphrase the Forty-sixth President of the United States of America, Joe Biden: **Get the jab! Wear your mask! Or die!**
 
 So please have a look at this stuff and act like a Fourteenth
 Century Venetian, keep away from sick people, wear a mask,
@@ -159,7 +159,8 @@ Some counties
 Lets just look at the numbers of cases per capita for the last few weeks.
 
 ##### Current Prevalence
-![Prevalence Distribution](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png)
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png" alt="recent prevalence" style="width:6.5in;"/>
+
 Cases per 1000 people averaged over the most recent two weeks in regions with more than 500,000 people.
 
 Currently, the  two week average prevalence ranges from about 0.003 to more than 0.5 cases per 1000 people. 
@@ -172,15 +173,6 @@ Prevalence rates declined rapidly since April 2021, and the rankings of counties
 #### Top and bottom of the range
 The prevalence rate for the lowest 5% of counties is approximately 1.0 case per 10,000 people.
 
-<!--- recent summary
-DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
---->
-<!--- recent summary
-DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
---->
-<!--- recent summary
-DescribeResult(nobs=133, minmax=(0.6529157595975311, 13.612701661657512), mean=4.119387513223188, variance=5.976032508681869, skewness=0.7288534678446972, kurtosis=0.4188255756011823)
---->
 <!--- recent summary
 DescribeResult(nobs=133, minmax=(1.0529058320776357, 21.203622137009017), mean=5.229461210230441, variance=14.732234043077401, skewness=1.54096434915421, kurtosis=2.7208873811762926)
 --->
@@ -249,7 +241,8 @@ deaths and cases and summarize current Case Fatality ratios.
 
 ##### Deaths vs Cases, Simplified
 
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_5.png)
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_5.png" alt="simplified f vs c" style="width:6.5in;"/>
+
 The relationship between reported cases and reported deaths for the 5
 largest counties in the United States (Los Angeles CA, New York City NY,
 Cook County IL, Maricopa County AZ, and Harris TX) since the beginning
@@ -264,7 +257,8 @@ of counties, the trajectories seem to converge to mortality rates between
 
 ##### Deaths vs Cases
 
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_0000.png)
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_all_0000.png" alt="multiple f vs c" style="width:6.5in;"/>
+
 Relationship between reported cases and reported deaths for the most
 populous counties in the United States.  The number counties makes it
 difficult to differentiate the complete history of a single county from
@@ -273,7 +267,9 @@ of points converges to a mortality rates between 1% and 2%.
 
 ##### Case Fatality Ratio
 
-![](https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_hist_all_recent.png)
+
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_hist_all_recent.png" alt="lognormal CFR" style="width:6.5in;"/>
+
 Frequency distribution of the case-fatality ratio (deaths/cases)
 computed for the most recent day of reporting.  The blue bars indicate the
 number of values of the ratio that fall into the slots defined along the
@@ -283,7 +279,7 @@ a maximum 0.08.  The Johns Hopkins University Coronavirus Resource Center
 pegs the case-fatality ratio in the United States to be about [two deaths
 for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
-**Wonkish:** The distribution of observed CFRs is skewed to the right,
+The distribution of observed CFRs is skewed to the right,
 making it difficult to calculate an unambiguous central tendency.
 The median of the distribution lies to the right of the mode (or peak).
 A less misleading measure of the likelihood of death is to look at the
@@ -297,12 +293,12 @@ less than 4%, you would be correct about 98% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is,
 in part, a simple numerical artifact.  The mean of ratio is close to
-zero, but ratio can never be less than zero.  So the left limb of the
+zero, but the ratio can never be less than zero.  So the left limb of the
 distribution includes fewer instances than the right limb.  There are
 also medical reasons for the skewness.  The larger number of values to
 the right of the peak are possibly deaths of the people most vulnerable
-to Covid-19 (people older that 65 years or people with compromised
-immune systems).
+to Covid-19: people older that 65 years, people with compromised
+immune systems, and the unvaccinated.
 
 The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
@@ -312,7 +308,7 @@ distributions.  The curve appears to correspond pretty well to the
 histogram, but in my opinion.
 
 
-<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFRridge_30_23.png" alt="CFR ridge" style="width:8.0in;"/>
+<img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFRridge_30_23.png" alt="CFR ridge" style="width:6.5in;"/>
 
 ## Model Results (wonkish)
 
