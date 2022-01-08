@@ -176,57 +176,63 @@ The prevalence rate for the lowest 5% of counties is approximately 1.0 case per 
 <!--- recent summary
 DescribeResult(nobs=133, minmax=(1.0529058320776357, 21.203622137009017), mean=5.229461210230441, variance=14.732234043077401, skewness=1.54096434915421, kurtosis=2.7208873811762926)
 --->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(1.2471274965692887, 37.38544097403697), mean=9.70754048839434, variance=44.4883599897358, skewness=1.5991289499605164, kurtosis=3.0519048282840773)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(2.96318124519097, 64.48480030230088), mean=17.320970906070915, variance=77.46442238449623, skewness=1.7729595644306406, kurtosis=5.756626339047264)
+--->
 <!---START TABLE--->
 <table>
 <thead>
 <tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Hidalgo TX             </td><td style="text-align: right;">       1.053</td></tr>
-<tr><td>1     </td><td>Spokane WA             </td><td style="text-align: right;">       1.113</td></tr>
-<tr><td>2     </td><td>Denton TX              </td><td style="text-align: right;">       1.229</td></tr>
-<tr><td>3     </td><td>Orange CA              </td><td style="text-align: right;">       1.294</td></tr>
-<tr><td>4     </td><td>Bexar TX               </td><td style="text-align: right;">       1.332</td></tr>
-<tr><td>5     </td><td>Washington OR          </td><td style="text-align: right;">       1.372</td></tr>
-<tr><td>6     </td><td>Contra Costa CA        </td><td style="text-align: right;">       1.434</td></tr>
-<tr><td>7     </td><td>Santa Clara CA         </td><td style="text-align: right;">       1.449</td></tr>
-<tr><td>8     </td><td>Dallas TX              </td><td style="text-align: right;">       1.462</td></tr>
-<tr><td>9     </td><td>Fresno CA              </td><td style="text-align: right;">       1.489</td></tr>
-<tr><td>10    </td><td>Alameda CA             </td><td style="text-align: right;">       1.501</td></tr>
-<tr><td>11    </td><td>Multnomah OR           </td><td style="text-align: right;">       1.514</td></tr>
-<tr><td>12    </td><td>San Joaquin CA         </td><td style="text-align: right;">       1.517</td></tr>
-<tr><td>13    </td><td>Volusia FL             </td><td style="text-align: right;">       1.529</td></tr>
-<tr><td>14    </td><td>Stanislaus CA          </td><td style="text-align: right;">       1.574</td></tr>
-<tr><td>15    </td><td>Collin TX              </td><td style="text-align: right;">       1.577</td></tr>
-<tr><td>16    </td><td>San Mateo CA           </td><td style="text-align: right;">       1.617</td></tr>
-<tr><td>17    </td><td>Sacramento CA          </td><td style="text-align: right;">       1.639</td></tr>
-<tr><td>18    </td><td>Pasco FL               </td><td style="text-align: right;">       1.646</td></tr>
-<tr><td>19    </td><td>Duval FL               </td><td style="text-align: right;">       1.650</td></tr>
+<tr><td>0     </td><td>Tulsa OK               </td><td style="text-align: right;">       2.963</td></tr>
+<tr><td>1     </td><td>Vancouver Island BC    </td><td style="text-align: right;">       4.057</td></tr>
+<tr><td>2     </td><td>Oklahoma OK            </td><td style="text-align: right;">       4.374</td></tr>
+<tr><td>3     </td><td>El Paso TX             </td><td style="text-align: right;">       5.232</td></tr>
+<tr><td>4     </td><td>Kern CA                </td><td style="text-align: right;">       5.351</td></tr>
+<tr><td>5     </td><td>Fresno CA              </td><td style="text-align: right;">       5.352</td></tr>
+<tr><td>6     </td><td>Stanislaus CA          </td><td style="text-align: right;">       5.728</td></tr>
+<tr><td>7     </td><td>Spokane WA             </td><td style="text-align: right;">       6.532</td></tr>
+<tr><td>8     </td><td>Hidalgo TX             </td><td style="text-align: right;">       7.049</td></tr>
+<tr><td>9     </td><td>Jackson MO             </td><td style="text-align: right;">       7.122</td></tr>
+<tr><td>10    </td><td>Pima AZ                </td><td style="text-align: right;">       7.124</td></tr>
+<tr><td>11    </td><td>San Joaquin CA         </td><td style="text-align: right;">       7.495</td></tr>
+<tr><td>12    </td><td>Dane WI                </td><td style="text-align: right;">       7.686</td></tr>
+<tr><td>13    </td><td>Sacramento CA          </td><td style="text-align: right;">       7.794</td></tr>
+<tr><td>14    </td><td>Bernalillo NM          </td><td style="text-align: right;">       8.591</td></tr>
+<tr><td>15    </td><td>Multnomah OR           </td><td style="text-align: right;">       8.974</td></tr>
+<tr><td>16    </td><td>Washington OR          </td><td style="text-align: right;">       9.105</td></tr>
+<tr><td>17    </td><td>Contra Costa CA        </td><td style="text-align: right;">       9.275</td></tr>
+<tr><td>18    </td><td>Alameda CA             </td><td style="text-align: right;">       9.382</td></tr>
+<tr><td>19    </td><td>Clark NV               </td><td style="text-align: right;">       9.728</td></tr>
 <tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>113   </td><td>Suffolk MA             </td><td style="text-align: right;">       8.547</td></tr>
-<tr><td>114   </td><td>Bristol MA             </td><td style="text-align: right;">       8.949</td></tr>
-<tr><td>115   </td><td>Providence RI          </td><td style="text-align: right;">       9.003</td></tr>
-<tr><td>116   </td><td>Ocean NJ               </td><td style="text-align: right;">       9.358</td></tr>
-<tr><td>117   </td><td>Middlesex NJ           </td><td style="text-align: right;">       9.566</td></tr>
-<tr><td>118   </td><td>Broward FL             </td><td style="text-align: right;">       9.640</td></tr>
-<tr><td>119   </td><td>Hudson NJ              </td><td style="text-align: right;">      10.191</td></tr>
-<tr><td>120   </td><td>District of Columbia DC</td><td style="text-align: right;">      10.261</td></tr>
-<tr><td>121   </td><td>Bergen NJ              </td><td style="text-align: right;">      10.913</td></tr>
-<tr><td>122   </td><td>Monmouth NJ            </td><td style="text-align: right;">      11.487</td></tr>
-<tr><td>123   </td><td>Passaic NJ             </td><td style="text-align: right;">      11.754</td></tr>
-<tr><td>124   </td><td>Westchester NY         </td><td style="text-align: right;">      11.906</td></tr>
-<tr><td>125   </td><td>Union NJ               </td><td style="text-align: right;">      12.580</td></tr>
-<tr><td>126   </td><td>Summit OH              </td><td style="text-align: right;">      12.829</td></tr>
-<tr><td>127   </td><td>Suffolk NY             </td><td style="text-align: right;">      14.450</td></tr>
-<tr><td>128   </td><td>New York City NY       </td><td style="text-align: right;">      15.086</td></tr>
-<tr><td>129   </td><td>Miami-Dade FL          </td><td style="text-align: right;">      15.699</td></tr>
-<tr><td>130   </td><td>Nassau NY              </td><td style="text-align: right;">      16.479</td></tr>
-<tr><td>131   </td><td>Essex NJ               </td><td style="text-align: right;">      18.422</td></tr>
-<tr><td>132   </td><td>Cuyahoga OH            </td><td style="text-align: right;">      21.204</td></tr>
+<tr><td>118   </td><td>Camden NJ              </td><td style="text-align: right;">      25.527</td></tr>
+<tr><td>119   </td><td>Orange FL              </td><td style="text-align: right;">      26.625</td></tr>
+<tr><td>120   </td><td>District of Columbia DC</td><td style="text-align: right;">      26.966</td></tr>
+<tr><td>121   </td><td>Middlesex NJ           </td><td style="text-align: right;">      27.019</td></tr>
+<tr><td>122   </td><td>Suffolk MA             </td><td style="text-align: right;">      27.383</td></tr>
+<tr><td>123   </td><td>Hudson NJ              </td><td style="text-align: right;">      27.519</td></tr>
+<tr><td>124   </td><td>Monmouth NJ            </td><td style="text-align: right;">      27.836</td></tr>
+<tr><td>125   </td><td>Prince George's MD     </td><td style="text-align: right;">      27.928</td></tr>
+<tr><td>126   </td><td>Baltimore city MD      </td><td style="text-align: right;">      28.919</td></tr>
+<tr><td>127   </td><td>Palm Beach FL          </td><td style="text-align: right;">      29.286</td></tr>
+<tr><td>128   </td><td>Bergen NJ              </td><td style="text-align: right;">      30.280</td></tr>
+<tr><td>129   </td><td>Westchester NY         </td><td style="text-align: right;">      30.885</td></tr>
+<tr><td>130   </td><td>Suffolk NY             </td><td style="text-align: right;">      32.864</td></tr>
+<tr><td>131   </td><td>Union NJ               </td><td style="text-align: right;">      34.875</td></tr>
+<tr><td>132   </td><td>Passaic NJ             </td><td style="text-align: right;">      36.764</td></tr>
+<tr><td>133   </td><td>Nassau NY              </td><td style="text-align: right;">      39.863</td></tr>
+<tr><td>134   </td><td>New York City NY       </td><td style="text-align: right;">      41.701</td></tr>
+<tr><td>135   </td><td>Broward FL             </td><td style="text-align: right;">      41.829</td></tr>
+<tr><td>136   </td><td>Essex NJ               </td><td style="text-align: right;">      42.854</td></tr>
+<tr><td>137   </td><td>Miami-Dade FL          </td><td style="text-align: right;">      64.485</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2021-12-27
+Updated 2022-01-08
 <br>
 <!---END TABLE--->
 
