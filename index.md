@@ -277,6 +277,7 @@ difficult to differentiate the complete history of a single county from
 the mess of colored dots.  Nevertheless the general trend of the swarm
 of points converges to a mortality rates between 1% or less.
 
+
 ##### Case Fatality Ratio
 
 
@@ -289,7 +290,7 @@ horizontal axis.  Most of the ratios are near 0.015 for a morality rate
 of 1.5%, but there is a substantial number ratios greater than 0.02 up to
 a maximum of 0.05.  The Johns Hopkins University Coronavirus Resource Center
 pegs the case-fatality ratio in the United States to be about [1.2 deaths
-for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality) down from 2 deaths per case in early 2020.
+for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality) down from 2 deaths per 100 cases in early 2020.
 
 The distribution of observed CFRs is skewed to the right,
 making it difficult to calculate an unambiguous central tendency.
@@ -310,7 +311,7 @@ distribution includes fewer instances than the right limb.  There are
 also medical reasons for the skewness.  The larger number of values to
 the right of the peak are possibly deaths of the people most vulnerable
 to Covid-19: people older that 65 years, people with compromised
-immune systems or other vunlerabilities, and of course **the unvaccinated**.
+immune systems or other vulnerabilities, and of course **the unvaccinated**.
 
 The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
