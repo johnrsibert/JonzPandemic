@@ -264,8 +264,8 @@ in proportion to the number of cases for all counties.  The gray diagonal
 lines indicate mortality rates ranging from 0.5% to 8% of reported cases.
 When the number of cases exceeds 1000 the dots begin to form lines
 tracing the history of each county. Even with this relative small number
-of counties, the trajectories seem to converge to mortality rates between
-1% and 2%.
+of counties, the trajectories seem to converge to mortality rates near
+1%.
 
 ##### Deaths vs Cases
 
@@ -275,7 +275,7 @@ Relationship between reported cases and reported deaths for the most
 populous counties in the United States.  The number counties makes it
 difficult to differentiate the complete history of a single county from
 the mess of colored dots.  Nevertheless the general trend of the swarm
-of points converges to a mortality rates between 1% and 2%.
+of points converges to a mortality rates between 1% or less.
 
 ##### Case Fatality Ratio
 
@@ -287,7 +287,7 @@ computed for the most recent day of reporting.  The blue bars indicate the
 number of values of the ratio that fall into the slots defined along the
 horizontal axis.  Most of the ratios are near 0.015 for a morality rate
 of 1.5%, but there is a substantial number ratios greater than 0.02 up to
-a maximum 0.08.  The Johns Hopkins University Coronavirus Resource Center
+a maximum of 0.05.  The Johns Hopkins University Coronavirus Resource Center
 pegs the case-fatality ratio in the United States to be about [two deaths
 for 100 confirmed cases](https://coronavirus.jhu.edu/data/mortality).
 
@@ -301,7 +301,7 @@ of all of the point estimates. If the CFR distribution were symmetrical,
 this point would be something like the upper 95% "confidence" region of
 values indistinguishable from the mean value.  In other words, if you
 were to say that the probability of dying after becoming infected is
-less than 4%, you would be correct about 98% of the time.
+less than 3%, you would be correct about 98% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is,
 in part, a simple numerical artifact.  The mean of ratio is close to
@@ -310,7 +310,7 @@ distribution includes fewer instances than the right limb.  There are
 also medical reasons for the skewness.  The larger number of values to
 the right of the peak are possibly deaths of the people most vulnerable
 to Covid-19: people older that 65 years, people with compromised
-immune systems, and the unvaccinated.
+immune systems, other vunlerabilities and **the unvaccinated**.
 
 The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
@@ -319,8 +319,12 @@ This distribution model is commonly used for describing skewed
 distributions.  The curve appears to correspond pretty well to the
 histogram, but in my opinion.
 
-
+##### Changes in the Case Fatality Ratio Distribution
 <img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFRridge_30_23.png" alt="CFR ridge" style="width:6.5in;"/>
+
+Estimated long-normal probability distribution of the CFR for each day of the pandemic since April 1, 2020 scaled so to that the sum of the probabilities on each day sum 1.0. 
+
+The right hand tail has expanded and contracted over the course of the pandemic  so that the probability of death appears to have been highest during periods when the prevalence was also high. Recent weeks have seen dramatic decreases in the the probability of death.
 
 ## Model Results (wonkish)
 
