@@ -218,57 +218,78 @@ DescribeResult(nobs=138, minmax=(1.0417746225861058, 12.09770500954018), mean=4.
 <!--- recent summary
 DescribeResult(nobs=138, minmax=(0.7368892552797561, 9.205002367112396), mean=2.7662925568816292, variance=2.329558563877194, skewness=1.6669283975555969, kurtosis=3.04127007888178)
 --->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.49659928073200954, 8.43066521740906), mean=1.750449603102233, variance=1.0570824541757349, skewness=3.181019735143567, kurtosis=15.218418031576181)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.40816078738064415, 17.155549398905656), mean=1.356694206110442, variance=2.4557613918241197, skewness=7.947113011256503, kurtosis=74.32694924382639)
+--->
+<!--- recent summary
+DescribeResult(nobs=138, minmax=(0.05185677224327374, 5.045393218950661), mean=0.9866899364224513, variance=0.5415315585577914, skewness=2.907235560846192, kurtosis=10.990336734098848)
+--->
+<!--- recent summary
+DescribeResult(nobs=123, minmax=(0.10096065426869832, 3.659680737543267), mean=0.9243350521627395, variance=0.37523053880598595, skewness=2.3414600083737405, kurtosis=7.390630341662304)
+--->
+<!--- recent summary
+DescribeResult(nobs=136, minmax=(0.10501866706807135, 3.576744353554026), mean=1.1750881885056388, variance=0.5570512606256239, skewness=1.0152765443650915, kurtosis=0.6759881314638396)
+--->
+<!--- recent summary
+DescribeResult(nobs=136, minmax=(0.10501866706807135, 3.576744353554026), mean=1.1750881885056388, variance=0.5570512606256239, skewness=1.0152765443650915, kurtosis=0.6759881314638396)
+--->
+<!--- recent summary
+DescribeResult(nobs=124, minmax=(0.19931932450680925, 3.938456086696107), mean=1.3567568353533344, variance=0.7653782766582513, skewness=0.7883228258235563, kurtosis=0.0028813160640797086)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Summit OH          </td><td style="text-align: right;">       0.737</td></tr>
-<tr><td>1     </td><td>Cuyahoga OH        </td><td style="text-align: right;">       0.805</td></tr>
-<tr><td>2     </td><td>Douglas NE         </td><td style="text-align: right;">       1.110</td></tr>
-<tr><td>3     </td><td>Suffolk NY         </td><td style="text-align: right;">       1.187</td></tr>
-<tr><td>4     </td><td>Vancouver Island BC</td><td style="text-align: right;">       1.201</td></tr>
-<tr><td>5     </td><td>Marion IN          </td><td style="text-align: right;">       1.207</td></tr>
-<tr><td>6     </td><td>Delaware PA        </td><td style="text-align: right;">       1.248</td></tr>
-<tr><td>7     </td><td>Orange CA          </td><td style="text-align: right;">       1.274</td></tr>
-<tr><td>8     </td><td>Westchester NY     </td><td style="text-align: right;">       1.281</td></tr>
-<tr><td>9     </td><td>Nassau NY          </td><td style="text-align: right;">       1.290</td></tr>
-<tr><td>10    </td><td>Milwaukee WI       </td><td style="text-align: right;">       1.313</td></tr>
-<tr><td>11    </td><td>New York City NY   </td><td style="text-align: right;">       1.317</td></tr>
-<tr><td>12    </td><td>Monroe NY          </td><td style="text-align: right;">       1.338</td></tr>
-<tr><td>13    </td><td>Hamilton OH        </td><td style="text-align: right;">       1.341</td></tr>
-<tr><td>14    </td><td>Fairfield CT       </td><td style="text-align: right;">       1.359</td></tr>
-<tr><td>15    </td><td>Fairfax VA         </td><td style="text-align: right;">       1.366</td></tr>
-<tr><td>16    </td><td>King WA            </td><td style="text-align: right;">       1.376</td></tr>
-<tr><td>17    </td><td>Essex MA           </td><td style="text-align: right;">       1.403</td></tr>
-<tr><td>18    </td><td>Franklin OH        </td><td style="text-align: right;">       1.405</td></tr>
-<tr><td>19    </td><td>Plymouth MA        </td><td style="text-align: right;">       1.448</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>118   </td><td>Prince George's MD </td><td style="text-align: right;">       4.092</td></tr>
-<tr><td>119   </td><td>Wake NC            </td><td style="text-align: right;">       4.214</td></tr>
-<tr><td>120   </td><td>Stanislaus CA      </td><td style="text-align: right;">       4.228</td></tr>
-<tr><td>121   </td><td>Fort Bend TX       </td><td style="text-align: right;">       4.298</td></tr>
-<tr><td>122   </td><td>Baltimore city MD  </td><td style="text-align: right;">       4.807</td></tr>
-<tr><td>123   </td><td>Broward FL         </td><td style="text-align: right;">       4.949</td></tr>
-<tr><td>124   </td><td>Fresno CA          </td><td style="text-align: right;">       5.125</td></tr>
-<tr><td>125   </td><td>Volusia FL         </td><td style="text-align: right;">       5.400</td></tr>
-<tr><td>126   </td><td>Duval FL           </td><td style="text-align: right;">       5.402</td></tr>
-<tr><td>127   </td><td>Lee FL             </td><td style="text-align: right;">       5.496</td></tr>
-<tr><td>128   </td><td>Pasco FL           </td><td style="text-align: right;">       5.656</td></tr>
-<tr><td>129   </td><td>Pinellas FL        </td><td style="text-align: right;">       5.693</td></tr>
-<tr><td>130   </td><td>Brevard FL         </td><td style="text-align: right;">       5.936</td></tr>
-<tr><td>131   </td><td>Orange FL          </td><td style="text-align: right;">       6.069</td></tr>
-<tr><td>132   </td><td>Polk FL            </td><td style="text-align: right;">       6.105</td></tr>
-<tr><td>133   </td><td>Hidalgo TX         </td><td style="text-align: right;">       6.768</td></tr>
-<tr><td>134   </td><td>Hillsborough FL    </td><td style="text-align: right;">       7.120</td></tr>
-<tr><td>135   </td><td>Kern CA            </td><td style="text-align: right;">       7.595</td></tr>
-<tr><td>136   </td><td>Miami-Dade FL      </td><td style="text-align: right;">       7.874</td></tr>
-<tr><td>137   </td><td>Jefferson KY       </td><td style="text-align: right;">       9.205</td></tr>
+<tr><td>0     </td><td>Sedgwick KS            </td><td style="text-align: right;">       0.199</td></tr>
+<tr><td>1     </td><td>Wake NC                </td><td style="text-align: right;">       0.204</td></tr>
+<tr><td>2     </td><td>Maricopa AZ            </td><td style="text-align: right;">       0.208</td></tr>
+<tr><td>3     </td><td>Jefferson AL           </td><td style="text-align: right;">       0.241</td></tr>
+<tr><td>4     </td><td>Denton TX              </td><td style="text-align: right;">       0.258</td></tr>
+<tr><td>5     </td><td>Greenville SC          </td><td style="text-align: right;">       0.278</td></tr>
+<tr><td>6     </td><td>Utah UT                </td><td style="text-align: right;">       0.287</td></tr>
+<tr><td>7     </td><td>Dallas TX              </td><td style="text-align: right;">       0.294</td></tr>
+<tr><td>8     </td><td>Montgomery OH          </td><td style="text-align: right;">       0.296</td></tr>
+<tr><td>9     </td><td>El Paso TX             </td><td style="text-align: right;">       0.305</td></tr>
+<tr><td>10    </td><td>Tulsa OK               </td><td style="text-align: right;">       0.318</td></tr>
+<tr><td>11    </td><td>Kern CA                </td><td style="text-align: right;">       0.327</td></tr>
+<tr><td>12    </td><td>Marion IN              </td><td style="text-align: right;">       0.330</td></tr>
+<tr><td>13    </td><td>Riverside CA           </td><td style="text-align: right;">       0.342</td></tr>
+<tr><td>14    </td><td>Gwinnett GA            </td><td style="text-align: right;">       0.343</td></tr>
+<tr><td>15    </td><td>Shelby TN              </td><td style="text-align: right;">       0.363</td></tr>
+<tr><td>16    </td><td>Douglas NE             </td><td style="text-align: right;">       0.398</td></tr>
+<tr><td>17    </td><td>Tarrant TX             </td><td style="text-align: right;">       0.410</td></tr>
+<tr><td>18    </td><td>San Joaquin CA         </td><td style="text-align: right;">       0.424</td></tr>
+<tr><td>19    </td><td>Cobb GA                </td><td style="text-align: right;">       0.428</td></tr>
+<tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>104   </td><td>Middlesex MA           </td><td style="text-align: right;">       2.414</td></tr>
+<tr><td>105   </td><td>DuPage IL              </td><td style="text-align: right;">       2.447</td></tr>
+<tr><td>106   </td><td>Suffolk NY             </td><td style="text-align: right;">       2.467</td></tr>
+<tr><td>107   </td><td>Providence RI          </td><td style="text-align: right;">       2.473</td></tr>
+<tr><td>108   </td><td>Middlesex NJ           </td><td style="text-align: right;">       2.495</td></tr>
+<tr><td>109   </td><td>Essex NJ               </td><td style="text-align: right;">       2.509</td></tr>
+<tr><td>110   </td><td>Denver CO              </td><td style="text-align: right;">       2.721</td></tr>
+<tr><td>111   </td><td>Fairfield CT           </td><td style="text-align: right;">       2.726</td></tr>
+<tr><td>112   </td><td>New York City NY       </td><td style="text-align: right;">       2.731</td></tr>
+<tr><td>113   </td><td>Jefferson CO           </td><td style="text-align: right;">       2.750</td></tr>
+<tr><td>114   </td><td>Dane WI                </td><td style="text-align: right;">       2.775</td></tr>
+<tr><td>115   </td><td>King WA                </td><td style="text-align: right;">       2.796</td></tr>
+<tr><td>116   </td><td>Monmouth NJ            </td><td style="text-align: right;">       2.810</td></tr>
+<tr><td>117   </td><td>Suffolk MA             </td><td style="text-align: right;">       2.904</td></tr>
+<tr><td>118   </td><td>Westchester NY         </td><td style="text-align: right;">       3.056</td></tr>
+<tr><td>119   </td><td>District of Columbia DC</td><td style="text-align: right;">       3.152</td></tr>
+<tr><td>120   </td><td>Bergen NJ              </td><td style="text-align: right;">       3.226</td></tr>
+<tr><td>121   </td><td>Nassau NY              </td><td style="text-align: right;">       3.509</td></tr>
+<tr><td>122   </td><td>Erie NY                </td><td style="text-align: right;">       3.880</td></tr>
+<tr><td>123   </td><td>Monroe NY              </td><td style="text-align: right;">       3.938</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-02-26
+Updated 2022-04-19
 <br>
 <!---END TABLE--->
 
