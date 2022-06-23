@@ -260,6 +260,9 @@ DescribeResult(nobs=125, minmax=(0.3062318174858368, 7.178199387749502), mean=3.
 <!--- recent summary
 DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=3.4638733251010847, variance=4.5531051980495905, skewness=2.581175178759068, kurtosis=8.717726367252327)
 --->
+<!--- recent summary
+DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=3.4638733251010847, variance=4.5531051980495905, skewness=2.581175178759068, kurtosis=8.717726367252327)
+--->
 <!---START TABLE--->
 <table>
 <thead>
