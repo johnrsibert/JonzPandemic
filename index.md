@@ -58,7 +58,7 @@ day** as vertical blue lines. The saw-tooth appearance of the vertical lines
 is smoothed with an 7 day moving average, shown as the heavy blue line
 marked "7da". 
 The horizontal dotted green line in the per capita cases graphs is an arbitrary standard to facilitate comparison with other regions.
-It marks the number of cases per 10,000 people that is less than or equal to the lowest 20% ($$P_{0.2}$$) of prevalence estimates in the 272 US counties with populations greater than 250,000 people.
+It marks the number of cases per 10,000 people that is less than or equal to the lowest 20% ($P_{0.2}$) of prevalence estimates in the 272 US counties with populations greater than 250,000 people.
 The prevalence in 80% of all counties is higher than the green line.
 The second panel of each plot is a similar presentation
 of the **number of new deaths reported each day**. 
