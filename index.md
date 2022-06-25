@@ -3,18 +3,18 @@
 
 ## Or how I occupied my days of social isolation
 
-Around the Ides of March in 2020, people all across the country were getting very sick and many weredying, We were all asked to stay
+Around the Ides of March in 2020, people all across the country were getting very sick and many were dying, we were all asked to stay
 home and wash our hands. Meanwhile, the New York Times newspaper created public data bases documenting
-the course of the Covid-19 pandemic in the United States. The NYT
-updates these data continuously and thay are freely available
-[online](https://github.com/nytimes/covid-19-data). More recently, the Times has created an excellent interactive [Covid-19
+the course of the Covid-19 pandemic in the United States. The Times
+updates these data continuously and they are freely available
+[online](https://github.com/nytimes/covid-19-data). The Times has also created an excellent interactive [Covid-19
 tracker](https://www.nytimes.com/interactive/2020/us/covid-cases-deaths-tracker.html) that you can use to check out what is happening in places you care about.
 **Thanks and kudos** to the New York Times and the folks who maintain
 [GitHub](https://github.com/) for these vital public services.
 
 The US Center for Disease Control and Prevention has a [large selection of public data](https://data.cdc.gov/browse). CDC staff were very helpful getting me started accessing data on [vaccinations by county](https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh). 
 
-What is a data geek to do while sheltering in place? I thought it might be a good opportunity to improve neglected [python](https://www.python.org/) programming chops.  So I've been
+So, what is a retired data geek to do while sheltering in place? It was an opportunity to improve neglected [python](https://www.python.org/) programming chops. I've been
 drawing lots of graphs tracking the prevalence of the disease in places
 where I can no longer travel, parts of the country where friends and
 family live. Some of these plots can be seen by following the [links
@@ -23,48 +23,47 @@ and on my [repository on GitHub](https://github.com/johnrsibert/SIR-Models/tree/
 **Have a look, download, share,** and let me know if you'd like something
 specific.  I update most graphs weekly if I can remember to do it.
 
-I also wanted to apply my rusty fish population modeling experience to
-modeling the spread of Covid-19 and have been writing some statistical
+Also, I wanted to apply my rusty fish population modeling experience to
+modeling the spread of Covid-19 and have been writing statistical
 models of the Covid-19 pandemic in the United States.  This is very much
 a work in progress, or more accurately, a work without much recent progress.
 
-Why bother? I'm sure not trying to compete with the excellent IT teamw at the New York Times and the CDC. Mostly, I'm mostly trying to satisfy my curiosity and
+Why bother? I'm sure not trying to compete with the excellent IT teams at the New York Times and at the CDC. Mostly, I'm mostly trying to satisfy my curiosity and
 I enjoy sharing sharing my results.  The data seem show that
 if you contact the Covid-19, you have about a **1 to 2% probability
 of dying within three weeks**.  This the optimistic guess.
-The distribution is skewed, and the upper tail is pretty big
-[(below)](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio).
-The data also seem to show that the spread of the virus can be slowed.
-Finally, the data seem to show that front-line health workers have
+The distribution is skewed, and the upper tail is pretty long
+[(below)](https://johnrsibert.github.io/JonzPandemic/#case-fatality-ratio) with probabilities of 4% or higher.
+The history of the pandemic in in mid 2021 also seems to show that the spread of the virus can be slowed.
+Finally, the data show that front-line health workers have
 learned how to improve treatment of the disease to reduce mortality.
-So while the situation seems scary, especially so as we move into
-our third year of the pandemic, there are reasons to be optimistic.
+So while the situation seems scary, especially so as we stumble into
+our third year of pandemic, there are reasons to be optimistic.
 Vaccines are available and are **both very safe and very effective**. All vaccines are nearly
 100% effective in preventing death and serious illness and over 90%
 effective in preventing infection, even against newly emerging variants. 
 So, to paraphrase the Forty-sixth President of the United States of America, Joe Biden: **Get the jab! Wear your mask! Or die!**
 
 So please have a look at this stuff and act like a Fourteenth
-Century Venetian, keep away from sick people, wear a mask,
-get vaccinated, and I'll see you all in person when we emerge into
+Century Venetian. Keep away from sick people if you can, wear a mask,
+get vaccinated, and I hope to see you all in person when we emerge into
 the light at the end of this long, grim tunnel. In the meantime, I recommend
 [boulevardiers](https://robbreport.com/food-drink/spirits/best-boulevardier-recipe-bourbon-negroni-1234585127/).
 
 ## How bad is it?
-The number of cases and the number of deaths are two common indicators of the severity of a disease outbreak. The number of cases and the number of deaths divided by the total population in an area as **prevalence** for want of a better word. The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
+The number of cases and the number of deaths are two common indicators of the severity of a disease outbreak. The number of cases and the number of deaths divided by the total population in an area is a measure of **prevalence** . The Times data repository is an easy starting point to explore prevalence. The following plots are examples of different trends in the spread of Covid-19 in the two most populous counties in the United states.
 
 The upper panel of each plot shows the **number of new cases reported each
-day** as vertical blue lines. The saw-tooth appearance of the vertical bars
-is smoothed by with an 7 day moving average shown as the heavy blue line
+day** as vertical blue lines. The saw-tooth appearance of the vertical lines
+is smoothed with an 7 day moving average, shown as the heavy blue line
 marked "7da". 
-The horizontal dotted green line in the per capita cases graph is an arbitrary standard to facilitate comparison with other regions.
-It marks the number of cases per 10,000 people that is less than or equal to the lowest 20% of the prevalence estimates in 272 US counties with more then 250,000 people.
+The horizontal dotted green line in the per capita cases graphs is an arbitrary standard to facilitate comparison with other regions.
+It marks the number of cases per 10,000 people that is less than or equal to the lowest 20% ($$P_{0.2}$$) of prevalence estimates in the 272 US counties with populations greater than 250,000 people.
 The prevalence in 80% of all counties is higher than the green line.
 The second panel of each plot is a similar presentation
 of the **number of new deaths reported each day**. 
-The third panel in each plot shows the trajectory of the **ratio of deaths to cases** [(or Case Fatality Ratio, CFR)](https://johnrsibert.github.io/JonzPandemic/#how-dangerous-is-it),
- sometimes considered a rough measure of lethality. The CFR rises and falls over the course of the pandemic reflecting, perhaps, how well local health care facilities are coping with rising case loads.
-The lower panel is the **number of Covid-19 vaccinations** reported by the CDC divided by the US census population estimate. The blue line, labeled "first", is the percentage of the population receiving their first shot ("administered_dose1_recip"); the red line, "full", is the percentage of the population that is fully vaccinated   by some definition ("series_complete_yes").
+The third panel in each plot shows the trajectory of the **ratio of deaths to cases** [(or Case Fatality Ratio, CFR)](https://johnrsibert.github.io/JonzPandemic/#how-dangerous-is-it), sometimes considered a rough measure of lethality. The CFR rises and falls over the course of the pandemic reflecting, perhaps, how well local health care facilities are coping with rising case loads.
+The lower panel is the **number of Covid-19 vaccinations** reported by the CDC divided by the US census population estimate. The blue line, labeled "first", is the percentage of the population receiving their first shot ("administered_dose1_recip"); the red line, "full", is the percentage of the population that is fully vaccinated ("series_complete_yes").
 
 <!--- administered_dose1_recip,series_complete_yes--->
 
@@ -81,9 +80,9 @@ Quarantine-like measures "flattened the curve" and kept spread
 of infection at low levels. Numbers of new cases stayed relatively
 low and constant for 5 or 6 months, but began to increase in October
 and November. 
-In the Spring of 2022, the number cases increased rapidly, "surged" for this fourth of fifth time. These surges are usually attributed to the arrival of an newly detected variant of the virus.
+In the Spring of 2022, the number cases increased rapidly, "surged", for the fourth of fifth time. Surges are usually attributed to the arrival of an newly detected virus variant.
 
-Numbers of daily deaths reflect the numbers of daily new cases, rising
+Numbers of daily deaths generally reflects the numbers of daily new cases, rising
 sharply in April, falling to low levels in June. The CFR in New York City seems unusually high.
 The ratio is highest in April and May and decreases substantially over
 the summer to a value about one half of the peak.
@@ -96,9 +95,9 @@ the summer to a value about one half of the peak.
 The trajectory of the disease in Los Angeles County is quite different
 from New York City. Los Angeles was able to avoid the initial exponential
 growth phase.  Instead, the prevalence of the disease grew relatively
-slowly through the spring of 2020, reaching a mid-summer peak.  The disease
+slowly through the spring of 2020, reaching a mid-summer peak. The disease
 was controlled for a second time, but **exponential growth resumed**
-in December and January.  The CFR is generally lower than in New York
+in December and January. The CFR is generally lower than in New York
 and shows the same decrease of the summer.
 
 ## How bad is it where you live?
@@ -133,7 +132,7 @@ Many of the graphs that I have been sharing show notable
 decreases in the number of cases per capita, 
 [for example](https://johnrsibert.github.io/JonzPandemic/#new-york-city-prevalence).
 
-After more than two years of watching
+After more almost three years of watching
 people die, of being separated from family, of not getting out much, and of
 breathing through masks, it seems reasonable to ask if it was all
 worth it.
@@ -142,9 +141,7 @@ worth it.
 Per capita prevalence histories of the largest counties in the 50 US states and the District of columbia.
 <img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/prevalence_comp_TS_L.png" alt="county prevalance comp" style="width:6.5in;"/>
 
-
-
-These ugly graphs make it pretty clear that each county is experiencing the pandemic differently, but there are some common features. Recent cases are very high in some counties, but recent deaths are quite low. Case-fatality (CFR) rations were extremely high during the first quarter of 2021 but decreased slowly and stayed fairly constant at between 0.1 and 0.2 for almost one year. A second decrease in CFR occurred during the first quarter of 2022. [(CFR trends discussed further here.)](https://johnrsibert.github.io/JonzPandemic/#how-dangerous-is-it),
+These ugly graphs make it pretty clear that each county is experiencing the pandemic differently, but there are some common features. Recent cases are very high in some counties, but recent deaths are generally quite low. Case-fatality (CFR) ratios were extremely high during the first quarter of 2021 but decreased slowly and stayed fairly constant at between 0.1 and 0.2 for almost one year. A second decrease in CFR occurred during the first quarter of 2022. [(CFR trends discussed further here.)](https://johnrsibert.github.io/JonzPandemic/#how-dangerous-is-it),
 
 
 ##### Current Prevalence
@@ -152,11 +149,9 @@ Lets just look at the numbers of cases per capita for the last few weeks.
 
 <img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/recent_prevalence_histo_pop.png" alt="recent prevalence" style="width:6.5in;"/>
 
-
-
 Cases per 10,000 people averaged over the most recent two weeks in regions with more than 250,000 people.
 
-The vertical green lines represent to the 1, 3, 10, 20, 80, 95 and 99 percentiles of the case rates. The case rate is truncated at 10 cases or 10,000, but as the table below shows, case rates range to almost 20. 
+The vertical green lines represent to the 1, 5, 10, 20, 80, 95 and 99 percentiles of the case rates. The case rate is truncated at 10 cases or 10,000, but as the table below shows, case rates range to almost 20. 
 Currently, case rates are less than 1 per 10,000 for 90% if counties considered and less 4 per 10,000 for 80% of counties considered.
 
 
@@ -241,7 +236,7 @@ lines indicate mortality rates ranging from 0.5% to 8% of reported cases.
 When the number of cases exceeds 1000 the dots begin to form lines
 tracing the history of each county. Even with this relative small number
 of counties, the trajectories seem to converge to mortality rates near
-1% as the number of deaths increases. Data for several counties exhibit a downward bend where the trend seems to shift from 0.2 to 0.1. Put another way the probability of dying from contracting COvid-19 is currently about half of what it was at the start of the panemdic. It has decreased from approximately 2% to approximately 1%.
+1% as the number of deaths increases. Data for several counties exhibit a downward bend where the trend seems to shift from 0.2 to 0.1. Put another way the probability of dying from contracting Covid-19 is currently about half of what it was at the start of the panemdic. It has decreased from approximately 2% to approximately 1%.
 
 ##### Deaths vs Cases, ugly
 
@@ -251,19 +246,18 @@ Relationship between reported cases and reported deaths for the most
 populous counties in the United States.  The number counties makes it
 difficult to differentiate the complete history of a single county from
 the mess of colored dots.  Nevertheless the general trend of the swarm
-of points converges to a mortality rates near 0.1.
+of points converges to a mortality rates near 0.2, and then bends downward toward current values near 0.1.
 
 
-##### Case Fatality Ratio
-
+##### Case Fatality Ratio (CFR)
 
 <img src="https://raw.githubusercontent.com/johnrsibert/SIR-Models/master/assets/CFR_hist_all_recent.png" alt="lognormal CFR" style="width:6.5in;"/>
 
 Frequency distribution of the case-fatality ratio (deaths/cases)
-vaveraged forn the most recent 7 days of reporting.
+averaged for the most recent 7 days of reporting.
 
 The blue bars indicate the
-number of values of the ratio that fall into intervals along the
+number of CFR values that fall into intervals along the
 horizontal axis.  The median of the ratios is approximately 0.015 for a morality rate
 of 1.5%, but there is a substantial number ratios greater than 0.02 up to
 a maximum of 0.05.  The Johns Hopkins University Coronavirus Resource Center
@@ -283,8 +277,8 @@ were to say that the probability of dying after becoming infected is
 less than 3%, you would be correct about 95% of the time.
 
 The are a couple of reasons why the distribution is skewed. Skewness is,
-in part, a simple numerical artifact.  The mean of ratio is close to
-zero, but the ratio can never be less than zero.  So the left limb of the
+in part, a simple numerical artifact.  The mean of the CFR is close to
+zero, but a ratio can never be less than zero.  So, the left limb of the
 distribution must include fewer instances than the right limb. There are
 also medical reasons for the skewness.  The larger number of values to
 the right of the peak are possibly deaths of the people most vulnerable
@@ -295,7 +289,7 @@ The dashed curve that outlines the histogram is the theoretical
 [log-normal](https://en.wikipedia.org/wiki/Log-normal_distribution)
 frequency distribution estimated to the observed case-fatality ratios.
 This distribution model is commonly used for describing skewed
-distributions.  The curve appears to correspond pretty well to the
+distributions.  The log-normal curve appears to correspond pretty well to the
 histogram.
 
 ##### Changes in the Case Fatality Ratio Distribution
@@ -303,7 +297,7 @@ histogram.
 
 Estimated long-normal probability distribution of the CFR for each day of the pandemic since April 1, 2020 scaled so to that the sum of the probabilities on each day sum 1.0. 
 
-The right hand tail has expanded and contracted over the course of the pandemic  so that the probability of death appears to have been highest during periods when the prevalence was also high. Recent weeks have seen dramatic decreases in the the probability of death.
+The right hand tail has expanded and contracted over the course of the pandemic so that probabilities of death appear to have been higher during periods when the prevalence was also high. Recent weeks have seen dramatic decreases in the the probability of death.
 
 ## Model Results (wonkish)
 
@@ -317,7 +311,7 @@ not feasible to repeat the observations or to wait another year for more
 data to accumulate. Analysts are thus faced with the twin quandaries
 selecting a model with which to interpret the data and of determining
 whether information in the data is sufficiently uncompromised by error to
-inform a statistical estimation process.  One of the questions posed in
+inform a statistical estimation process. One of the questions posed in
 my modeling effort was to ask whether the data collected in an *ad hoc*
 way from multiple jurisdictions, compiled for journalistic purposes,
 and made public in near real time could be useful for statistically
@@ -325,7 +319,7 @@ estimating parameters of epidemiological models.
 
 [SIR models](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology)
 are often used in epidemiology. These models resolve the effected
-population into several "compartments", usually **S**usceptible,
+population into several "compartments", **S**usceptible,
 **I**nfected, and **R**emoved. The data at hand, however include just
 one of these compartments, assuming that "Cases" in the data are a
 measure of the **I**nfected compartment. "Deaths" in the data to not
@@ -339,7 +333,7 @@ coupled ordinary differential equations (ODEs) with constant parameters.
 We live in a world where we are attempting to change the dynamics of
 the spread of the epidemic. When we attempt to regulate social behavior
 and to improve medical care, we are, in fact, attempting to alter the
-rate parameters in the SIR ODEs.  I assume that the rate parameters
+rate parameters in the SIR ODEs. It is therefore and error to assume that the ODE parameters are constant. I assume that the rate parameters
 of the coupled processes are variable in time and treat them as
 [random effects](https://en.wikipedia.org/wiki/Random_effects_model)
 that may vary over time. Maximum likelihood is used for model
@@ -349,8 +343,7 @@ estimation of time dependent series of both the reported cases
 and the reported deaths.  A summary description of the model and
 some preliminary (as of August 2020) results is available for download
 [(pdf)](https://github.com/johnrsibert/SIR-Models/blob/master/Reports/simpleSIR.pdf).
-The model development ceased in late 2and has evolved somewhat since the
-preliminary write-up in August 2020.
+The  has evolved somewhat since the preliminary write-up in August 2020, but model development ceased in late 2021.
 
 #### Model conclusions
 
@@ -360,10 +353,10 @@ trends seem consistent with the observed prevalence trajectories. However
 the rapidly increasing proportion of fully vaccinated people effectively
 reduces the size of the **S**usceptible compartment. Model development was abandoned in March 2021, but further work, perhaps including vaccination rates, would be appropriate.
 
-<!---
+
 ## Rant
 
-It's not rocket science. We have known how to prevent the spread of
+We have known how to prevent the spread of
 disease since the Tenth century when the Persian polymath Ibn Sina
 recommended confining sick people for 40 days. The Venetians adopted
 the practice in the Fourteenth Century and called it quarantine.  If we
@@ -376,21 +369,20 @@ spread of infection, we can survive the infection if we get prompt care,
 and, best of all, a vaccine is in sight.
 
 We began to seriously learn about vaccines in about [200 years
-ago](https://www.historyofvaccines.org/timeline/all).  It didn't get
+ago](https://www.historyofvaccines.org/timeline/all). It didn't get
 really technical until we began to understand the immune system in the
-20th century.  Science guided to eradicate smallpox.  I'm old enough
+20th century. Science guided to eradicate smallpox. I'm old enough
 to remember the great fear of polio in the 1950s. I know people who
-where afflicted with polio.  Science guided us further to eradicate polio in many countries. Measles, mumps, rubella, and more are on the hit list.
+where afflicted with polio. Science guided us further to eradicate polio in many countries. Measles, mumps, rubella, and more are on the hit list.
 Highly effective Covid-19 vaccines (yes plural!) are here and finding
-their way into arms.  We are both cursed and blessed to live in the
-time of Covid-19.  The curse is obvious. We risk losing family, friends
-and coworkers.  The blessing is that it arrived 2019 and not 2015.
+their way into arms. We are both cursed and blessed to live in the
+time of Covid-19. The curse is obvious. We risk losing family, friends
+and coworkers. The blessing is that it arrived 2019 and not 2015.
 The astonishing recent progress made by the global community of molecular
-geneticists had enabled development of safe and efficacious vaccines
-in less than a year.  It raises the hair on the back of my neck.
+geneticists had enabled *development of safe and efficacious vaccines
+in less than a year*. It raises the hair on the back of my neck.
 We also need to credit the physicians and nurses who have worked so
-hard to reduce mortality.  The case fatality ratio has decreased by 50%
-in the last six months.  The scientists and health care workers who have
+hard to reduce mortality.  The case fatality ratio has decreased steadily over the last two years.  The scientists and health care workers who have
 shepherded us through this horrible period should be feted as the heroes
 of the early Twenty-first Century.
 
@@ -404,4 +396,4 @@ can survive this pandemic, but we need to **pay attention to Science**.
 Equally important we need to **insist that political leaders actually
 lead** to provide the economic and logistical support required to get
 us through.
---->
+
