@@ -159,57 +159,63 @@ Currently, case rates are less than 1 per 10,000 for 90% if counties considered 
 <!--- recent summary
 DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=3.4638733251010847, variance=4.5531051980495905, skewness=2.581175178759068, kurtosis=8.717726367252327)
 --->
+<!--- recent summary
+DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=3.4638733251010847, variance=4.5531051980495905, skewness=2.581175178759068, kurtosis=8.717726367252327)
+--->
+<!--- recent summary
+DescribeResult(nobs=272, minmax=(0.0, 9.012907827694733), mean=3.0871523667414884, variance=2.989882385583447, skewness=0.2839931000262369, kurtosis=0.021955099571595138)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region          </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.215</td></tr>
-<tr><td>1     </td><td>Monroe NY          </td><td style="text-align: right;">       0.988</td></tr>
-<tr><td>2     </td><td>Erie NY            </td><td style="text-align: right;">       0.998</td></tr>
-<tr><td>3     </td><td>Onondaga NY        </td><td style="text-align: right;">       1.101</td></tr>
-<tr><td>4     </td><td>Jackson MO         </td><td style="text-align: right;">       1.205</td></tr>
-<tr><td>5     </td><td>Lubbock TX         </td><td style="text-align: right;">       1.293</td></tr>
-<tr><td>6     </td><td>Allen IN           </td><td style="text-align: right;">       1.378</td></tr>
-<tr><td>7     </td><td>Albany NY          </td><td style="text-align: right;">       1.412</td></tr>
-<tr><td>8     </td><td>McLennan TX        </td><td style="text-align: right;">       1.420</td></tr>
-<tr><td>9     </td><td>Harford MD         </td><td style="text-align: right;">       1.437</td></tr>
-<tr><td>10    </td><td>Williamson TX      </td><td style="text-align: right;">       1.575</td></tr>
-<tr><td>11    </td><td>Weber UT           </td><td style="text-align: right;">       1.576</td></tr>
-<tr><td>12    </td><td>Stark OH           </td><td style="text-align: right;">       1.577</td></tr>
-<tr><td>13    </td><td>Sedgwick KS        </td><td style="text-align: right;">       1.633</td></tr>
-<tr><td>14    </td><td>Baltimore MD       </td><td style="text-align: right;">       1.663</td></tr>
-<tr><td>15    </td><td>Plymouth MA        </td><td style="text-align: right;">       1.672</td></tr>
-<tr><td>16    </td><td>Frederick MD       </td><td style="text-align: right;">       1.690</td></tr>
-<tr><td>17    </td><td>Worcester MA       </td><td style="text-align: right;">       1.713</td></tr>
-<tr><td>18    </td><td>Hartford CT        </td><td style="text-align: right;">       1.738</td></tr>
-<tr><td>19    </td><td>Bell TX            </td><td style="text-align: right;">       1.744</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>252   </td><td>St. Johns FL       </td><td style="text-align: right;">       7.988</td></tr>
-<tr><td>253   </td><td>Seminole FL        </td><td style="text-align: right;">       8.214</td></tr>
-<tr><td>254   </td><td>Lake FL            </td><td style="text-align: right;">       8.265</td></tr>
-<tr><td>255   </td><td>Manatee FL         </td><td style="text-align: right;">       8.283</td></tr>
-<tr><td>256   </td><td>Duval FL           </td><td style="text-align: right;">       8.372</td></tr>
-<tr><td>257   </td><td>Pasco FL           </td><td style="text-align: right;">       8.456</td></tr>
-<tr><td>258   </td><td>St. Lucie FL       </td><td style="text-align: right;">       8.490</td></tr>
-<tr><td>259   </td><td>Volusia FL         </td><td style="text-align: right;">       8.934</td></tr>
-<tr><td>260   </td><td>Palm Beach FL      </td><td style="text-align: right;">       9.176</td></tr>
-<tr><td>261   </td><td>Pinellas FL        </td><td style="text-align: right;">       9.330</td></tr>
-<tr><td>262   </td><td>Hillsborough FL    </td><td style="text-align: right;">       9.390</td></tr>
-<tr><td>263   </td><td>Sarasota FL        </td><td style="text-align: right;">       9.390</td></tr>
-<tr><td>264   </td><td>Brevard FL         </td><td style="text-align: right;">       9.517</td></tr>
-<tr><td>265   </td><td>Alachua FL         </td><td style="text-align: right;">       9.675</td></tr>
-<tr><td>266   </td><td>Polk FL            </td><td style="text-align: right;">      10.060</td></tr>
-<tr><td>267   </td><td>Orange FL          </td><td style="text-align: right;">      10.133</td></tr>
-<tr><td>268   </td><td>Osceola FL         </td><td style="text-align: right;">      10.554</td></tr>
-<tr><td>269   </td><td>Leon FL            </td><td style="text-align: right;">      11.080</td></tr>
-<tr><td>270   </td><td>Broward FL         </td><td style="text-align: right;">      11.944</td></tr>
-<tr><td>271   </td><td>Miami-Dade FL      </td><td style="text-align: right;">      17.296</td></tr>
+<tr><td>0     </td><td>Hillsborough FL </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>1     </td><td>Pinellas FL     </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>2     </td><td>St. Lucie FL    </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>3     </td><td>Sarasota FL     </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>4     </td><td>Lee FL          </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>5     </td><td>Escambia FL     </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>6     </td><td>Marion FL       </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>7     </td><td>Collier FL      </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>8     </td><td>Seminole FL     </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>9     </td><td>Polk FL         </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>10    </td><td>Leon FL         </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>11    </td><td>Orange FL       </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>12    </td><td>Lake FL         </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>13    </td><td>Palm Beach FL   </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>14    </td><td>Brevard FL      </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>15    </td><td>Duval FL        </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>16    </td><td>Miami-Dade FL   </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>17    </td><td>Manatee FL      </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>18    </td><td>Pasco FL        </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>19    </td><td>Broward FL      </td><td style="text-align: right;">       0.000</td></tr>
+<tr><td>...   </td><td>...             </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>252   </td><td>Solano CA       </td><td style="text-align: right;">       5.945</td></tr>
+<tr><td>253   </td><td>Galveston TX    </td><td style="text-align: right;">       5.979</td></tr>
+<tr><td>254   </td><td>Contra Costa CA </td><td style="text-align: right;">       5.984</td></tr>
+<tr><td>255   </td><td>Jefferson CO    </td><td style="text-align: right;">       6.027</td></tr>
+<tr><td>256   </td><td>Santa Cruz CA   </td><td style="text-align: right;">       6.081</td></tr>
+<tr><td>257   </td><td>Fort Bend TX    </td><td style="text-align: right;">       6.086</td></tr>
+<tr><td>258   </td><td>El Paso CO      </td><td style="text-align: right;">       6.137</td></tr>
+<tr><td>259   </td><td>Durham NC       </td><td style="text-align: right;">       6.212</td></tr>
+<tr><td>260   </td><td>Williamson TX   </td><td style="text-align: right;">       6.239</td></tr>
+<tr><td>261   </td><td>Arapahoe CO     </td><td style="text-align: right;">       6.329</td></tr>
+<tr><td>262   </td><td>Weber UT        </td><td style="text-align: right;">       6.390</td></tr>
+<tr><td>263   </td><td>San Mateo CA    </td><td style="text-align: right;">       6.396</td></tr>
+<tr><td>264   </td><td>San Francisco CA</td><td style="text-align: right;">       6.403</td></tr>
+<tr><td>265   </td><td>Santa Clara CA  </td><td style="text-align: right;">       6.454</td></tr>
+<tr><td>266   </td><td>King WA         </td><td style="text-align: right;">       6.493</td></tr>
+<tr><td>267   </td><td>Adams CO        </td><td style="text-align: right;">       6.673</td></tr>
+<tr><td>268   </td><td>Bernalillo NM   </td><td style="text-align: right;">       7.264</td></tr>
+<tr><td>269   </td><td>Larimer CO      </td><td style="text-align: right;">       7.457</td></tr>
+<tr><td>270   </td><td>Boulder CO      </td><td style="text-align: right;">       7.739</td></tr>
+<tr><td>271   </td><td>Denver CO       </td><td style="text-align: right;">       9.013</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-06-18
+Updated 2022-06-28
 <br>
 <!---END TABLE--->
 
