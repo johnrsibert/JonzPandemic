@@ -165,57 +165,60 @@ DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=
 <!--- recent summary
 DescribeResult(nobs=272, minmax=(0.0, 9.012907827694733), mean=3.0871523667414884, variance=2.989882385583447, skewness=0.2839931000262369, kurtosis=0.021955099571595138)
 --->
+<!--- recent summary
+DescribeResult(nobs=248, minmax=(0.22521810915625035, 8.674689358220938), mean=3.4908230703647356, variance=1.7875383453382971, skewness=0.43938294066821526, kurtosis=1.0263283622741897)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region          </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Hillsborough FL </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>1     </td><td>Pinellas FL     </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>2     </td><td>St. Lucie FL    </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>3     </td><td>Sarasota FL     </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>4     </td><td>Lee FL          </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>5     </td><td>Escambia FL     </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>6     </td><td>Marion FL       </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>7     </td><td>Collier FL      </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>8     </td><td>Seminole FL     </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>9     </td><td>Polk FL         </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>10    </td><td>Leon FL         </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>11    </td><td>Orange FL       </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>12    </td><td>Lake FL         </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>13    </td><td>Palm Beach FL   </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>14    </td><td>Brevard FL      </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>15    </td><td>Duval FL        </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>16    </td><td>Miami-Dade FL   </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>17    </td><td>Manatee FL      </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>18    </td><td>Pasco FL        </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>19    </td><td>Broward FL      </td><td style="text-align: right;">       0.000</td></tr>
-<tr><td>...   </td><td>...             </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>252   </td><td>Solano CA       </td><td style="text-align: right;">       5.945</td></tr>
-<tr><td>253   </td><td>Galveston TX    </td><td style="text-align: right;">       5.979</td></tr>
-<tr><td>254   </td><td>Contra Costa CA </td><td style="text-align: right;">       5.984</td></tr>
-<tr><td>255   </td><td>Jefferson CO    </td><td style="text-align: right;">       6.027</td></tr>
-<tr><td>256   </td><td>Santa Cruz CA   </td><td style="text-align: right;">       6.081</td></tr>
-<tr><td>257   </td><td>Fort Bend TX    </td><td style="text-align: right;">       6.086</td></tr>
-<tr><td>258   </td><td>El Paso CO      </td><td style="text-align: right;">       6.137</td></tr>
-<tr><td>259   </td><td>Durham NC       </td><td style="text-align: right;">       6.212</td></tr>
-<tr><td>260   </td><td>Williamson TX   </td><td style="text-align: right;">       6.239</td></tr>
-<tr><td>261   </td><td>Arapahoe CO     </td><td style="text-align: right;">       6.329</td></tr>
-<tr><td>262   </td><td>Weber UT        </td><td style="text-align: right;">       6.390</td></tr>
-<tr><td>263   </td><td>San Mateo CA    </td><td style="text-align: right;">       6.396</td></tr>
-<tr><td>264   </td><td>San Francisco CA</td><td style="text-align: right;">       6.403</td></tr>
-<tr><td>265   </td><td>Santa Clara CA  </td><td style="text-align: right;">       6.454</td></tr>
-<tr><td>266   </td><td>King WA         </td><td style="text-align: right;">       6.493</td></tr>
-<tr><td>267   </td><td>Adams CO        </td><td style="text-align: right;">       6.673</td></tr>
-<tr><td>268   </td><td>Bernalillo NM   </td><td style="text-align: right;">       7.264</td></tr>
-<tr><td>269   </td><td>Larimer CO      </td><td style="text-align: right;">       7.457</td></tr>
-<tr><td>270   </td><td>Boulder CO      </td><td style="text-align: right;">       7.739</td></tr>
-<tr><td>271   </td><td>Denver CO       </td><td style="text-align: right;">       9.013</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.225</td></tr>
+<tr><td>1     </td><td>Bristol MA         </td><td style="text-align: right;">       0.579</td></tr>
+<tr><td>2     </td><td>Norfolk MA         </td><td style="text-align: right;">       0.600</td></tr>
+<tr><td>3     </td><td>Plymouth MA        </td><td style="text-align: right;">       0.669</td></tr>
+<tr><td>4     </td><td>Essex MA           </td><td style="text-align: right;">       0.695</td></tr>
+<tr><td>5     </td><td>Worcester MA       </td><td style="text-align: right;">       0.702</td></tr>
+<tr><td>6     </td><td>Middlesex MA       </td><td style="text-align: right;">       0.748</td></tr>
+<tr><td>7     </td><td>Suffolk MA         </td><td style="text-align: right;">       0.825</td></tr>
+<tr><td>8     </td><td>Hampden MA         </td><td style="text-align: right;">       1.060</td></tr>
+<tr><td>9     </td><td>Monroe NY          </td><td style="text-align: right;">       1.202</td></tr>
+<tr><td>10    </td><td>Erie NY            </td><td style="text-align: right;">       1.440</td></tr>
+<tr><td>11    </td><td>Hillsborough NH    </td><td style="text-align: right;">       1.480</td></tr>
+<tr><td>12    </td><td>Onondaga NY        </td><td style="text-align: right;">       1.495</td></tr>
+<tr><td>13    </td><td>Rockingham NH      </td><td style="text-align: right;">       1.503</td></tr>
+<tr><td>14    </td><td>Lucas OH           </td><td style="text-align: right;">       1.564</td></tr>
+<tr><td>15    </td><td>Jackson MO         </td><td style="text-align: right;">       1.577</td></tr>
+<tr><td>16    </td><td>Stark OH           </td><td style="text-align: right;">       1.604</td></tr>
+<tr><td>17    </td><td>Erie PA            </td><td style="text-align: right;">       1.663</td></tr>
+<tr><td>18    </td><td>Summit OH          </td><td style="text-align: right;">       1.716</td></tr>
+<tr><td>19    </td><td>Ottawa MI          </td><td style="text-align: right;">       1.767</td></tr>
+<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>228   </td><td>Santa Clara CA     </td><td style="text-align: right;">       5.332</td></tr>
+<tr><td>229   </td><td>San Francisco CA   </td><td style="text-align: right;">       5.338</td></tr>
+<tr><td>230   </td><td>Brazoria TX        </td><td style="text-align: right;">       5.470</td></tr>
+<tr><td>231   </td><td>San Diego CA       </td><td style="text-align: right;">       5.472</td></tr>
+<tr><td>232   </td><td>Nueces TX          </td><td style="text-align: right;">       5.540</td></tr>
+<tr><td>233   </td><td>Williamson TX      </td><td style="text-align: right;">       5.605</td></tr>
+<tr><td>234   </td><td>Weld CO            </td><td style="text-align: right;">       5.640</td></tr>
+<tr><td>235   </td><td>Jefferson LA       </td><td style="text-align: right;">       5.662</td></tr>
+<tr><td>236   </td><td>Fort Bend TX       </td><td style="text-align: right;">       5.687</td></tr>
+<tr><td>237   </td><td>East Baton Rouge LA</td><td style="text-align: right;">       5.733</td></tr>
+<tr><td>238   </td><td>Pulaski AR         </td><td style="text-align: right;">       5.803</td></tr>
+<tr><td>239   </td><td>Davidson TN        </td><td style="text-align: right;">       5.808</td></tr>
+<tr><td>240   </td><td>Los Angeles CA     </td><td style="text-align: right;">       5.910</td></tr>
+<tr><td>241   </td><td>Orleans LA         </td><td style="text-align: right;">       6.045</td></tr>
+<tr><td>242   </td><td>St. Tammany LA     </td><td style="text-align: right;">       6.424</td></tr>
+<tr><td>243   </td><td>Galveston TX       </td><td style="text-align: right;">       6.451</td></tr>
+<tr><td>244   </td><td>Larimer CO         </td><td style="text-align: right;">       7.005</td></tr>
+<tr><td>245   </td><td>Adams CO           </td><td style="text-align: right;">       7.761</td></tr>
+<tr><td>246   </td><td>Douglas CO         </td><td style="text-align: right;">       8.153</td></tr>
+<tr><td>247   </td><td>Arapahoe CO        </td><td style="text-align: right;">       8.675</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-06-28
+Updated 2022-07-14
 <br>
 <!---END TABLE--->
 
