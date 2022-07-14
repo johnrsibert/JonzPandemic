@@ -153,7 +153,7 @@ Cases per 10,000 people averaged over the most recent two weeks in regions with 
 
 The vertical green lines represent to the 1, 5, 10, 20, 80, 95 and 99 percentiles of the case rates. The case rate is truncated at 10 cases or 10,000, but as the table below shows, case rates range to almost 20. 
 Currently, case rates are less than 1 per 10,000 for 90% if counties considered and less 4 per 10,000 for 80% of counties considered.
-
+**The large number of 0.000 prevalence estimates that follow are bogus caused by the averaging procedure interactin with the flakey accounting in Florida. I'm gonna fix it.**
 
 ##### Top and bottom of the range
 <!--- recent summary
