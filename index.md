@@ -174,57 +174,60 @@ DescribeResult(nobs=248, minmax=(0.2462816733219428, 5.914952008431238), mean=3.
 <!--- recent summary
 DescribeResult(nobs=248, minmax=(0.2738263341540022, 4.558752939725242), mean=2.4416767928034533, variance=0.5755916227200547, skewness=0.06679430150184629, kurtosis=0.058471770712730464)
 --->
+<!--- recent summary
+DescribeResult(nobs=272, minmax=(0.17336933582531502, 19.094247514810668), mean=2.1510291117521705, variance=2.10017385222084, skewness=6.354824418005869, kurtosis=67.46871893637487)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.274</td></tr>
-<tr><td>1     </td><td>Arapahoe CO        </td><td style="text-align: right;">       0.483</td></tr>
-<tr><td>2     </td><td>Adams CO           </td><td style="text-align: right;">       0.502</td></tr>
-<tr><td>3     </td><td>Douglas CO         </td><td style="text-align: right;">       0.570</td></tr>
-<tr><td>4     </td><td>Weld CO            </td><td style="text-align: right;">       0.854</td></tr>
-<tr><td>5     </td><td>Utah UT            </td><td style="text-align: right;">       1.150</td></tr>
-<tr><td>6     </td><td>Clark NV           </td><td style="text-align: right;">       1.167</td></tr>
-<tr><td>7     </td><td>Williamson TX      </td><td style="text-align: right;">       1.176</td></tr>
-<tr><td>8     </td><td>Weber UT           </td><td style="text-align: right;">       1.186</td></tr>
-<tr><td>9     </td><td>Monroe NY          </td><td style="text-align: right;">       1.204</td></tr>
-<tr><td>10    </td><td>Jackson MO         </td><td style="text-align: right;">       1.213</td></tr>
-<tr><td>11    </td><td>Pierce WA          </td><td style="text-align: right;">       1.249</td></tr>
-<tr><td>12    </td><td>Jefferson CO       </td><td style="text-align: right;">       1.252</td></tr>
-<tr><td>13    </td><td>Kitsap WA          </td><td style="text-align: right;">       1.263</td></tr>
-<tr><td>14    </td><td>Rockingham NH      </td><td style="text-align: right;">       1.264</td></tr>
-<tr><td>15    </td><td>Norfolk MA         </td><td style="text-align: right;">       1.298</td></tr>
-<tr><td>16    </td><td>Cumberland ME      </td><td style="text-align: right;">       1.312</td></tr>
-<tr><td>17    </td><td>Thurston WA        </td><td style="text-align: right;">       1.347</td></tr>
-<tr><td>18    </td><td>Marin CA           </td><td style="text-align: right;">       1.352</td></tr>
-<tr><td>19    </td><td>Clark WA           </td><td style="text-align: right;">       1.355</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>228   </td><td>Mobile AL          </td><td style="text-align: right;">       3.513</td></tr>
-<tr><td>229   </td><td>Mecklenburg NC     </td><td style="text-align: right;">       3.570</td></tr>
-<tr><td>230   </td><td>Cherokee GA        </td><td style="text-align: right;">       3.572</td></tr>
-<tr><td>231   </td><td>Nueces TX          </td><td style="text-align: right;">       3.636</td></tr>
-<tr><td>232   </td><td>Winnebago IL       </td><td style="text-align: right;">       3.691</td></tr>
-<tr><td>233   </td><td>Westmoreland PA    </td><td style="text-align: right;">       3.775</td></tr>
-<tr><td>234   </td><td>Fayette KY         </td><td style="text-align: right;">       3.793</td></tr>
-<tr><td>235   </td><td>Lexington SC       </td><td style="text-align: right;">       3.797</td></tr>
-<tr><td>236   </td><td>Rutherford TN      </td><td style="text-align: right;">       3.865</td></tr>
-<tr><td>237   </td><td>New York City NY   </td><td style="text-align: right;">       3.934</td></tr>
-<tr><td>238   </td><td>Jefferson AL       </td><td style="text-align: right;">       3.978</td></tr>
-<tr><td>239   </td><td>Jefferson KY       </td><td style="text-align: right;">       3.996</td></tr>
-<tr><td>240   </td><td>Chatham GA         </td><td style="text-align: right;">       4.003</td></tr>
-<tr><td>241   </td><td>Cleveland OK       </td><td style="text-align: right;">       4.004</td></tr>
-<tr><td>242   </td><td>Cumberland NC      </td><td style="text-align: right;">       4.015</td></tr>
-<tr><td>243   </td><td>St. Tammany LA     </td><td style="text-align: right;">       4.087</td></tr>
-<tr><td>244   </td><td>Hidalgo TX         </td><td style="text-align: right;">       4.157</td></tr>
-<tr><td>245   </td><td>Forsyth NC         </td><td style="text-align: right;">       4.174</td></tr>
-<tr><td>246   </td><td>Hamilton TN        </td><td style="text-align: right;">       4.338</td></tr>
-<tr><td>247   </td><td>Madison AL         </td><td style="text-align: right;">       4.559</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC    </td><td style="text-align: right;">       0.173</td></tr>
+<tr><td>1     </td><td>Clark NV               </td><td style="text-align: right;">       0.605</td></tr>
+<tr><td>2     </td><td>Maricopa AZ            </td><td style="text-align: right;">       0.607</td></tr>
+<tr><td>3     </td><td>El Paso TX             </td><td style="text-align: right;">       0.688</td></tr>
+<tr><td>4     </td><td>Pinal AZ               </td><td style="text-align: right;">       0.744</td></tr>
+<tr><td>5     </td><td>San Francisco CA       </td><td style="text-align: right;">       0.752</td></tr>
+<tr><td>6     </td><td>Utah UT                </td><td style="text-align: right;">       0.804</td></tr>
+<tr><td>7     </td><td>San Luis Obispo CA     </td><td style="text-align: right;">       0.858</td></tr>
+<tr><td>8     </td><td>Thurston WA            </td><td style="text-align: right;">       0.900</td></tr>
+<tr><td>9     </td><td>Hamilton IN            </td><td style="text-align: right;">       0.900</td></tr>
+<tr><td>10    </td><td>Pima AZ                </td><td style="text-align: right;">       0.900</td></tr>
+<tr><td>11    </td><td>Hillsborough NH        </td><td style="text-align: right;">       0.918</td></tr>
+<tr><td>12    </td><td>Jefferson CO           </td><td style="text-align: right;">       0.951</td></tr>
+<tr><td>13    </td><td>Kitsap WA              </td><td style="text-align: right;">       0.968</td></tr>
+<tr><td>14    </td><td>Rockingham NH          </td><td style="text-align: right;">       0.982</td></tr>
+<tr><td>15    </td><td>Pierce WA              </td><td style="text-align: right;">       1.013</td></tr>
+<tr><td>16    </td><td>Denver CO              </td><td style="text-align: right;">       1.031</td></tr>
+<tr><td>17    </td><td>Lane OR                </td><td style="text-align: right;">       1.032</td></tr>
+<tr><td>18    </td><td>District of Columbia DC</td><td style="text-align: right;">       1.036</td></tr>
+<tr><td>19    </td><td>Marion OR              </td><td style="text-align: right;">       1.047</td></tr>
+<tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>252   </td><td>Sarasota FL            </td><td style="text-align: right;">       4.028</td></tr>
+<tr><td>253   </td><td>Spartanburg SC         </td><td style="text-align: right;">       4.083</td></tr>
+<tr><td>254   </td><td>Palm Beach FL          </td><td style="text-align: right;">       4.099</td></tr>
+<tr><td>255   </td><td>Lake FL                </td><td style="text-align: right;">       4.105</td></tr>
+<tr><td>256   </td><td>Brevard FL             </td><td style="text-align: right;">       4.217</td></tr>
+<tr><td>257   </td><td>Lee FL                 </td><td style="text-align: right;">       4.221</td></tr>
+<tr><td>258   </td><td>Osceola FL             </td><td style="text-align: right;">       4.251</td></tr>
+<tr><td>259   </td><td>Hillsborough FL        </td><td style="text-align: right;">       4.313</td></tr>
+<tr><td>260   </td><td>Broward FL             </td><td style="text-align: right;">       4.370</td></tr>
+<tr><td>261   </td><td>Richland SC            </td><td style="text-align: right;">       4.419</td></tr>
+<tr><td>262   </td><td>Duval FL               </td><td style="text-align: right;">       4.631</td></tr>
+<tr><td>263   </td><td>Lexington SC           </td><td style="text-align: right;">       4.729</td></tr>
+<tr><td>264   </td><td>Marion FL              </td><td style="text-align: right;">       4.818</td></tr>
+<tr><td>265   </td><td>St. Lucie FL           </td><td style="text-align: right;">       4.900</td></tr>
+<tr><td>266   </td><td>Cleveland OK           </td><td style="text-align: right;">       4.929</td></tr>
+<tr><td>267   </td><td>Polk FL                </td><td style="text-align: right;">       5.142</td></tr>
+<tr><td>268   </td><td>Alachua FL             </td><td style="text-align: right;">       5.315</td></tr>
+<tr><td>269   </td><td>Leon FL                </td><td style="text-align: right;">       6.374</td></tr>
+<tr><td>270   </td><td>Miami-Dade FL          </td><td style="text-align: right;">       6.560</td></tr>
+<tr><td>271   </td><td>Weber UT               </td><td style="text-align: right;">      19.094</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-08-24
+Updated 2022-09-11
 <br>
 <!---END TABLE--->
 
