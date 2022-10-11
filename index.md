@@ -161,57 +161,60 @@ Counties with prevalence rates less than 0.001 cases per 10,000 people are exclu
 DescribeResult(nobs=272, minmax=(0.21549646415669996, 17.296243988773085), mean=3.4638733251010847, variance=4.5531051980495905, skewness=2.581175178759068, kurtosis=8.717726367252327)
 --->
 
+<!--- recent summary
+DescribeResult(nobs=272, minmax=(0.23818030248898417, 3.1149572643871672), mean=1.2293510594736987, variance=0.287274387358992, skewness=0.7128614065386704, kurtosis=0.0993536184142263)
+--->
 <!---START TABLE--->
 <table>
 <thead>
 <tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC    </td><td style="text-align: right;">       0.246</td></tr>
-<tr><td>1     </td><td>Rockingham NH          </td><td style="text-align: right;">       1.333</td></tr>
-<tr><td>2     </td><td>Monroe NY              </td><td style="text-align: right;">       1.412</td></tr>
-<tr><td>3     </td><td>Cumberland ME          </td><td style="text-align: right;">       1.438</td></tr>
-<tr><td>4     </td><td>Hillsborough NH        </td><td style="text-align: right;">       1.494</td></tr>
-<tr><td>5     </td><td>Jackson MO             </td><td style="text-align: right;">       1.601</td></tr>
-<tr><td>6     </td><td>Worcester MA           </td><td style="text-align: right;">       1.732</td></tr>
-<tr><td>7     </td><td>Norfolk MA             </td><td style="text-align: right;">       1.736</td></tr>
-<tr><td>8     </td><td>Erie NY                </td><td style="text-align: right;">       1.766</td></tr>
-<tr><td>9     </td><td>Plymouth MA            </td><td style="text-align: right;">       1.795</td></tr>
-<tr><td>10    </td><td>Utah UT                </td><td style="text-align: right;">       1.814</td></tr>
-<tr><td>11    </td><td>Chester PA             </td><td style="text-align: right;">       1.823</td></tr>
-<tr><td>12    </td><td>District of Columbia DC</td><td style="text-align: right;">       1.842</td></tr>
-<tr><td>13    </td><td>Harford MD             </td><td style="text-align: right;">       1.868</td></tr>
-<tr><td>14    </td><td>Bucks PA               </td><td style="text-align: right;">       1.901</td></tr>
-<tr><td>15    </td><td>Bristol MA             </td><td style="text-align: right;">       1.964</td></tr>
-<tr><td>16    </td><td>Jefferson CO           </td><td style="text-align: right;">       1.971</td></tr>
-<tr><td>17    </td><td>Middlesex MA           </td><td style="text-align: right;">       1.978</td></tr>
-<tr><td>18    </td><td>Douglas CO             </td><td style="text-align: right;">       2.002</td></tr>
-<tr><td>19    </td><td>Washoe NV              </td><td style="text-align: right;">       2.030</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC    </td><td style="text-align: right;">       0.238</td></tr>
+<tr><td>1     </td><td>District of Columbia DC</td><td style="text-align: right;">       0.332</td></tr>
+<tr><td>2     </td><td>Clark NV               </td><td style="text-align: right;">       0.382</td></tr>
+<tr><td>3     </td><td>Monterey CA            </td><td style="text-align: right;">       0.395</td></tr>
+<tr><td>4     </td><td>Harris TX              </td><td style="text-align: right;">       0.406</td></tr>
+<tr><td>5     </td><td>Chatham GA             </td><td style="text-align: right;">       0.420</td></tr>
+<tr><td>6     </td><td>El Paso TX             </td><td style="text-align: right;">       0.424</td></tr>
+<tr><td>7     </td><td>Montgomery TX          </td><td style="text-align: right;">       0.426</td></tr>
+<tr><td>8     </td><td>Douglas NE             </td><td style="text-align: right;">       0.458</td></tr>
+<tr><td>9     </td><td>Brazoria TX            </td><td style="text-align: right;">       0.489</td></tr>
+<tr><td>10    </td><td>Mobile AL              </td><td style="text-align: right;">       0.491</td></tr>
+<tr><td>11    </td><td>Henrico VA             </td><td style="text-align: right;">       0.492</td></tr>
+<tr><td>12    </td><td>Nueces TX              </td><td style="text-align: right;">       0.501</td></tr>
+<tr><td>13    </td><td>DeKalb GA              </td><td style="text-align: right;">       0.502</td></tr>
+<tr><td>14    </td><td>Cherokee GA            </td><td style="text-align: right;">       0.502</td></tr>
+<tr><td>15    </td><td>Gwinnett GA            </td><td style="text-align: right;">       0.510</td></tr>
+<tr><td>16    </td><td>East Baton Rouge LA    </td><td style="text-align: right;">       0.526</td></tr>
+<tr><td>17    </td><td>Dallas TX              </td><td style="text-align: right;">       0.527</td></tr>
+<tr><td>18    </td><td>Marion IN              </td><td style="text-align: right;">       0.557</td></tr>
+<tr><td>19    </td><td>Yakima WA              </td><td style="text-align: right;">       0.569</td></tr>
 <tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>228   </td><td>Fort Bend TX           </td><td style="text-align: right;">       4.444</td></tr>
-<tr><td>229   </td><td>Galveston TX           </td><td style="text-align: right;">       4.484</td></tr>
-<tr><td>230   </td><td>Forsyth NC             </td><td style="text-align: right;">       4.551</td></tr>
-<tr><td>231   </td><td>Tarrant TX             </td><td style="text-align: right;">       4.560</td></tr>
-<tr><td>232   </td><td>Fresno CA              </td><td style="text-align: right;">       4.566</td></tr>
-<tr><td>233   </td><td>Jefferson KY           </td><td style="text-align: right;">       4.567</td></tr>
-<tr><td>234   </td><td>San Diego CA           </td><td style="text-align: right;">       4.573</td></tr>
-<tr><td>235   </td><td>Hidalgo TX             </td><td style="text-align: right;">       4.603</td></tr>
-<tr><td>236   </td><td>Philadelphia PA        </td><td style="text-align: right;">       4.644</td></tr>
-<tr><td>237   </td><td>Lubbock TX             </td><td style="text-align: right;">       4.660</td></tr>
-<tr><td>238   </td><td>Los Angeles CA         </td><td style="text-align: right;">       4.686</td></tr>
-<tr><td>239   </td><td>Hudson NJ              </td><td style="text-align: right;">       4.876</td></tr>
-<tr><td>240   </td><td>Mecklenburg NC         </td><td style="text-align: right;">       5.006</td></tr>
-<tr><td>241   </td><td>Webb TX                </td><td style="text-align: right;">       5.071</td></tr>
-<tr><td>242   </td><td>Anchorage AK           </td><td style="text-align: right;">       5.317</td></tr>
-<tr><td>243   </td><td>Lexington SC           </td><td style="text-align: right;">       5.418</td></tr>
-<tr><td>244   </td><td>New York City NY       </td><td style="text-align: right;">       5.466</td></tr>
-<tr><td>245   </td><td>Cumberland NC          </td><td style="text-align: right;">       5.663</td></tr>
-<tr><td>246   </td><td>Richland SC            </td><td style="text-align: right;">       5.831</td></tr>
-<tr><td>247   </td><td>Fayette KY             </td><td style="text-align: right;">       5.915</td></tr>
+<tr><td>252   </td><td>Somerset NJ            </td><td style="text-align: right;">       2.193</td></tr>
+<tr><td>253   </td><td>Nassau NY              </td><td style="text-align: right;">       2.207</td></tr>
+<tr><td>254   </td><td>Miami-Dade FL          </td><td style="text-align: right;">       2.229</td></tr>
+<tr><td>255   </td><td>Morris NJ              </td><td style="text-align: right;">       2.239</td></tr>
+<tr><td>256   </td><td>Burlington NJ          </td><td style="text-align: right;">       2.255</td></tr>
+<tr><td>257   </td><td>Middlesex NJ           </td><td style="text-align: right;">       2.280</td></tr>
+<tr><td>258   </td><td>Bergen NJ              </td><td style="text-align: right;">       2.283</td></tr>
+<tr><td>259   </td><td>Fayette KY             </td><td style="text-align: right;">       2.290</td></tr>
+<tr><td>260   </td><td>Luzerne PA             </td><td style="text-align: right;">       2.304</td></tr>
+<tr><td>261   </td><td>Wayne MI               </td><td style="text-align: right;">       2.307</td></tr>
+<tr><td>262   </td><td>Suffolk NY             </td><td style="text-align: right;">       2.357</td></tr>
+<tr><td>263   </td><td>Macomb MI              </td><td style="text-align: right;">       2.386</td></tr>
+<tr><td>264   </td><td>Ocean NJ               </td><td style="text-align: right;">       2.423</td></tr>
+<tr><td>265   </td><td>Kern CA                </td><td style="text-align: right;">       2.477</td></tr>
+<tr><td>266   </td><td>Onondaga NY            </td><td style="text-align: right;">       2.510</td></tr>
+<tr><td>267   </td><td>Orange NY              </td><td style="text-align: right;">       2.557</td></tr>
+<tr><td>268   </td><td>Providence RI          </td><td style="text-align: right;">       2.576</td></tr>
+<tr><td>269   </td><td>Hampden MA             </td><td style="text-align: right;">       2.601</td></tr>
+<tr><td>270   </td><td>Mercer NJ              </td><td style="text-align: right;">       2.644</td></tr>
+<tr><td>271   </td><td>Lucas OH               </td><td style="text-align: right;">       3.115</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-08-06
+Updated 2022-10-11
 <br>
 <!---END TABLE--->
 
