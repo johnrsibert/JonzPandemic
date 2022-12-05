@@ -170,57 +170,60 @@ DescribeResult(nobs=264, minmax=(0.1330990357461808, 2.4774786005601075), mean=1
 <!--- recent summary
 DescribeResult(nobs=246, minmax=(0.13772330416029696, 3.0796111023345936), mean=1.1442744210679885, variance=0.23235975181985755, skewness=0.7136882512342275, kurtosis=1.379975659541632)
 --->
+<!--- recent summary
+DescribeResult(nobs=271, minmax=(0.18309098082486538, 5.241980071222455), mean=1.5856186110498305, variance=0.5246718812611125, skewness=1.3100371080954458, kurtosis=2.844549098617467)
+--->
 <!---START TABLE--->
 <table>
 <thead>
-<tr><th>Rank  </th><th>Region             </th><th style="text-align: right;">  Prevalence</th></tr>
+<tr><th>Rank  </th><th>Region                 </th><th style="text-align: right;">  Prevalence</th></tr>
 </thead>
 <tbody>
-<tr><td>0     </td><td>Vancouver Island BC</td><td style="text-align: right;">       0.138</td></tr>
-<tr><td>1     </td><td>Harris TX          </td><td style="text-align: right;">       0.224</td></tr>
-<tr><td>2     </td><td>Hidalgo TX         </td><td style="text-align: right;">       0.229</td></tr>
-<tr><td>3     </td><td>Brazoria TX        </td><td style="text-align: right;">       0.237</td></tr>
-<tr><td>4     </td><td>Galveston TX       </td><td style="text-align: right;">       0.251</td></tr>
-<tr><td>5     </td><td>Montgomery TX      </td><td style="text-align: right;">       0.263</td></tr>
-<tr><td>6     </td><td>Fort Bend TX       </td><td style="text-align: right;">       0.287</td></tr>
-<tr><td>7     </td><td>Cherokee GA        </td><td style="text-align: right;">       0.309</td></tr>
-<tr><td>8     </td><td>Bell TX            </td><td style="text-align: right;">       0.311</td></tr>
-<tr><td>9     </td><td>Nueces TX          </td><td style="text-align: right;">       0.319</td></tr>
-<tr><td>10    </td><td>McLennan TX        </td><td style="text-align: right;">       0.323</td></tr>
-<tr><td>11    </td><td>Jefferson TX       </td><td style="text-align: right;">       0.335</td></tr>
-<tr><td>12    </td><td>Dallas TX          </td><td style="text-align: right;">       0.381</td></tr>
-<tr><td>13    </td><td>Henrico VA         </td><td style="text-align: right;">       0.436</td></tr>
-<tr><td>14    </td><td>Merced CA          </td><td style="text-align: right;">       0.453</td></tr>
-<tr><td>15    </td><td>Clayton GA         </td><td style="text-align: right;">       0.455</td></tr>
-<tr><td>16    </td><td>Travis TX          </td><td style="text-align: right;">       0.463</td></tr>
-<tr><td>17    </td><td>Bexar TX           </td><td style="text-align: right;">       0.473</td></tr>
-<tr><td>18    </td><td>San Luis Obispo CA </td><td style="text-align: right;">       0.479</td></tr>
-<tr><td>19    </td><td>Sonoma CA          </td><td style="text-align: right;">       0.523</td></tr>
-<tr><td>...   </td><td>...                </td><td style="text-align: right;">         ...</td></tr>
-<tr><td>226   </td><td>Passaic NJ         </td><td style="text-align: right;">       1.756</td></tr>
-<tr><td>227   </td><td>Dutchess NY        </td><td style="text-align: right;">       1.782</td></tr>
-<tr><td>228   </td><td>Macomb MI          </td><td style="text-align: right;">       1.791</td></tr>
-<tr><td>229   </td><td>Essex NJ           </td><td style="text-align: right;">       1.833</td></tr>
-<tr><td>230   </td><td>Lorain OH          </td><td style="text-align: right;">       1.858</td></tr>
-<tr><td>231   </td><td>Orange NY          </td><td style="text-align: right;">       1.915</td></tr>
-<tr><td>232   </td><td>Rockland NY        </td><td style="text-align: right;">       1.951</td></tr>
-<tr><td>233   </td><td>Bergen NJ          </td><td style="text-align: right;">       2.026</td></tr>
-<tr><td>234   </td><td>Jefferson AL       </td><td style="text-align: right;">       2.026</td></tr>
-<tr><td>235   </td><td>Westchester NY     </td><td style="text-align: right;">       2.033</td></tr>
-<tr><td>236   </td><td>El Paso CO         </td><td style="text-align: right;">       2.041</td></tr>
-<tr><td>237   </td><td>Kitsap WA          </td><td style="text-align: right;">       2.147</td></tr>
-<tr><td>238   </td><td>Suffolk NY         </td><td style="text-align: right;">       2.237</td></tr>
-<tr><td>239   </td><td>Larimer CO         </td><td style="text-align: right;">       2.262</td></tr>
-<tr><td>240   </td><td>Weber UT           </td><td style="text-align: right;">       2.262</td></tr>
-<tr><td>241   </td><td>Lexington SC       </td><td style="text-align: right;">       2.501</td></tr>
-<tr><td>242   </td><td>Madison AL         </td><td style="text-align: right;">       2.544</td></tr>
-<tr><td>243   </td><td>Nassau NY          </td><td style="text-align: right;">       2.705</td></tr>
-<tr><td>244   </td><td>New York City NY   </td><td style="text-align: right;">       2.800</td></tr>
-<tr><td>245   </td><td>Bernalillo NM      </td><td style="text-align: right;">       3.080</td></tr>
+<tr><td>0     </td><td>Vancouver Island BC    </td><td style="text-align: right;">       0.183</td></tr>
+<tr><td>1     </td><td>Jefferson TX           </td><td style="text-align: right;">       0.443</td></tr>
+<tr><td>2     </td><td>East Baton Rouge LA    </td><td style="text-align: right;">       0.477</td></tr>
+<tr><td>3     </td><td>Chatham GA             </td><td style="text-align: right;">       0.508</td></tr>
+<tr><td>4     </td><td>Brazoria TX            </td><td style="text-align: right;">       0.573</td></tr>
+<tr><td>5     </td><td>District of Columbia DC</td><td style="text-align: right;">       0.589</td></tr>
+<tr><td>6     </td><td>Horry SC               </td><td style="text-align: right;">       0.609</td></tr>
+<tr><td>7     </td><td>Harris TX              </td><td style="text-align: right;">       0.615</td></tr>
+<tr><td>8     </td><td>Ottawa MI              </td><td style="text-align: right;">       0.641</td></tr>
+<tr><td>9     </td><td>Washoe NV              </td><td style="text-align: right;">       0.679</td></tr>
+<tr><td>10    </td><td>Nueces TX              </td><td style="text-align: right;">       0.682</td></tr>
+<tr><td>11    </td><td>Mobile AL              </td><td style="text-align: right;">       0.685</td></tr>
+<tr><td>12    </td><td>Clayton GA             </td><td style="text-align: right;">       0.704</td></tr>
+<tr><td>13    </td><td>Montgomery TX          </td><td style="text-align: right;">       0.724</td></tr>
+<tr><td>14    </td><td>Cameron TX             </td><td style="text-align: right;">       0.726</td></tr>
+<tr><td>15    </td><td>Galveston TX           </td><td style="text-align: right;">       0.731</td></tr>
+<tr><td>16    </td><td>York SC                </td><td style="text-align: right;">       0.737</td></tr>
+<tr><td>17    </td><td>Hidalgo TX             </td><td style="text-align: right;">       0.742</td></tr>
+<tr><td>18    </td><td>Charleston SC          </td><td style="text-align: right;">       0.743</td></tr>
+<tr><td>19    </td><td>San Luis Obispo CA     </td><td style="text-align: right;">       0.762</td></tr>
+<tr><td>...   </td><td>...                    </td><td style="text-align: right;">         ...</td></tr>
+<tr><td>251   </td><td>Orange NY              </td><td style="text-align: right;">       2.650</td></tr>
+<tr><td>252   </td><td>McHenry IL             </td><td style="text-align: right;">       2.697</td></tr>
+<tr><td>253   </td><td>Passaic NJ             </td><td style="text-align: right;">       2.861</td></tr>
+<tr><td>254   </td><td>Hudson NJ              </td><td style="text-align: right;">       2.868</td></tr>
+<tr><td>255   </td><td>St. Charles MO         </td><td style="text-align: right;">       2.921</td></tr>
+<tr><td>256   </td><td>Lake IL                </td><td style="text-align: right;">       3.007</td></tr>
+<tr><td>257   </td><td>Kern CA                </td><td style="text-align: right;">       3.047</td></tr>
+<tr><td>258   </td><td>Boulder CO             </td><td style="text-align: right;">       3.096</td></tr>
+<tr><td>259   </td><td>Weld CO                </td><td style="text-align: right;">       3.099</td></tr>
+<tr><td>260   </td><td>Westchester NY         </td><td style="text-align: right;">       3.105</td></tr>
+<tr><td>261   </td><td>Bergen NJ              </td><td style="text-align: right;">       3.109</td></tr>
+<tr><td>262   </td><td>Los Angeles CA         </td><td style="text-align: right;">       3.118</td></tr>
+<tr><td>263   </td><td>Pima AZ                </td><td style="text-align: right;">       3.173</td></tr>
+<tr><td>264   </td><td>Rockland NY            </td><td style="text-align: right;">       3.175</td></tr>
+<tr><td>265   </td><td>Winnebago IL           </td><td style="text-align: right;">       3.241</td></tr>
+<tr><td>266   </td><td>Bernalillo NM          </td><td style="text-align: right;">       3.612</td></tr>
+<tr><td>267   </td><td>Miami-Dade FL          </td><td style="text-align: right;">       4.027</td></tr>
+<tr><td>268   </td><td>Suffolk NY             </td><td style="text-align: right;">       4.032</td></tr>
+<tr><td>269   </td><td>Nassau NY              </td><td style="text-align: right;">       4.281</td></tr>
+<tr><td>270   </td><td>New York City NY       </td><td style="text-align: right;">       5.242</td></tr>
 </tbody>
 </table>
 <br>
-Updated 2022-11-12
+Updated 2022-12-05
 <br>
 <!---END TABLE--->
 
